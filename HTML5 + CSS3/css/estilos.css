@@ -83,7 +83,7 @@ a footer:hover {color: #000;}
     #botao-submit {margin-top: 10px; text-align: right;}
     #menu-mobile {display: flex;}
 }
-@media only screen and (min-width: 880px)
+@media only screen and (min-width: 863px)
 {
     #completo, #largo {display: flex;}
     #reduzido {display: none;}

@@ -46,7 +46,7 @@ header form {display: flex;}
 .mensagem {display: flex; flex-direction: row; align-items: center;}
 
 /* footer */
-#largo {width: 98.5%; height: 22px; padding: 6px; float: left;	font-size: 12px; background-color: #F63; border-radius: 7px;	margin: 7px 0; text-align: center; text-decoration: none; flex-direction:column ; justify-content: center;}
+#largo {height: 22px; padding: 6px; float: left; font-size: 12px; background-color: #F63; border-radius: 7px; margin: 7px 0; text-align: center; text-decoration: none; flex-direction: column; justify-content: center;}
 #largo:hover {background-color: #F99;}
 a footer {color: #FFF;}
 a footer:hover {color: #000;}

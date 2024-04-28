@@ -1,0 +1,110 @@
+/* tags gerais */
+body {font: 14px 'Trebuchet MS'; background-color: #FFF;}
+a {color: #F63; text-decoration: underline;}
+a:hover {color: #F99;}
+label {margin-bottom: 15px; font: 14px 'Trebuchet MS';}
+h1 {font: normal 40px 'GalaBold'; float: left; width: auto; color: #F63; padding-right: 20px; margin: 0;}
+input, select {background-color:#CCC; margin: 0 15px 5px 5px; padding-left: 5px; height: 25px; font-family: 'Trebuchet MS';}
+input:focus, input:hover, select:hover {background-color:#F99;}
+textarea {background-color:#CCC; margin-left: 5px;}
+textarea:focus, textarea:hover {background-color:#F99;}
+
+/* header */
+header {width: 100%; height: 82px;}
+#simbolo {width: 82px; height: 82px; margin-right: 7px; background-image: url(../img/simbolo.png);}
+#simbolo:hover {background-image:url(../img/simbolo_on.png);}
+#logotipo {width: 173px; height: 82px; margin-right: 7px; background-image:url(../img/logotipo.png);}
+#logotipo:hover {background-image:url(../img/logotipo_on.png);}
+header form {display: flex;}
+#digitar {height: 82px; text-align: center; margin-right: 3px; padding-left: 7px; border-radius: 7px; background-color: #F63;}
+#digitar:hover, #digitar:focus {background-color: #F99;}
+.preencher {border: none; height: 40px; margin-top: 20px; padding-left: 10px; font: normal 18px 'Trebuchet MS'; background-color: #FFF;}
+.preencher:focus, .preencher:hover {background-color: #FFF;}
+#pesquisa {background-image: url(../img/pesquisa.png); width: 82px;	height: 82px; border: none; margin-right: 7px;}
+#pesquisa:hover {background-image: url(../img/pesquisa_on.png);}
+#formulario {width: 82px; height: 82px; background-image: url(../img/form.png); margin-right: 7px;}
+#formulario:hover {background-image: url(../img/form_on.png);}
+
+/* box de conteudo */
+#conteudo {height: auto; padding: 20px;   text-align: left; margin-top: 7px;	background-color: #FFF; border: 2px solid #F63; border-radius: 7px;}
+#conteudo:hover {border: 2px solid #F99;}
+#conteudo p {font: 14px 'Trebuchet MS';}
+#conteudo form {margin-top: 40px;}
+#subheader {width: 100%; height: 73px; margin-bottom: 15px; display: flex; justify-content: space-between;}
+
+/* botões comuns */
+#voltar {background-image: url(../img/voltar.png); width: 82px; height: 30px;}
+#voltar:hover {background-image: url(../img/voltar_on.png);}
+#enviar {width: 82px; height: 82px; background-image: url(../img/enviar.png); border: none; margin-left: 30px;}
+#enviar:hover {background-image: url(../img/enviar_on.png);}
+#sobre {width: 82px; height: 82px; background-image: url(../img/sobre.png);}
+#sobre:hover {background-image: url(../img/sobre_on.png);}
+
+/* formulário de contato */
+#contato {display: flex; width: 100%;}
+#contato label {display: inline-block; width: 80px;}
+.mensagem {display: flex; flex-direction: row; align-items: center;}
+
+/* footer */
+#largo {height: 22px; padding: 6px; float: left; font-size: 12px; background-color: #F63; border-radius: 7px; margin: 7px 0; text-align: center; text-decoration: none; flex-direction:column; justify-content: center;}
+#largo:hover {background-color: #F99;}
+a footer {color: #FFF;}
+a footer:hover {color: #000;}
+#menu-mobile {height: 82px; margin: 7px 0; flex-direction: row; width: 408px; float: left; justify-content: space-between;}
+
+/* home */
+.propaganda {float: left; margin: 7px 7px 0 0; display: flex;}
+.propaganda img {width: 408px; height: 193px; border-radius: 7px; object-fit: cover; object-position: top left}
+
+/* incorporando a fonte Gala Bold */
+@font-face 
+{
+    font-family: 'GalaBold';
+    src: url('../font/gala_bold-webfont.eot');
+    src: url('../font/gala_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gala_bold-webfont.woff') format('woff'),
+         url('../font/gala_bold-webfont.ttf') format('truetype'),
+         url('../font/gala_bold-webfont.svg#GalaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* design responsivo */
+@media only screen and (min-width: 414px)
+{
+    #completo, #largo {display: none;}
+    #reduzido {display: flex;}
+    #digitar {width: 311px;}
+    .preencher {width: 261px;}
+    #conteudo {width: 364px;}
+    #contato {flex-direction: column;}
+    #contato div {width: auto;}
+    .tamanho {width: 248px;}
+    #botao-submit {margin-top: 10px; text-align: right;}
+    #menu-mobile {display: flex;}
+}
+@media only screen and (min-width: 863px)
+{
+    #completo, #largo {display: flex;}
+    #reduzido {display: none;}
+    #digitar {width: 368px;}
+    .preencher {width: 318px;}
+    #conteudo {width: 779px;}
+    #contato {flex-direction: row;}
+    .tamanho {width: 222px;}
+    #largo {width: 811px;}
+    #menu-mobile {display: none;}
+}
+@media only screen and (min-width: 1270px)
+{
+    #reduzido {display: none;}
+    #digitar {width: 783px;}
+    .preencher {width: 734px;}
+    #conteudo {width: 1194px;}
+    #contato {flex-direction: row;}
+    #contato div {width: 500px;}
+    .tamanho {width: 270px;}
+    #botao-submit {text-align: left;}
+    #menu-mobile {display: none;}
+    #largo {width: 1226px;}
+}

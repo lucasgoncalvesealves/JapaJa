@@ -7,6 +7,7 @@ PARTE 1: atualizar a resolução para widescreen, tornar o design responsivo, el
 [CONCLUÍDO]
 
 PARTE 2: converter o site em uma aplicação de página única, de quatro formas diferentes: Vue.js, Blazor, Angular e React.js.
+
 [CONCLUÍDO 1 de 4]
 
 PARTE 3: implementar o mecanismo de busca, de três formas diferentes: Node.js, Laravel e ASP.NET Core.

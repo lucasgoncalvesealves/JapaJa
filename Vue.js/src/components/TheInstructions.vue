@@ -12,29 +12,73 @@ export default {
 </script>
 
 <template>
-  <p>Encontre seu restaurante japonês no Rio de Janeiro com o Japa Já!</p>
-  <p>
-    Use nossa ferramenta de busca no topo da página para fazer sua pesquisa, de forma rápida e
-    prática.
-  </p>
-  <p>
-    Caso você seja dono de um estabelecimento, use o botão no canto superior direito para anunciar
-    neste portal.
-  </p>
-  <p>
-    Caso você seja consumidor, use este mesmo formulário para dúvidas, elogios, críticas e
-    sugestões.
-  </p>
-  <p>Boa procura... e bom apetite!</p>
-  <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" />
+  <div id="instrucoes">
+    <div id="paragrafos">
+      <p>Encontre seu restaurante japonês no Rio de Janeiro com o Japa Já!</p>
+      <p>
+        Use nossa ferramenta de busca no topo da página para fazer sua pesquisa, de forma rápida e prática.
+      </p>
+      <p>
+        Caso você seja dono de um estabelecimento, acesse o formulário através do botão no canto superior direito e anuncie seu negócio neste portal.
+      </p>
+      <p>
+        Caso você seja consumidor, use este mesmo formulário para dúvidas, elogios, críticas e sugestões.
+      </p>
+      <p>Boa procura... e bom apetite!</p>
+    </div>
+    <div id="logo-framework">
+      <img alt="Vue logo" src="@/assets/logo.svg" />
+    </div>
+  </div>
 </template>
 
 <style scoped>
 p {
   font: 14px 'Trebuchet MS';
 }
-.logo {
-  display: block;
-  margin: 0 auto;
+#instrucoes {
+  display: flex;
+}
+#logo-framework img {
+  width: 125px;
+  height: 125px;
+  object-fit: contain;
+}
+/* design responsivo */
+@media only screen and (min-width: 414px) {
+  #instrucoes {
+    flex-direction: column;
+  }
+  #instrucoes div {
+    width: auto;
+  }
+  #logo-framework {
+    margin: 20px auto 10px auto;
+  }
+}
+@media only screen and (min-width: 863px) {
+  #instrucoes {
+    flex-direction: row;
+  }
+  #paragrafos {
+    width: 400px;
+  }
+  #logo-framework {
+    margin: 8px auto;
+  }
+}
+@media only screen and (min-width: 1270px) {
+  #instrucoes {
+    flex-direction: row;
+  }
+  #paragrafos {
+    width: 1000px;
+  }
+  #logo-framework {
+    text-align: right;
+  }
+  #logo-framework {
+    margin: 20px 0 10px auto;
+  }
 }
 </style>

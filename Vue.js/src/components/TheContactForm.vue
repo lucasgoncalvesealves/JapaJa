@@ -2,7 +2,7 @@
 export default {
   methods: {
     defineTitle() {
-      this.$parent.$emit('defineTitle', 'Contato')
+      this.$emit('defineTitle', 'Contato')
     }
   },
   beforeMount() {

@@ -16,13 +16,16 @@ export default {
     <div id="paragrafos">
       <p>Encontre seu restaurante japonês no Rio de Janeiro com o Japa Já!</p>
       <p>
-        Use nossa ferramenta de busca no topo da página para fazer sua pesquisa, de forma rápida e prática.
+        Use nossa ferramenta de busca no topo da página para fazer sua pesquisa, de forma rápida e
+        prática.
       </p>
       <p>
-        Caso você seja dono de um estabelecimento, acesse o formulário através do botão no canto superior direito e anuncie seu negócio neste portal.
+        Caso você seja dono de um estabelecimento, acesse o formulário através do botão no canto
+        superior direito e anuncie seu negócio neste portal.
       </p>
       <p>
-        Caso você seja consumidor, use este mesmo formulário para dúvidas, elogios, críticas e sugestões.
+        Caso você seja consumidor, use este mesmo formulário para dúvidas, elogios, críticas e
+        sugestões.
       </p>
       <p>Boa procura... e bom apetite!</p>
     </div>
@@ -64,7 +67,7 @@ p {
     width: 400px;
   }
   #logo-framework {
-    margin: 8px auto;
+    margin: auto;
   }
 }
 @media only screen and (min-width: 1270px) {
@@ -78,7 +81,7 @@ p {
     text-align: right;
   }
   #logo-framework {
-    margin: 20px 0 10px auto;
+    margin: auto 0 auto auto;
   }
 }
 </style>

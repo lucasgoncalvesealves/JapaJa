@@ -2,7 +2,7 @@
 export default {
   methods: {
     defineTitle() {
-      this.$parent.$emit('define-title', 'Sobre')
+      this.$emit('define-title', 'Sobre')
     }
   },
   beforeMount() {
@@ -42,6 +42,9 @@ p {
 #instrucoes {
   display: flex;
 }
+#instrucoes div {
+  width: auto;
+}
 #logo-framework img {
   width: 125px;
   height: 125px;
@@ -52,9 +55,6 @@ p {
   #instrucoes {
     flex-direction: column;
   }
-  #instrucoes div {
-    width: auto;
-  }
   #logo-framework {
     margin: 20px auto 10px auto;
   }
@@ -63,9 +63,6 @@ p {
   #instrucoes {
     flex-direction: row;
   }
-  #paragrafos {
-    width: 400px;
-  }
   #logo-framework {
     margin: auto;
   }
@@ -73,9 +70,6 @@ p {
 @media only screen and (min-width: 1270px) {
   #instrucoes {
     flex-direction: row;
-  }
-  #paragrafos {
-    width: 1000px;
   }
   #logo-framework {
     text-align: right;

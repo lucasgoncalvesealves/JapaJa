@@ -66,6 +66,9 @@ h1 {
   padding-right: 20px;
   margin: 0;
 }
+h1:hover {
+  color: #f99;
+}
 
 /* incorporando a fonte Gala Bold */
 @font-face {

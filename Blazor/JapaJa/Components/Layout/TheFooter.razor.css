@@ -1,0 +1,29 @@
+#largo {height: 22px; padding: 6px; float: left; font-size: 12px; background-color: #F63; border-radius: 7px; margin: 7px 0; text-align: center; text-decoration: none; flex-direction:column; justify-content: center;}
+#largo:hover {background-color: #F99;}
+a footer {color: #FFF;}
+a footer:hover {color: #000;}
+#menu-mobile {height: 82px; margin: 7px 0; flex-direction: row; width: 401px; float: left; justify-content: space-between;}
+
+/* botões */
+#simbolo {width: 82px; height: 82px; margin-right: 7px; background-image: url(images/simbolo.png);}
+#simbolo:hover {background-image:url(images/simbolo_on.png);}
+#formulario {width: 82px; height: 82px; background-image: url(images/form.png); margin-right: 7px;}
+#formulario:hover {background-image: url(images/form_on.png);}
+#sobre {width: 82px; height: 82px; background-image: url(images/sobre.png);}
+#sobre:hover {background-image: url(images/sobre_on.png);}
+
+/* design responsivo */
+@media only screen and (min-width: 414px)
+{
+    #menu-mobile {display: flex;}
+    #largo {display: none;}
+}
+@media only screen and (min-width: 863px)
+{
+    #menu-mobile {display: none;}
+    #largo {display: flex; width: 815px;}
+}
+@media only screen and (min-width: 1270px)
+{
+    #largo {width: 1238px;}
+}

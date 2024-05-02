@@ -1,0 +1,165 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\JapaJa.bundle.scp.css",
+      "PackagePath": "staticwebassets\\JapaJa.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\app.css",
+      "PackagePath": "staticwebassets\\app.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\enviar.png",
+      "PackagePath": "staticwebassets\\images\\enviar.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\enviar_on.png",
+      "PackagePath": "staticwebassets\\images\\enviar_on.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\font\\gala_bold-webfont.eot",
+      "PackagePath": "staticwebassets\\images\\font\\gala_bold-webfont.eot"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\font\\gala_bold-webfont.svg",
+      "PackagePath": "staticwebassets\\images\\font\\gala_bold-webfont.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\font\\gala_bold-webfont.ttf",
+      "PackagePath": "staticwebassets\\images\\font\\gala_bold-webfont.ttf"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\font\\gala_bold-webfont.woff",
+      "PackagePath": "staticwebassets\\images\\font\\gala_bold-webfont.woff"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\form.png",
+      "PackagePath": "staticwebassets\\images\\form.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\form_on.png",
+      "PackagePath": "staticwebassets\\images\\form_on.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\geisha.png",
+      "PackagePath": "staticwebassets\\images\\geisha.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\gendai.png",
+      "PackagePath": "staticwebassets\\images\\gendai.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\gohan.png",
+      "PackagePath": "staticwebassets\\images\\gohan.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\ie.png",
+      "PackagePath": "staticwebassets\\images\\ie.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\japax.png",
+      "PackagePath": "staticwebassets\\images\\japax.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\konistore.png",
+      "PackagePath": "staticwebassets\\images\\konistore.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\konomiai.png",
+      "PackagePath": "staticwebassets\\images\\konomiai.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\lapamaki.png",
+      "PackagePath": "staticwebassets\\images\\lapamaki.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\logo.svg",
+      "PackagePath": "staticwebassets\\images\\logo.svg"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\logotipo.png",
+      "PackagePath": "staticwebassets\\images\\logotipo.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\logotipo_on.png",
+      "PackagePath": "staticwebassets\\images\\logotipo_on.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\manekineko.png",
+      "PackagePath": "staticwebassets\\images\\manekineko.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\pesquisa.png",
+      "PackagePath": "staticwebassets\\images\\pesquisa.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\pesquisa_on.png",
+      "PackagePath": "staticwebassets\\images\\pesquisa_on.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\samurai.png",
+      "PackagePath": "staticwebassets\\images\\samurai.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\simbolo.png",
+      "PackagePath": "staticwebassets\\images\\simbolo.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\simbolo_on.png",
+      "PackagePath": "staticwebassets\\images\\simbolo_on.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\sobre.png",
+      "PackagePath": "staticwebassets\\images\\sobre.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\sobre_on.png",
+      "PackagePath": "staticwebassets\\images\\sobre_on.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\t-maki.png",
+      "PackagePath": "staticwebassets\\images\\t-maki.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\voltar.png",
+      "PackagePath": "staticwebassets\\images\\voltar.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\voltar_on.png",
+      "PackagePath": "staticwebassets\\images\\voltar_on.png"
+    },
+    {
+      "Id": "D:\\Portfolio\\Japa Já\\Site 2024\\Blazor\\JapaJa\\wwwroot\\images\\yakiniku.png",
+      "PackagePath": "staticwebassets\\images\\yakiniku.png"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.JapaJa.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.JapaJa.props",
+      "PackagePath": "build\\JapaJa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.JapaJa.props",
+      "PackagePath": "buildMultiTargeting\\JapaJa.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.JapaJa.props",
+      "PackagePath": "buildTransitive\\JapaJa.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

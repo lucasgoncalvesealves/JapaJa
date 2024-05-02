@@ -1,0 +1,61 @@
+#contato[b-msyh8js6hd] {
+    display: flex;
+    width: 100%;
+  }
+  #contato label[b-msyh8js6hd] {
+    display: inline-block;
+    width: 80px;
+  }
+  .mensagem[b-msyh8js6hd] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #enviar[b-msyh8js6hd] {
+    width: 82px;
+    height: 82px;
+    background-image: url('images/enviar.png');
+    border: none;
+    margin-left: 30px;
+  }
+  #enviar:hover[b-msyh8js6hd] {
+    background-image: url(../assets/enviar_on.png);
+  }
+  /* design responsivo */
+  @media only screen and (min-width: 414px) {
+    #contato[b-msyh8js6hd] {
+      flex-direction: column;
+    }
+    #contato div[b-msyh8js6hd] {
+      width: auto;
+    }
+    .tamanho[b-msyh8js6hd] {
+      width: 248px;
+    }
+    #botao-submit[b-msyh8js6hd] {
+      margin-top: 10px;
+      text-align: right;
+    }
+  }
+  @media only screen and (min-width: 863px) {
+    #contato[b-msyh8js6hd] {
+      flex-direction: row;
+    }
+    .tamanho[b-msyh8js6hd] {
+      width: 222px;
+    }
+  }
+  @media only screen and (min-width: 1270px) {
+    #contato[b-msyh8js6hd] {
+      flex-direction: row;
+    }
+    #contato div[b-msyh8js6hd] {
+      width: 500px;
+    }
+    .tamanho[b-msyh8js6hd] {
+      width: 270px;
+    }
+    #botao-submit[b-msyh8js6hd] {
+      text-align: left;
+    }
+  }

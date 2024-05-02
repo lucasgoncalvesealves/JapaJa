@@ -1,0 +1,44 @@
+@inherits LayoutComponentBase
+@layout TheContainer
+@page "/contact"
+
+<PageTitle>JAPA JÁ | Contato</PageTitle>
+
+<p>
+  Se você é dono de um estabelecimento, você pode anunciá-lo neste site! Se você é consumidor,
+  você pode enviar dúvidas, elogios, críticas e sugestões.
+</p>
+<form id="contatoForm">
+  <div id="contato">
+    <div class="input-select">
+      <label for="nome">Seu nome:</label>
+      <input type="text" id="nome" class="tamanho" />
+      <label for="email">Seu e-mail:</label>
+      <input type="text" id="email" class="tamanho" />
+      <label for="cliente">Você é:</label>
+      <select name="cliente" id="cliente" class="tamanho">
+        <option value="">(Escolha)</option>
+        <option value="anunciante">Anunciante</option>
+        <option value="consumidor">Consumidor</option>
+      </select>
+    </div>
+    <div class="mensagem">
+      <label for="mensagem">Mensagem:</label>
+      <textarea class="tamanho" rows="7" id="mensagem"></textarea>
+    </div>
+    <div id="botao-submit">
+      <input type="submit" id="enviar" value="" />
+    </div>
+  </div>
+</form>
+  
+
+@code
+{
+  [CascadingParameter]
+  public TheContainer Container { get; set; }
+  protected override void OnInitialized()
+  {
+    Container.Title = "Contato";
+  }
+}

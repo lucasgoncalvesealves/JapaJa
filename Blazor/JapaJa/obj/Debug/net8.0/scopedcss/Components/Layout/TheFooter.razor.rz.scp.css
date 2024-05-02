@@ -1,0 +1,29 @@
+#largo[b-wgjqlyfzb9] {height: 22px; padding: 6px; float: left; font-size: 12px; background-color: #F63; border-radius: 7px; margin: 7px 0; text-align: center; text-decoration: none; flex-direction:column; justify-content: center;}
+#largo:hover[b-wgjqlyfzb9] {background-color: #F99;}
+a footer[b-wgjqlyfzb9] {color: #FFF;}
+a footer:hover[b-wgjqlyfzb9] {color: #000;}
+#menu-mobile[b-wgjqlyfzb9] {height: 82px; margin: 7px 0; flex-direction: row; width: 401px; float: left; justify-content: space-between;}
+
+/* botões */
+#simbolo[b-wgjqlyfzb9] {width: 82px; height: 82px; margin-right: 7px; background-image: url(images/simbolo.png);}
+#simbolo:hover[b-wgjqlyfzb9] {background-image:url(images/simbolo_on.png);}
+#formulario[b-wgjqlyfzb9] {width: 82px; height: 82px; background-image: url(images/form.png); margin-right: 7px;}
+#formulario:hover[b-wgjqlyfzb9] {background-image: url(images/form_on.png);}
+#sobre[b-wgjqlyfzb9] {width: 82px; height: 82px; background-image: url(images/sobre.png);}
+#sobre:hover[b-wgjqlyfzb9] {background-image: url(images/sobre_on.png);}
+
+/* design responsivo */
+@media only screen and (min-width: 414px)
+{
+    #menu-mobile[b-wgjqlyfzb9] {display: flex;}
+    #largo[b-wgjqlyfzb9] {display: none;}
+}
+@media only screen and (min-width: 863px)
+{
+    #menu-mobile[b-wgjqlyfzb9] {display: none;}
+    #largo[b-wgjqlyfzb9] {display: flex; width: 815px;}
+}
+@media only screen and (min-width: 1270px)
+{
+    #largo[b-wgjqlyfzb9] {width: 1238px;}
+}

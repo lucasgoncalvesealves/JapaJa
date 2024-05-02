@@ -1,0 +1,42 @@
+p[b-flnd0ss5mf] {
+    font: 14px 'Trebuchet MS';
+  }
+  #instrucoes[b-flnd0ss5mf] {
+    display: flex;
+  }
+  #instrucoes div[b-flnd0ss5mf] {
+    width: auto;
+  }
+  #logo-framework img[b-flnd0ss5mf] {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+  }
+  /* design responsivo */
+  @media only screen and (min-width: 414px) {
+    #instrucoes[b-flnd0ss5mf] {
+      flex-direction: column;
+    }
+    #logo-framework[b-flnd0ss5mf] {
+      margin: 0 auto 10px auto;
+    }
+  }
+  @media only screen and (min-width: 863px) {
+    #instrucoes[b-flnd0ss5mf] {
+      flex-direction: row;
+    }
+    #logo-framework[b-flnd0ss5mf] {
+      margin: auto;
+    }
+  }
+  @media only screen and (min-width: 1270px) {
+    #instrucoes[b-flnd0ss5mf] {
+      flex-direction: row;
+    }
+    #logo-framework[b-flnd0ss5mf] {
+      text-align: right;
+    }
+    #logo-framework[b-flnd0ss5mf] {
+      margin: auto 0 auto auto;
+    }
+  }

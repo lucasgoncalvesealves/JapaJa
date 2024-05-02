@@ -1,0 +1,63 @@
+is_global = true
+build_property.TargetFramework = net8.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = JapaJa
+build_property.RootNamespace = JapaJa
+build_property.ProjectDir = D:\Portfolio\Japa Já\Site 2024\Blazor\JapaJa\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
+build_property.RazorLangVersion = 8.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = D:\Portfolio\Japa Já\Site 2024\Blazor\JapaJa
+build_property._RazorSourceGeneratorDebug = 
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/App.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xBcHAucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Pages/Error.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xFcnJvci5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Routes.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xSb3V0ZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xfSW1wb3J0cy5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Layout/MainLayout.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcTWFpbkxheW91dC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-o0rg38iozv
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Layout/TheFooter.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVGhlRm9vdGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-wgjqlyfzb9
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Layout/TheHeader.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xMYXlvdXRcVGhlSGVhZGVyLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-rnfgcj0prt
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Pages/TheContactForm.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaGVDb250YWN0Rm9ybS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-msyh8js6hd
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Pages/TheContainer.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaGVDb250YWluZXIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-2zogljzxxa
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Pages/TheInstructions.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaGVJbnN0cnVjdGlvbnMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = b-flnd0ss5mf
+
+[D:/Portfolio/Japa Já/Site 2024/Blazor/JapaJa/Components/Pages/ThePropaganda.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50c1xQYWdlc1xUaGVQcm9wYWdhbmRhLnJhem9y
+build_metadata.AdditionalFiles.CssScope = b-3rmwwi7s5m

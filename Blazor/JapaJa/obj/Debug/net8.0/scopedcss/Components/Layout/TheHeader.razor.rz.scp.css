@@ -1,0 +1,107 @@
+header[b-rnfgcj0prt] {
+    width: 100%;
+    height: 82px;
+}
+.simbolo[b-rnfgcj0prt] {
+    width: 82px;
+    height: 82px;
+    margin-right: 7px;
+    background-image: url(images/simbolo.png);
+}
+.simbolo:hover[b-rnfgcj0prt] {
+    background-image: url(images/simbolo_on.png);
+}
+.logotipo[b-rnfgcj0prt] {
+    width: 173px;
+    height: 82px;
+    margin-right: 7px;
+    background-image: url(images/logotipo.png);
+}
+.logotipo:hover[b-rnfgcj0prt] {
+    background-image: url(images/logotipo_on.png);
+}
+header form[b-rnfgcj0prt] {
+    display: flex;
+}
+#digitar[b-rnfgcj0prt] {
+    height: 82px;
+    text-align: center;
+    margin-right: 3px;
+    padding-left: 7px;
+    border-radius: 7px;
+    background-color: #f63;
+}
+#digitar:hover[b-rnfgcj0prt], #digitar:focus[b-rnfgcj0prt] {
+    background-color: #f99;
+}
+.preencher[b-rnfgcj0prt] {
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font: normal 18px 'Trebuchet MS';
+    background-color: #fff;
+}
+.preencher:focus[b-rnfgcj0prt], .preencher:hover[b-rnfgcj0prt] {
+    background-color: #fff;
+}
+#pesquisa[b-rnfgcj0prt] {
+    background-image: url(images/pesquisa.png);
+    width: 82px;
+    height: 82px;
+    border: none;
+    margin-right: 7px;
+}
+#pesquisa:hover[b-rnfgcj0prt] {
+    background-image: url(images/pesquisa_on.png);
+}
+#formulario[b-rnfgcj0prt] {
+    width: 82px;
+    height: 82px;
+    background-image: url(images/form.png);
+    margin-right: 7px;
+}
+#formulario:hover[b-rnfgcj0prt] {
+    background-image: url(images/form_on.png);
+}
+
+/* design responsivo */
+@media only screen and (min-width: 414px) {
+    #completo[b-rnfgcj0prt], #largo[b-rnfgcj0prt] {
+        display: none;
+    }
+    #reduzido[b-rnfgcj0prt] {
+        display: flex;
+    }
+    #digitar[b-rnfgcj0prt] {
+        width: 311px;
+    }
+    .preencher[b-rnfgcj0prt] {
+        width: 261px;
+    }
+}
+@media only screen and (min-width: 863px) {
+    #completo[b-rnfgcj0prt], #largo[b-rnfgcj0prt] {
+        display: flex;
+    }
+    #reduzido[b-rnfgcj0prt] {
+        display: none;
+    }
+    #digitar[b-rnfgcj0prt] {
+        width: 368px;
+    }
+    .preencher[b-rnfgcj0prt] {
+        width: 318px;
+    }
+}
+@media only screen and (min-width: 1270px) {
+    #reduzido[b-rnfgcj0prt] {
+        display: none;
+    }
+    #digitar[b-rnfgcj0prt] {
+        width: 790px;
+    }
+    .preencher[b-rnfgcj0prt] {
+        width: 750px;
+    }
+}

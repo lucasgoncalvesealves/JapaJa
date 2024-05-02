@@ -1,0 +1,422 @@
+/* _content/JapaJa/Components/Layout/MainLayout.razor.rz.scp.css */
+.page[b-o0rg38iozv] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-o0rg38iozv] {
+    flex: 1;
+}
+
+.sidebar[b-o0rg38iozv] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-o0rg38iozv] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-o0rg38iozv]  a, .top-row[b-o0rg38iozv]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-o0rg38iozv]  a:hover, .top-row[b-o0rg38iozv]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-o0rg38iozv]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row[b-o0rg38iozv] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-o0rg38iozv]  a, .top-row[b-o0rg38iozv]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-o0rg38iozv] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-o0rg38iozv] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-o0rg38iozv] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-o0rg38iozv]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-o0rg38iozv], article[b-o0rg38iozv] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
+
+#blazor-error-ui[b-o0rg38iozv] {
+    background: lightyellow;
+    bottom: 0;
+    box-shadow: 0 -1px 2px rgba(0, 0, 0, 0.2);
+    display: none;
+    left: 0;
+    padding: 0.6rem 1.25rem 0.7rem 1.25rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+    #blazor-error-ui .dismiss[b-o0rg38iozv] {
+        cursor: pointer;
+        position: absolute;
+        right: 0.75rem;
+        top: 0.5rem;
+    }
+/* _content/JapaJa/Components/Layout/TheFooter.razor.rz.scp.css */
+#largo[b-wgjqlyfzb9] {height: 22px; padding: 6px; float: left; font-size: 12px; background-color: #F63; border-radius: 7px; margin: 7px 0; text-align: center; text-decoration: none; flex-direction:column; justify-content: center;}
+#largo:hover[b-wgjqlyfzb9] {background-color: #F99;}
+a footer[b-wgjqlyfzb9] {color: #FFF;}
+a footer:hover[b-wgjqlyfzb9] {color: #000;}
+#menu-mobile[b-wgjqlyfzb9] {height: 82px; margin: 7px 0; flex-direction: row; width: 401px; float: left; justify-content: space-between;}
+
+/* botões */
+#simbolo[b-wgjqlyfzb9] {width: 82px; height: 82px; margin-right: 7px; background-image: url(images/simbolo.png);}
+#simbolo:hover[b-wgjqlyfzb9] {background-image:url(images/simbolo_on.png);}
+#formulario[b-wgjqlyfzb9] {width: 82px; height: 82px; background-image: url(images/form.png); margin-right: 7px;}
+#formulario:hover[b-wgjqlyfzb9] {background-image: url(images/form_on.png);}
+#sobre[b-wgjqlyfzb9] {width: 82px; height: 82px; background-image: url(images/sobre.png);}
+#sobre:hover[b-wgjqlyfzb9] {background-image: url(images/sobre_on.png);}
+
+/* design responsivo */
+@media only screen and (min-width: 414px)
+{
+    #menu-mobile[b-wgjqlyfzb9] {display: flex;}
+    #largo[b-wgjqlyfzb9] {display: none;}
+}
+@media only screen and (min-width: 863px)
+{
+    #menu-mobile[b-wgjqlyfzb9] {display: none;}
+    #largo[b-wgjqlyfzb9] {display: flex; width: 815px;}
+}
+@media only screen and (min-width: 1270px)
+{
+    #largo[b-wgjqlyfzb9] {width: 1238px;}
+}
+/* _content/JapaJa/Components/Layout/TheHeader.razor.rz.scp.css */
+header[b-rnfgcj0prt] {
+    width: 100%;
+    height: 82px;
+}
+.simbolo[b-rnfgcj0prt] {
+    width: 82px;
+    height: 82px;
+    margin-right: 7px;
+    background-image: url(images/simbolo.png);
+}
+.simbolo:hover[b-rnfgcj0prt] {
+    background-image: url(images/simbolo_on.png);
+}
+.logotipo[b-rnfgcj0prt] {
+    width: 173px;
+    height: 82px;
+    margin-right: 7px;
+    background-image: url(images/logotipo.png);
+}
+.logotipo:hover[b-rnfgcj0prt] {
+    background-image: url(images/logotipo_on.png);
+}
+header form[b-rnfgcj0prt] {
+    display: flex;
+}
+#digitar[b-rnfgcj0prt] {
+    height: 82px;
+    text-align: center;
+    margin-right: 3px;
+    padding-left: 7px;
+    border-radius: 7px;
+    background-color: #f63;
+}
+#digitar:hover[b-rnfgcj0prt], #digitar:focus[b-rnfgcj0prt] {
+    background-color: #f99;
+}
+.preencher[b-rnfgcj0prt] {
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font: normal 18px 'Trebuchet MS';
+    background-color: #fff;
+}
+.preencher:focus[b-rnfgcj0prt], .preencher:hover[b-rnfgcj0prt] {
+    background-color: #fff;
+}
+#pesquisa[b-rnfgcj0prt] {
+    background-image: url(images/pesquisa.png);
+    width: 82px;
+    height: 82px;
+    border: none;
+    margin-right: 7px;
+}
+#pesquisa:hover[b-rnfgcj0prt] {
+    background-image: url(images/pesquisa_on.png);
+}
+#formulario[b-rnfgcj0prt] {
+    width: 82px;
+    height: 82px;
+    background-image: url(images/form.png);
+    margin-right: 7px;
+}
+#formulario:hover[b-rnfgcj0prt] {
+    background-image: url(images/form_on.png);
+}
+
+/* design responsivo */
+@media only screen and (min-width: 414px) {
+    #completo[b-rnfgcj0prt], #largo[b-rnfgcj0prt] {
+        display: none;
+    }
+    #reduzido[b-rnfgcj0prt] {
+        display: flex;
+    }
+    #digitar[b-rnfgcj0prt] {
+        width: 311px;
+    }
+    .preencher[b-rnfgcj0prt] {
+        width: 261px;
+    }
+}
+@media only screen and (min-width: 863px) {
+    #completo[b-rnfgcj0prt], #largo[b-rnfgcj0prt] {
+        display: flex;
+    }
+    #reduzido[b-rnfgcj0prt] {
+        display: none;
+    }
+    #digitar[b-rnfgcj0prt] {
+        width: 368px;
+    }
+    .preencher[b-rnfgcj0prt] {
+        width: 318px;
+    }
+}
+@media only screen and (min-width: 1270px) {
+    #reduzido[b-rnfgcj0prt] {
+        display: none;
+    }
+    #digitar[b-rnfgcj0prt] {
+        width: 790px;
+    }
+    .preencher[b-rnfgcj0prt] {
+        width: 750px;
+    }
+}
+/* _content/JapaJa/Components/Pages/TheContactForm.razor.rz.scp.css */
+#contato[b-msyh8js6hd] {
+    display: flex;
+    width: 100%;
+  }
+  #contato label[b-msyh8js6hd] {
+    display: inline-block;
+    width: 80px;
+  }
+  .mensagem[b-msyh8js6hd] {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #enviar[b-msyh8js6hd] {
+    width: 82px;
+    height: 82px;
+    background-image: url('images/enviar.png');
+    border: none;
+    margin-left: 30px;
+  }
+  #enviar:hover[b-msyh8js6hd] {
+    background-image: url(../assets/enviar_on.png);
+  }
+  /* design responsivo */
+  @media only screen and (min-width: 414px) {
+    #contato[b-msyh8js6hd] {
+      flex-direction: column;
+    }
+    #contato div[b-msyh8js6hd] {
+      width: auto;
+    }
+    .tamanho[b-msyh8js6hd] {
+      width: 248px;
+    }
+    #botao-submit[b-msyh8js6hd] {
+      margin-top: 10px;
+      text-align: right;
+    }
+  }
+  @media only screen and (min-width: 863px) {
+    #contato[b-msyh8js6hd] {
+      flex-direction: row;
+    }
+    .tamanho[b-msyh8js6hd] {
+      width: 222px;
+    }
+  }
+  @media only screen and (min-width: 1270px) {
+    #contato[b-msyh8js6hd] {
+      flex-direction: row;
+    }
+    #contato div[b-msyh8js6hd] {
+      width: 500px;
+    }
+    .tamanho[b-msyh8js6hd] {
+      width: 270px;
+    }
+    #botao-submit[b-msyh8js6hd] {
+      text-align: left;
+    }
+  }
+/* _content/JapaJa/Components/Pages/TheContainer.razor.rz.scp.css */
+#conteudo[b-2zogljzxxa] {
+    height: auto;
+    padding: 20px;
+    text-align: left;
+    margin-top: 7px;
+    background-color: #fff;
+    border: 2px solid #f63;
+    border-radius: 7px;
+}
+#conteudo:hover[b-2zogljzxxa] {
+    border: 2px solid #f99;
+}
+#conteudo p[b-2zogljzxxa] {
+    font: 14px 'Trebuchet MS';
+}
+#conteudo form[b-2zogljzxxa] {
+    margin-top: 40px;
+}
+#subheader[b-2zogljzxxa] {
+    width: 100%;
+    height: 73px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+#voltar[b-2zogljzxxa] {
+    background-image: url(images/voltar.png);
+    background-size: cover;
+    width: 82px;
+    height: 30px;
+}
+#voltar:hover[b-2zogljzxxa] {
+    background-image: url(images/voltar_on.png);
+}
+h1[b-2zogljzxxa] {
+    font: normal 40px 'GalaBold';
+    float: left;
+    width: auto;
+    color: #f63;
+    padding-right: 20px;
+    margin: 0;
+}
+h1:hover[b-2zogljzxxa] {
+    color: #f99;
+}
+
+/* incorporando a fonte Gala Bold */
+@font-face {
+    font-family: 'GalaBold';
+    src: url('images/font/gala_bold-webfont.eot');
+    src:
+        url('images/font/gala_bold-webfont.eot?#iefix') format('embedded-opentype'),
+        url('images/font/gala_bold-webfont.woff') format('woff'),
+        url('images/font/gala_bold-webfont.ttf') format('truetype'),
+        url('images/font/gala_bold-webfont.svg#GalaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* design responsivo */
+@media only screen and (min-width: 414px) {
+    #conteudo[b-2zogljzxxa] {width: 401px;}
+}
+@media only screen and (min-width: 863px) {
+    #conteudo[b-2zogljzxxa] {width: 815px;}
+}
+@media only screen and (min-width: 1270px) {
+    #conteudo[b-2zogljzxxa] {width: 1238px;}
+}
+/* _content/JapaJa/Components/Pages/TheInstructions.razor.rz.scp.css */
+p[b-flnd0ss5mf] {
+    font: 14px 'Trebuchet MS';
+  }
+  #instrucoes[b-flnd0ss5mf] {
+    display: flex;
+  }
+  #instrucoes div[b-flnd0ss5mf] {
+    width: auto;
+  }
+  #logo-framework img[b-flnd0ss5mf] {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+  }
+  /* design responsivo */
+  @media only screen and (min-width: 414px) {
+    #instrucoes[b-flnd0ss5mf] {
+      flex-direction: column;
+    }
+    #logo-framework[b-flnd0ss5mf] {
+      margin: 0 auto 10px auto;
+    }
+  }
+  @media only screen and (min-width: 863px) {
+    #instrucoes[b-flnd0ss5mf] {
+      flex-direction: row;
+    }
+    #logo-framework[b-flnd0ss5mf] {
+      margin: auto;
+    }
+  }
+  @media only screen and (min-width: 1270px) {
+    #instrucoes[b-flnd0ss5mf] {
+      flex-direction: row;
+    }
+    #logo-framework[b-flnd0ss5mf] {
+      text-align: right;
+    }
+    #logo-framework[b-flnd0ss5mf] {
+      margin: auto 0 auto auto;
+    }
+  }
+/* _content/JapaJa/Components/Pages/ThePropaganda.razor.rz.scp.css */
+#wrapper[b-3rmwwi7s5m] {display:contents;}
+    .propaganda[b-3rmwwi7s5m] {margin: 7px 7px 0 0; float: left;}
+    .propaganda img[b-3rmwwi7s5m] {width: 408px; height: 193px; border-radius: 7px; object-fit: cover; object-position: top left}
+
+    /* design responsivo */
+    @media only screen and (min-width: 414px)
+    { #wrapper[b-3rmwwi7s5m] {width: 364px;} }
+    @media only screen and (min-width: 863px)
+    { #wrapper[b-3rmwwi7s5m] {width: 779px;} }
+    @media only screen and (min-width: 1270px)
+    { #wrapper[b-3rmwwi7s5m] {width: 1194px;} }

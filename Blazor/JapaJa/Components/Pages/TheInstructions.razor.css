@@ -1,0 +1,42 @@
+p {
+    font: 14px 'Trebuchet MS';
+  }
+  #instrucoes {
+    display: flex;
+  }
+  #instrucoes div {
+    width: auto;
+  }
+  #logo-framework img {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+  }
+  /* design responsivo */
+  @media only screen and (min-width: 414px) {
+    #instrucoes {
+      flex-direction: column;
+    }
+    #logo-framework {
+      margin: 0 auto 10px auto;
+    }
+  }
+  @media only screen and (min-width: 863px) {
+    #instrucoes {
+      flex-direction: row;
+    }
+    #logo-framework {
+      margin: auto;
+    }
+  }
+  @media only screen and (min-width: 1270px) {
+    #instrucoes {
+      flex-direction: row;
+    }
+    #logo-framework {
+      text-align: right;
+    }
+    #logo-framework {
+      margin: auto 0 auto auto;
+    }
+  }

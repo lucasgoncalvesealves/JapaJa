@@ -1,0 +1,26 @@
+@inherits LayoutComponentBase
+@layout Components.Layout.MainLayout
+
+<CascadingValue Value="this">
+  <div id="conteudo">
+    <div id="subheader">
+      <h1>@Title</h1>
+      <a id="voltar" href="javascript:history.go(-1)"></a>
+    </div>
+    @Body
+  </div>
+</CascadingValue>
+
+@code
+{
+  private string title = "";
+  public string Title
+  {
+      get => title;
+      set
+      {
+          title = value;
+          InvokeAsync(() => StateHasChanged());
+      }
+  }
+}

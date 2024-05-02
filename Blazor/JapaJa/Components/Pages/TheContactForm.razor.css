@@ -1,0 +1,61 @@
+#contato {
+    display: flex;
+    width: 100%;
+  }
+  #contato label {
+    display: inline-block;
+    width: 80px;
+  }
+  .mensagem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  #enviar {
+    width: 82px;
+    height: 82px;
+    background-image: url('images/enviar.png');
+    border: none;
+    margin-left: 30px;
+  }
+  #enviar:hover {
+    background-image: url(../assets/enviar_on.png);
+  }
+  /* design responsivo */
+  @media only screen and (min-width: 414px) {
+    #contato {
+      flex-direction: column;
+    }
+    #contato div {
+      width: auto;
+    }
+    .tamanho {
+      width: 248px;
+    }
+    #botao-submit {
+      margin-top: 10px;
+      text-align: right;
+    }
+  }
+  @media only screen and (min-width: 863px) {
+    #contato {
+      flex-direction: row;
+    }
+    .tamanho {
+      width: 222px;
+    }
+  }
+  @media only screen and (min-width: 1270px) {
+    #contato {
+      flex-direction: row;
+    }
+    #contato div {
+      width: 500px;
+    }
+    .tamanho {
+      width: 270px;
+    }
+    #botao-submit {
+      text-align: left;
+    }
+  }

@@ -1,0 +1,11 @@
+#wrapper[b-3rmwwi7s5m] {display:contents;}
+    .propaganda[b-3rmwwi7s5m] {margin: 7px 7px 0 0; float: left;}
+    .propaganda img[b-3rmwwi7s5m] {width: 408px; height: 193px; border-radius: 7px; object-fit: cover; object-position: top left}
+
+    /* design responsivo */
+    @media only screen and (min-width: 414px)
+    { #wrapper[b-3rmwwi7s5m] {width: 364px;} }
+    @media only screen and (min-width: 863px)
+    { #wrapper[b-3rmwwi7s5m] {width: 779px;} }
+    @media only screen and (min-width: 1270px)
+    { #wrapper[b-3rmwwi7s5m] {width: 1194px;} }

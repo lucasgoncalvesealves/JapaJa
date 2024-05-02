@@ -1,7 +1,7 @@
 # Japa Já
 Guia online de restaurantes japoneses da Cidade do Rio de Janeiro.
 
-Originalmente feito em 2012, este projeto será repaginado para os padrões atuais.
+Originalmente feito em 2012, este projeto está sendo repaginado para os padrões atuais.
 
 ### Parte 1: 
 Atualizar a resolução para widescreen, tornar o design responsivo, eliminar funções ultrapassadas. 

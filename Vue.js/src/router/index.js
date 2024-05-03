@@ -20,10 +20,12 @@ const router = createRouter({
       children: [
         {
           path: 'about',
-          component: TheInstructions
+          alias: 'sobre',
+          component: TheInstructions,
         },
         {
           path: 'contact',
+          alias: 'contato',
           component: TheContactForm
         },
         {

@@ -21,21 +21,30 @@ const router = createRouter({
         {
           path: 'about',
           alias: 'sobre',
+          meta: { title: 'JAPA JÁ | Sobre' },
           component: TheInstructions,
         },
         {
           path: 'contact',
           alias: 'contato',
+          meta: { title: 'JAPA JÁ | Contato' },
           component: TheContactForm
         },
         {
           path: '/:pathMatch(.*)*',
           name: 'NotFound',
+          meta: { title: 'JAPA JÁ | Erro 404' },
           component: NotFound
         }
       ]
     }
   ]
 })
+
+router.beforeEach((to, from, next) => {
+  console.log(to);
+  document.title = to.meta.title;
+  next();
+});
 
 export default router

@@ -1,4 +1,4 @@
-body {font: 14px 'Trebuchet MS'; background-color: #FFF;}
+body {font: 14px 'Trebuchet MS'; background-color: #FFF; padding: 7px;}
 a {color: #F63; text-decoration: underline;}
 a:hover {color: #F99;}
 label {margin-bottom: 15px; font: 14px 'Trebuchet MS';}

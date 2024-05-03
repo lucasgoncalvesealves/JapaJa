@@ -11,6 +11,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
+      meta: { title: 'JAPA JÁ | Home' },
       component: HomeView
     },
     {

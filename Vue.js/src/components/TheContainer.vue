@@ -49,6 +49,16 @@ export default {
   display: flex;
   justify-content: space-between;
 }
+h1 {
+  font: normal 40px 'GalaBold';
+  width: auto;
+  color: #f63;
+  padding-right: 20px;
+  margin: 0;
+}
+h1:hover {
+  color: #f99;
+}
 #voltar {
   background-image: url(../assets/voltar.png);
   background-size: cover;
@@ -58,19 +68,8 @@ export default {
 #voltar:hover {
   background-image: url(../assets/voltar_on.png);
 }
-h1 {
-  font: normal 40px 'GalaBold';
-  float: left;
-  width: auto;
-  color: #f63;
-  padding-right: 20px;
-  margin: 0;
-}
-h1:hover {
-  color: #f99;
-}
 
-/* incorporando a fonte Gala Bold */
+/* incorporando a fonte Gala */
 @font-face {
   font-family: 'GalaBold';
   src: url('../assets/font/gala_bold-webfont.eot');

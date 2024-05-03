@@ -88,6 +88,7 @@ header form {
   background-image: url(../assets/form_on.png);
 }
 
+/* design responsivo */
 @media only screen and (min-width: 414px) {
   #completo,
   #largo {

@@ -1,4 +1,4 @@
-#largo {height: 22px; padding: 6px; float: left; font-size: 12px; background-color: #F63; border-radius: 7px; margin: 7px 0; text-align: center; text-decoration: none; flex-direction:column; justify-content: center;}
+#largo {height: 32px; padding: 6px; float: left; font-size: 12px; background-color: #F63; border-radius: 7px; margin: 7px 0; text-align: center; text-decoration: none; flex-direction:column; justify-content: center;}
 #largo:hover {background-color: #F99;}
 a footer {color: #FFF;}
 a footer:hover {color: #000;}

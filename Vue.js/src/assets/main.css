@@ -1,9 +1,44 @@
-body {font: 14px 'Trebuchet MS'; background-color: #FFF;}
-a {color: #F63; text-decoration: underline;}
-a:hover {color: #F99;}
-label {margin-bottom: 15px; font: 14px 'Trebuchet MS';}
-h1 {font: normal 40px 'GalaBold'; float: left; width: auto; color: #F63; padding-right: 20px; margin: 0;}
-input, select {background-color:#CCC; margin: 0 15px 5px 5px; padding-left: 5px; height: 25px; font-family: 'Trebuchet MS';}
-input:focus, input:hover, select:hover {background-color:#F99;}
-textarea {background-color:#CCC; margin-left: 5px;}
-textarea:focus, textarea:hover {background-color:#F99;}
+body {
+  font: 14px 'Trebuchet MS';
+  background-color: #fff;
+}
+a {
+  color: #f63;
+  text-decoration: underline;
+}
+a:hover {
+  color: #f99;
+}
+label {
+  margin-bottom: 15px;
+  font: 14px 'Trebuchet MS';
+}
+h1 {
+  font: normal 40px 'GalaBold';
+  float: left;
+  width: auto;
+  color: #f63;
+  padding-right: 20px;
+  margin: 0;
+}
+input,
+select {
+  background-color: #ccc;
+  margin: 0 15px 5px 5px;
+  padding-left: 5px;
+  height: 25px;
+  font-family: 'Trebuchet MS';
+}
+input:focus,
+input:hover,
+select:hover {
+  background-color: #f99;
+}
+textarea {
+  background-color: #ccc;
+  margin-left: 5px;
+}
+textarea:focus,
+textarea:hover {
+  background-color: #f99;
+}

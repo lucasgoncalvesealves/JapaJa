@@ -1,0 +1,20 @@
+span {
+    font: bold 18px 'Trebuchet MS';
+    color: #f63;
+}
+span:hover {
+  color: #f99;
+}
+p {
+  margin-top: 14px;
+  font: 'Trebuchet MS' 14px;
+}
+li {
+  margin-bottom: 7px;
+}
+li::marker {
+  color: #f63;
+}
+li::marker:hover {
+  color: #f99;
+}

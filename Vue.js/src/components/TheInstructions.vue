@@ -50,6 +50,7 @@ p {
   height: 125px;
   object-fit: contain;
 }
+  
 /* design responsivo */
 @media only screen and (min-width: 414px) {
   #instrucoes {

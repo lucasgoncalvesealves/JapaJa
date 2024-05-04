@@ -20,15 +20,21 @@
   display: contents;
 }
 .propaganda {
-  margin: 7px 7px 0 0;
-  float: left;
+  float: left; 
+  margin: 7px 7px 0 0; 
+  border-radius: 7px; 
+  display: flex; 
+  overflow: hidden;
 }
 .propaganda img {
-  width: 408px;
-  height: 193px;
-  border-radius: 7px;
-  object-fit: cover;
-  object-position: top left;
+  width: 408px; 
+  height: 193px; 
+  object-fit: cover; 
+  object-position: top left; 
+  transition: transform .5s ease;
+}
+.propaganda img:hover {
+  transform: scale(1.2);
 }
 
 /* design responsivo */

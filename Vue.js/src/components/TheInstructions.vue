@@ -50,7 +50,6 @@ p {
   height: 125px;
   object-fit: contain;
 }
-  
 /* design responsivo */
 @media only screen and (min-width: 414px) {
   #instrucoes {
@@ -74,8 +73,6 @@ p {
   }
   #logo-framework {
     text-align: right;
-  }
-  #logo-framework {
     margin: auto 0 auto auto;
   }
 }

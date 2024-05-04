@@ -24,7 +24,7 @@ header form {display: flex;}
 #formulario {width: 82px; height: 82px; background-image: url(../img/form.png); margin-right: 7px;}
 #formulario:hover {background-image: url(../img/form_on.png);}
 
-/* box de conteudo */
+/* box de conteúdo */
 #conteudo {height: auto; padding: 20px;   text-align: left; margin-top: 7px;	background-color: #FFF; border: 2px solid #F63; border-radius: 7px;}
 #conteudo:hover {border: 2px solid #F99;}
 #conteudo p {font: 14px 'Trebuchet MS';}
@@ -34,15 +34,8 @@ header form {display: flex;}
 /* botões comuns */
 #voltar {background-image: url(../img/voltar.png); width: 82px; height: 30px;}
 #voltar:hover {background-image: url(../img/voltar_on.png);}
-#enviar {width: 82px; height: 82px; background-image: url(../img/enviar.png); border: none; margin-left: 30px;}
-#enviar:hover {background-image: url(../img/enviar_on.png);}
 #sobre {width: 82px; height: 82px; background-image: url(../img/sobre.png);}
 #sobre:hover {background-image: url(../img/sobre_on.png);}
-
-/* formulário de contato */
-#contato {display: flex; width: 100%;}
-#contato label {display: inline-block; width: 80px;}
-.mensagem {display: flex; flex-direction: row; align-items: center;}
 
 /* footer */
 #largo {height: 22px; padding: 6px; float: left; font-size: 12px; background-color: #F63; border-radius: 7px; margin: 7px 0; text-align: center; text-decoration: none; flex-direction:column; justify-content: center;}
@@ -52,8 +45,21 @@ a footer:hover {color: #000;}
 #menu-mobile {height: 82px; margin: 7px 0; flex-direction: row; width: 408px; float: left; justify-content: space-between;}
 
 /* home */
-.propaganda {float: left; margin: 7px 7px 0 0; display: flex;}
-.propaganda img {width: 408px; height: 193px; border-radius: 7px; object-fit: cover; object-position: top left}
+.propaganda {float: left; margin: 7px 7px 0 0; border-radius: 7px; display: flex; overflow: hidden;}
+.propaganda img {width: 408px; height: 193px; object-fit: cover; object-position: top left; transition: transform .5s ease;}
+.propaganda img:hover {transform: scale(1.2);}
+
+/* formulário de contato */
+#contato {display: flex; width: 100%;}
+#contato label {display: inline-block; width: 80px;}
+.mensagem {display: flex; flex-direction: row; align-items: center;}
+#enviar {width: 82px; height: 82px; background-image: url(../img/enviar.png); border: none; margin-left: 30px;}
+#enviar:hover {background-image: url(../img/enviar_on.png);}
+
+/* sobre */
+#instrucoes {display: flex;}
+#instrucoes div {width: auto;}
+#logo-framework img {width: 125px; height: 125px; object-fit: contain;}
 
 /* incorporando a fonte Gala Bold */
 @font-face 
@@ -80,6 +86,8 @@ a footer:hover {color: #000;}
     #contato div {width: auto;}
     .tamanho {width: 248px;}
     #botao-submit {margin-top: 10px; text-align: right;}
+    #instrucoes {flex-direction: column;}
+    #logo-framework {margin: 20px auto 10px auto;}
     #menu-mobile {display: flex;}
 }
 @media only screen and (min-width: 863px)
@@ -91,6 +99,8 @@ a footer:hover {color: #000;}
     #conteudo {width: 779px;}
     #contato {flex-direction: row;}
     .tamanho {width: 222px;}
+    #instrucoes {flex-direction: row;}
+    #logo-framework {margin: auto;}
     #largo {width: 811px;}
     #menu-mobile {display: none;}
 }
@@ -104,6 +114,8 @@ a footer:hover {color: #000;}
     #contato div {width: 500px;}
     .tamanho {width: 270px;}
     #botao-submit {text-align: left;}
+    #instrucoes {flex-direction: row;}
+    #logo-framework {text-align: right; margin: auto 0 auto auto;}
     #menu-mobile {display: none;}
     #largo {width: 1226px;}
 }

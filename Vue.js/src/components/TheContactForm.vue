@@ -61,6 +61,7 @@ export default {
   background-image: url(../assets/enviar.png);
   border: none;
   margin-left: 30px;
+  transition: .25s;
 }
 #enviar:hover {
   background-image: url(../assets/enviar_on.png);

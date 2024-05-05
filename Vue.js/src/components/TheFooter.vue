@@ -2,9 +2,10 @@
 
 <template>
   <footer id="menu-mobile">
-    <RouterLink to="/"><div id="simbolo"></div></RouterLink>
-    <RouterLink to="/contact"><div id="formulario"></div></RouterLink>
-    <RouterLink to="/about"><div id="sobre"></div></RouterLink>
+    <RouterLink to="/"><div id="simbolo" alt="Página Inicial"></div></RouterLink>
+    <div id="nearby" href="#" alt="Por Perto"></div>
+    <RouterLink to="/contact"><div id="formulario"  alt="Contato"></div></RouterLink>
+    <RouterLink to="/about"><div id="sobre" alt="Sobre"></div></RouterLink>
   </footer>
   <RouterLink to="/about">
     <footer id="largo">
@@ -27,14 +28,16 @@
   text-decoration: none;
   flex-direction: column;
   justify-content: center;
+  transition: .25s;
 }
 #largo:hover {
   background-color: #f99;
 }
-a footer {
+footer {
   color: #fff;
+  transition: .25s;
 }
-a footer:hover {
+footer:hover {
   color: #000;
 }
 #menu-mobile {
@@ -52,15 +55,27 @@ a footer:hover {
   height: 82px;
   margin-right: 7px;
   background-image: url(../assets/simbolo.png);
+  transition: .25s;
 }
 #simbolo:hover {
   background-image: url(../assets/simbolo_on.png);
+}
+#nearby {
+  width: 82px; 
+  height: 82px; 
+  background-image: url(../assets/nearby.png); 
+  margin-right: 7px;
+  transition: .25s;
+}
+#nearby:hover {
+  background-image: url(../assets/nearby_on.png);
 }
 #formulario {
   width: 82px;
   height: 82px;
   background-image: url(../assets/form.png);
   margin-right: 7px;
+  transition: .25s;
 }
 #formulario:hover {
   background-image: url(../assets/form_on.png);
@@ -69,6 +84,7 @@ a footer:hover {
   width: 82px;
   height: 82px;
   background-image: url(../assets/sobre.png);
+  transition: .25s;
 }
 #sobre:hover {
   background-image: url(../assets/sobre_on.png);

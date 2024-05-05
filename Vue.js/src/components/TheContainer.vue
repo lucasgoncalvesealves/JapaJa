@@ -88,17 +88,17 @@ h1:hover {
 /* design responsivo */
 @media only screen and (min-width: 414px) {
   #conteudo {
-    width: 364px;
+    width: 362px;
   }
 }
 @media only screen and (min-width: 863px) {
   #conteudo {
-    width: 779px;
+    width: 778px;
   }
 }
 @media only screen and (min-width: 1270px) {
   #conteudo {
-    width: 1194px;
+    width: 1193px;
   }
 }
 </style>

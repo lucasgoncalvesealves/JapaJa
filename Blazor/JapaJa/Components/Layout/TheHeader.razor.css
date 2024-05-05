@@ -39,7 +39,7 @@ header form {
 }
 .preencher {
     border: none;
-    height: 40px;
+    height: 42px;
     margin-top: 20px;
     padding-left: 10px;
     font: normal 18px 'Trebuchet MS';
@@ -89,10 +89,10 @@ header form {
         display: flex;
     }
     #digitar {
-        width: 311px;
+        width: 319px;
     }
     .preencher {
-        width: 261px;
+        width: 274px;
     }
 }
 @media only screen and (min-width: 863px) {
@@ -103,10 +103,10 @@ header form {
         display: none;
     }
     #digitar {
-        width: 278px;
+        width: 286px;
     }
     .preencher {
-        width: 228px;
+        width: 242px;
     }
 }
 @media only screen and (min-width: 1270px) {
@@ -117,6 +117,6 @@ header form {
         width: 701px;
     }
     .preencher {
-        width: 651px;
+        width: 655px;
     }
 }

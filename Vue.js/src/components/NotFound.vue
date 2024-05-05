@@ -17,7 +17,8 @@ export default {
   <ul>
     <li>Caso você tenha digitado um endereço no navegador, certifique-se que ele está correto;</li>
     <li>
-      Caso você tenha clicado em um link defeituoso, entre em contato para que ele possa ser consertado;
+      Caso você tenha clicado em um link defeituoso, entre em contato para que ele possa ser
+      consertado;
     </li>
     <li>
       Recomendamos enfaticamente que você dê preferência para a ferramenta de busca no topo da tela.
@@ -29,6 +30,7 @@ export default {
 span {
   font: bold 18px 'Trebuchet MS';
   color: #f63;
+  transition: .25s;
 }
 span:hover {
   color: #f99;
@@ -41,6 +43,7 @@ li {
 }
 li::marker {
   color: #f63;
+  transition: .25s;
 }
 li::marker:hover {
   color: #f99;

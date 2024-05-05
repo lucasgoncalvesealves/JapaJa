@@ -1,6 +1,7 @@
 span {
     font: bold 18px 'Trebuchet MS';
     color: #f63;
+    transition: .25s;
 }
 span:hover {
   color: #f99;
@@ -14,6 +15,7 @@ li {
 }
 li::marker {
   color: #f63;
+  transition: .25s;
 }
 li::marker:hover {
   color: #f99;

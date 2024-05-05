@@ -129,10 +129,10 @@ header form {
     display: none;
   }
   #digitar {
-    width: 280px;
+    width: 279px;
   }
   .preencher {
-    width: 230px;
+    width: 229px;
   }
 }
 @media only screen and (min-width: 1270px) {

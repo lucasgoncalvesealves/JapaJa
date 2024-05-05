@@ -7,6 +7,7 @@ header {
     height: 82px;
     margin-right: 7px;
     background-image: url(images/simbolo.png);
+    transition: .25s;
 }
 .simbolo:hover {
     background-image: url(images/simbolo_on.png);
@@ -16,6 +17,7 @@ header {
     height: 82px;
     margin-right: 7px;
     background-image: url(images/logotipo.png);
+    transition: .25s;
 }
 .logotipo:hover {
     background-image: url(images/logotipo_on.png);
@@ -30,6 +32,7 @@ header form {
     padding-left: 7px;
     border-radius: 7px;
     background-color: #f63;
+    transition: .25s;
 }
 #digitar:hover, #digitar:focus {
     background-color: #f99;
@@ -51,15 +54,27 @@ header form {
     height: 82px;
     border: none;
     margin-right: 7px;
+    transition: .25s;
 }
 #pesquisa:hover {
     background-image: url(images/pesquisa_on.png);
+}
+#nearby {
+    width: 82px; 
+    height: 82px; 
+    background-image: url(images/nearby.png); 
+    margin-right: 7px;
+    transition: .25s;
+}
+#nearby:hover {
+    background-image: url(images/nearby_on.png);
 }
 #formulario {
     width: 82px;
     height: 82px;
     background-image: url(images/form.png);
     margin-right: 7px;
+    transition: .25s;
 }
 #formulario:hover {
     background-image: url(images/form_on.png);
@@ -88,10 +103,10 @@ header form {
         display: none;
     }
     #digitar {
-        width: 368px;
+        width: 278px;
     }
     .preencher {
-        width: 318px;
+        width: 228px;
     }
 }
 @media only screen and (min-width: 1270px) {
@@ -99,9 +114,9 @@ header form {
         display: none;
     }
     #digitar {
-        width: 790px;
+        width: 701px;
     }
     .preencher {
-        width: 750px;
+        width: 651px;
     }
 }

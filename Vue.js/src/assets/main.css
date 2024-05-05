@@ -6,14 +6,6 @@ label {
   margin-bottom: 15px;
   font: 14px 'Trebuchet MS';
 }
-h1 {
-  font: normal 40px 'GalaBold';
-  float: left;
-  width: auto;
-  color: #f63;
-  padding-right: 20px;
-  margin: 0;
-}
 input,
 select {
   background-color: #ccc;

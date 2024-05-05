@@ -30,11 +30,12 @@ export default {
   text-align: left;
   margin-top: 7px;
   background-color: #fff;
-  border: 2px solid #f63;
+  border: 3px solid #f63;
   border-radius: 7px;
+  transition: .25s;
 }
 #conteudo:hover {
-  border: 2px solid #f99;
+  border: 3px solid #f99;
 }
 #conteudo p {
   font: 14px 'Trebuchet MS';
@@ -55,6 +56,7 @@ h1 {
   color: #f63;
   padding-right: 20px;
   margin: 0;
+  transition: .25s;
 }
 h1:hover {
   color: #f99;
@@ -64,6 +66,7 @@ h1:hover {
   background-size: cover;
   width: 82px;
   height: 30px;
+  transition: .25s;
 }
 #voltar:hover {
   background-image: url(../assets/voltar_on.png);

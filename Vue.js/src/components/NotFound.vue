@@ -38,6 +38,9 @@ span:hover {
 p {
   font: 'Trebuchet MS' 14px;
 }
+ul {
+  padding-inline-start: 32px;
+}
 li {
   margin-bottom: 7px;
 }

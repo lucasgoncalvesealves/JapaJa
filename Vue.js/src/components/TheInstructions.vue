@@ -22,7 +22,7 @@ export default {
         Caso você esteja procurando um restaurante nas suas redondezas, simplesmente acione o botão com o apontador.
       </p>
       <p>
-        Caso você possua um estabelecimento, acesse o formulário através do botão de carta e anuncie seu negócio neste portal.
+        Caso você possua um estabelecimento, acesse o formulário através do botão de carta e anuncie seu negócio aqui.
       </p>
       <p>
         Caso você seja consumidor, use este mesmo formulário para dúvidas, elogios, críticas e sugestões.

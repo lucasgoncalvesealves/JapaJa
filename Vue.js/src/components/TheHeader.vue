@@ -8,6 +8,7 @@
       <div id="digitar"><input type="text" class="preencher" value="buscar já!" /></div>
       <input type="submit" id="pesquisa" value="" href="#" />
     </form>
+    <div id="nearby" href="#" alt="Por Perto"></div>
     <RouterLink to="/contact"><div id="formulario" href="../views/contato"></div></RouterLink>
   </header>
   <header id="reduzido">
@@ -28,6 +29,7 @@ header {
   height: 82px;
   margin-right: 7px;
   background-image: url(../assets/simbolo.png);
+  transition: .25s;
 }
 #simbolo:hover {
   background-image: url(../assets/simbolo_on.png);
@@ -37,6 +39,7 @@ header {
   height: 82px;
   margin-right: 7px;
   background-image: url(../assets/logotipo.png);
+  transition: .25s;
 }
 #logotipo:hover {
   background-image: url(../assets/logotipo_on.png);
@@ -51,6 +54,7 @@ header form {
   padding-left: 7px;
   border-radius: 7px;
   background-color: #f63;
+  transition: .25s;
 }
 #digitar:hover,
 #digitar:focus {
@@ -74,15 +78,27 @@ header form {
   height: 82px;
   border: none;
   margin-right: 7px;
+  transition: .25s;
 }
 #pesquisa:hover {
   background-image: url(../assets/pesquisa_on.png);
+}
+#nearby {
+  width: 82px; 
+  height: 82px; 
+  background-image: url(../assets/nearby.png); 
+  margin-right: 7px;
+  transition: .25s;
+}
+#nearby:hover {
+  background-image: url(../assets/nearby_on.png);
 }
 #formulario {
   width: 82px;
   height: 82px;
   background-image: url(../assets/form.png);
   margin-right: 7px;
+  transition: .25s;
 }
 #formulario:hover {
   background-image: url(../assets/form_on.png);
@@ -113,10 +129,10 @@ header form {
     display: none;
   }
   #digitar {
-    width: 368px;
+    width: 280px;
   }
   .preencher {
-    width: 318px;
+    width: 230px;
   }
 }
 @media only screen and (min-width: 1270px) {
@@ -124,10 +140,10 @@ header form {
     display: none;
   }
   #digitar {
-    width: 783px;
+    width: 694px;
   }
   .preencher {
-    width: 734px;
+    width: 644px;
   }
 }
 </style>

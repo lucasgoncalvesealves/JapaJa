@@ -2,13 +2,6 @@ body {
   font: 14px 'Trebuchet MS';
   background-color: #fff;
 }
-a {
-  color: #f63;
-  text-decoration: underline;
-}
-a:hover {
-  color: #f99;
-}
 label {
   margin-bottom: 15px;
   font: 14px 'Trebuchet MS';

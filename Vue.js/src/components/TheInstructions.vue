@@ -20,6 +20,9 @@ export default {
         prática.
       </p>
       <p>
+        Caso você esteja procurando um restaurante nas suas redondezas, simplesmente acione o botão com o apontador.
+      </p>
+      <p>
         Caso você seja dono de um estabelecimento, acesse o formulário através do botão no canto
         superior direito e anuncie seu negócio neste portal.
       </p>

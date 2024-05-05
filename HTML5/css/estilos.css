@@ -96,8 +96,8 @@ a footer:hover {color: #000;}
 {
     #completo, #largo {display: flex;}
     #reduzido {display: none;}
-    #digitar {width: 280px;}
-    .preencher {width: 230px;}
+    #digitar {width: 279px;}
+    .preencher {width: 229px;}
     #conteudo {width: 778px;}
     #contato {flex-direction: row;}
     .tamanho {width: 222px;}

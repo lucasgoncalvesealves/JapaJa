@@ -62,10 +62,10 @@ h1:hover {
 
 /* design responsivo */
 @media only screen and (min-width: 414px) {
-    #conteudo {width: 401px;}
+    #conteudo {width: 408px;}
 }
 @media only screen and (min-width: 863px) {
-    #conteudo {width: 815px;}
+    #conteudo {width: 823px;}
 }
 @media only screen and (min-width: 1270px) {
     #conteudo {width: 1238px;}

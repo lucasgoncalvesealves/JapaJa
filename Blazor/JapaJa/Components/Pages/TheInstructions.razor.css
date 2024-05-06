@@ -37,7 +37,7 @@ p {
     width: 500px;
   }
   #logos {
-    margin: -20px 0 auto auto; 
+    margin: 0 0 auto auto; 
     flex-direction: column;
   }
   #logos img {

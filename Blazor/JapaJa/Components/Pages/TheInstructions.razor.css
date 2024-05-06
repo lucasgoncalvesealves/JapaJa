@@ -1,5 +1,6 @@
 p {
   font: 14px 'Trebuchet MS';
+  margin-bottom: 14px;
 }
 #instrucoes {
   display: flex;

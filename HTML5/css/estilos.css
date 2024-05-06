@@ -60,8 +60,8 @@ a footer:hover {color: #000;}
 
 /* sobre */
 #instrucoes {display: flex;}
-#instrucoes div {width: auto;}
-#logo-framework img {width: 125px; height: 125px; object-fit: contain;}
+#logos {display: flex;}
+#logos img {width: 125px; height: 125px; object-fit: contain;}
 
 /* incorporando a fonte Gala Bold */
 @font-face 
@@ -89,7 +89,8 @@ a footer:hover {color: #000;}
     .tamanho {width: 248px;}
     #botao-submit {margin-top: 10px; text-align: right;}
     #instrucoes {flex-direction: column;}
-    #logo-framework {margin: 20px auto 10px auto;}
+    #logos {margin: 20px auto 10px auto; flex-direction: row;}
+    #logos img {margin: 0 20px;}
     #menu-mobile {display: flex;}
 }
 @media only screen and (min-width: 863px)
@@ -102,7 +103,9 @@ a footer:hover {color: #000;}
     #contato {flex-direction: row;}
     .tamanho {width: 222px;}
     #instrucoes {flex-direction: row;}
-    #logo-framework {margin: auto;}
+    #paragrafos {width: 500px;}
+    #logos {margin: auto 0 auto auto; flex-direction: column;}
+    #logos img {margin: 10px 0;}
     #largo {width: 811px;}
     #menu-mobile {display: none;}
 }
@@ -117,7 +120,9 @@ a footer:hover {color: #000;}
     .tamanho {width: 270px;}
     #botao-submit {text-align: left;}
     #instrucoes {flex-direction: row;}
-    #logo-framework {text-align: right; margin: auto 0 auto auto;}
+    #instrucoes div {width: auto;}
+    #logos {text-align: right; flex-direction: row;}
+    #logos img {margin: 0 5px;}
     #menu-mobile {display: none;}
     #largo {width: 1226px;}
 }

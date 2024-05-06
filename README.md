@@ -8,7 +8,11 @@ Atualizar a resolução para widescreen, tornar o design responsivo, eliminar fu
 **[CONCLUÍDO]**
 
 ### Parte 2: 
-Converter o site em uma aplicação de página única, de quatro formas diferentes: Vue.js, Blazor, React.js e Angular.
+Converter o site em uma aplicação de página única, de quatro formas diferentes: 
+* Vue.js + Vite.js;
+* Blazor + ASP.NET Core;
+* React.js + Next.js;
+* Angular + Framework a definir.
 **[CONCLUÍDO 2 de 4]**
 
 ### Parte 3: 

@@ -4,10 +4,13 @@ p {
 #instrucoes {
   display: flex;
 }
-#instrucoes div {
-  width: auto;
+#paragrafos {
+  margin-top: 14px;
 }
-#logo-framework img {
+#logos {
+  display: flex;
+}
+#logos img {
   width: 125px;
   height: 125px;
   object-fit: contain;
@@ -17,24 +20,42 @@ p {
   #instrucoes {
     flex-direction: column;
   }
-  #logo-framework {
-    margin: 0 auto 10px auto;
+  #logos {
+    margin: 20px auto 10px auto; 
+    flex-direction: row;
+  }
+  #logos img {
+    margin: 0 20px;
   }
 }
 @media only screen and (min-width: 863px) {
   #instrucoes {
     flex-direction: row;
   }
-  #logo-framework {
-    margin: auto;
+  #paragrafos {
+    width: 500px;
+  }
+  #logos {
+    margin: -20px 0 auto auto; 
+    flex-direction: column;
+  }
+  #logos img {
+    margin: 10px 0;
   }
 }
 @media only screen and (min-width: 1270px) {
   #instrucoes {
     flex-direction: row;
   }
-  #logo-framework {
-    text-align: right;
-    margin: auto 0 auto auto;
+  #instrucoes div {
+    width: auto;
+  }
+  #logos {
+    text-align: right; 
+    margin: auto 0 auto auto; 
+    flex-direction: row;
+  }
+  #logos img {
+    margin: 0 10px;
   }
 }

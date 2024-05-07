@@ -37,7 +37,7 @@ header form {
 #digitar:hover, #digitar:focus {
     background-color: #f99;
 }
-.preencher {
+#digitar input {
     border: none;
     height: 42px;
     margin-top: 20px;
@@ -45,7 +45,7 @@ header form {
     font: normal 18px 'Trebuchet MS';
     background-color: #fff;
 }
-.preencher:focus, .preencher:hover {
+#digitar input:focus, #digitar input:hover {
     background-color: #fff;
 }
 #pesquisa {
@@ -91,7 +91,7 @@ header form {
     #digitar {
         width: 318px;
     }
-    .preencher {
+    #digitar input {
         width: 273px;
     }
 }
@@ -105,7 +105,7 @@ header form {
     #digitar {
         width: 286px;
     }
-    .preencher {
+    #digitar input {
         width: 241px;
     }
 }
@@ -116,7 +116,7 @@ header form {
     #digitar {
         width: 701px;
     }
-    .preencher {
+    #digitar input {
         width: 656px;
     }
 }

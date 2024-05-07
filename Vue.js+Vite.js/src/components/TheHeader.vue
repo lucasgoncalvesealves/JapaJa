@@ -5,7 +5,7 @@
     <RouterLink to="/"><div id="simbolo"></div></RouterLink>
     <RouterLink to="/"><div id="logotipo"></div></RouterLink>
     <form id="buscaAmplo">
-      <div id="digitar"><input type="text" class="preencher" value="buscar já!" /></div>
+      <div id="digitar"><input type="text" value="buscar já!" /></div>
       <input type="submit" id="pesquisa" value="" href="#" />
     </form>
     <div id="nearby" href="#" alt="Por Perto"></div>
@@ -13,7 +13,7 @@
   </header>
   <header id="reduzido">
     <form id="buscaReduz">
-      <div id="digitar"><input type="text" class="preencher" value="buscar já!" /></div>
+      <div id="digitar"><input type="text" value="buscar já!" /></div>
       <input type="submit" id="pesquisa" value="" href="#" />
     </form>
   </header>
@@ -60,7 +60,7 @@ header form {
 #digitar:focus {
   background-color: #f99;
 }
-.preencher {
+#digitar input {
   border: none;
   height: 40px;
   margin-top: 20px;
@@ -68,8 +68,8 @@ header form {
   font: normal 18px 'Trebuchet MS';
   background-color: #fff;
 }
-.preencher:focus,
-.preencher:hover {
+#digitar input:focus,
+#digitar input:hover {
   background-color: #fff;
 }
 #pesquisa {
@@ -116,7 +116,7 @@ header form {
   #digitar {
     width: 311px;
   }
-  .preencher {
+  #digitar input {
     width: 261px;
   }
 }
@@ -131,7 +131,7 @@ header form {
   #digitar {
     width: 279px;
   }
-  .preencher {
+  #digitar input {
     width: 229px;
   }
 }
@@ -142,7 +142,7 @@ header form {
   #digitar {
     width: 694px;
   }
-  .preencher {
+  #digitar input {
     width: 644px;
   }
 }

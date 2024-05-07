@@ -18,7 +18,7 @@ export default {
   </p>
   <form id="contatoForm">
     <div id="contato">
-      <div class="input-select">
+      <div id="input-select">
         <label for="nome">Seu nome:</label>
         <input type="text" id="nome" class="tamanho" />
         <label for="email">Seu e-mail:</label>
@@ -30,7 +30,7 @@ export default {
           <option value="consumidor">Consumidor</option>
         </select>
       </div>
-      <div class="mensagem">
+      <div id="area-texto">
         <label for="mensagem">Mensagem:</label>
         <textarea class="tamanho" rows="7" id="mensagem"></textarea>
       </div>
@@ -50,7 +50,7 @@ export default {
   display: inline-block;
   width: 80px;
 }
-.mensagem {
+#area-texto {
   display: flex;
   flex-direction: row;
   align-items: center;

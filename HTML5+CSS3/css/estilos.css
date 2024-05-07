@@ -4,7 +4,7 @@ a {color: #F63; text-decoration: underline;}
 label {margin-bottom: 15px; font: 14px 'Trebuchet MS';}
 h1 {font: normal 40px 'GalaBold'; float: left; width: auto; color: #F63; padding-right: 20px; margin: 0; transition: .25s;}
 a:hover, h1:hover {color: #F99;}
-input, select {background-color:#CCC; margin: 0 15px 5px 5px; padding-left: 5px; height: 25px; font-family: 'Trebuchet MS'; transition: .25s;}
+input, select {background-color:#CCC; margin: 0 15px 5px 1px; padding-left: 5px; height: 25px; font-family: 'Trebuchet MS'; transition: .25s;}
 textarea {background-color:#CCC; margin-left: 5px; transition: .25s;}
 input:focus, input:hover, select:hover, textarea:focus, textarea:hover {background-color:#F99;}
 
@@ -15,10 +15,10 @@ header {width: 100%; height: 82px;}
 #logotipo {width: 173px; height: 82px; margin-right: 7px; background-image:url(../img/logotipo.png); transition: .25s;}
 #logotipo:hover {background-image:url(../img/logotipo_on.png);}
 header form {display: flex;}
-#digitar {height: 82px; text-align: center; margin-right: 3px; padding-left: 7px; border-radius: 7px; background-color: #F63; transition: .25s;}
+#digitar {height: 82px; text-align: center; margin-right: 7px; padding-left: 7px; border-radius: 7px; background-color: #F63; transition: .25s;}
 #digitar:hover, #digitar:focus {background-color: #F99;}
-.preencher {border: none; height: 40px; margin-top: 20px; padding-left: 10px; font: normal 18px 'Trebuchet MS'; background-color: #FFF;}
-.preencher:focus, .preencher:hover {background-color: #FFF;}
+#digitar input {border: none; height: 40px; margin: 20px 20px auto 10px; padding-left: 10px; font: normal 18px 'Trebuchet MS'; background-color: #FFF;}
+#digitar input:focus, #digitar input:hover {background-color: #FFF;}
 #pesquisa {background-image: url(../img/pesquisa.png); width: 82px;	height: 82px; border: none; margin-right: 7px; transition: .25s;}
 #pesquisa:hover {background-image: url(../img/pesquisa_on.png);}
 #nearby {width: 82px; height: 82px; background-image: url(../img/nearby.png); margin-right: 7px; transition: .25s;}
@@ -54,7 +54,7 @@ a footer:hover {color: #000;}
 /* formulário de contato */
 #contato {display: flex; width: 100%;}
 #contato label {display: inline-block; width: 80px;}
-.mensagem {display: flex; flex-direction: row; align-items: center;}
+#area-texto {display: flex; flex-direction: row; align-items: center;}
 #enviar {width: 82px; height: 82px; background-image: url(../img/enviar.png); border: none; margin-left: 30px; transition: .25s;}
 #enviar:hover {background-image: url(../img/enviar_on.png);}
 
@@ -82,7 +82,7 @@ a footer:hover {color: #000;}
     #completo, #largo {display: none;}
     #reduzido {display: flex;}
     #digitar {width: 311px;}
-    .preencher {width: 261px;}
+    #digitar input {width: 261px;}
     #conteudo {width: 362px;}
     #contato {flex-direction: column;}
     #contato div {width: auto;}
@@ -98,7 +98,7 @@ a footer:hover {color: #000;}
     #completo, #largo {display: flex;}
     #reduzido {display: none;}
     #digitar {width: 279px;}
-    .preencher {width: 229px;}
+    #digitar input {width: 229px;}
     #conteudo {width: 778px;}
     #contato {flex-direction: row;}
     .tamanho {width: 222px;}
@@ -113,7 +113,7 @@ a footer:hover {color: #000;}
 {
     #reduzido {display: none;}
     #digitar {width: 694px;}
-    .preencher {width: 644px;}
+    #digitar input {width: 644px; }
     #conteudo {width: 1193px;}
     #contato {flex-direction: row;}
     #contato div {width: 500px;}

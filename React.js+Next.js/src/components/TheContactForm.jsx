@@ -35,6 +35,9 @@ export default function TheContactForm()
         </form>
 
         <style jsx>{`
+            form {
+              margin-top: 40px;
+            }
             #contato {
                 display: flex;
                 width: 100%;

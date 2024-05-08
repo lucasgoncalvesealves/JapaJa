@@ -44,9 +44,6 @@ export default function Container({ children }) {
             #conteudo p {
                 font: 14px 'Trebuchet MS';
             }
-            #conteudo form {
-                margin-top: 40px;
-            }
             #subheader {
                 width: 100%;
                 height: 73px;

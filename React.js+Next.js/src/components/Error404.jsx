@@ -24,21 +24,24 @@ export default function NotFound()
                 transition: .25s;
             }
             span:hover {
-            color: #f99;
+                color: #f99;
             }
             p {
-            margin-top: 14px;
-            font: 'Trebuchet MS' 14px;
+                margin-top: 14px;
+                font: 'Trebuchet MS' 14px;
+            }
+            ul {
+                padding-inline-start: 32px;
             }
             li {
-            margin-bottom: 7px;
+                margin-bottom: 7px;
             }
             li::marker {
-            color: #f63;
-            transition: .25s;
+                color: #f63;
+                transition: .25s;
             }
             li::marker:hover {
-            color: #f99;
+                color: #f99;
             }
         `}</style>
     </>

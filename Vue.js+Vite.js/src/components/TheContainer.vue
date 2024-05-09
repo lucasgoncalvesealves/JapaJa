@@ -33,15 +33,15 @@ export default {
   border: 3px solid #f63;
   border-radius: 7px;
   transition: .25s;
-}
-#conteudo:hover {
-  border: 3px solid #f99;
-}
-#conteudo p {
-  font: 14px 'Trebuchet MS';
-}
-#conteudo form {
-  margin-top: 40px;
+  &:hover {
+    border: 3px solid #f99;
+  }
+  & p {
+    font: 14px 'Trebuchet MS';
+  }
+  & form {
+    margin-top: 40px;
+  }
 }
 #subheader {
   width: 100%;
@@ -57,9 +57,9 @@ h1 {
   padding-right: 20px;
   margin: 0;
   transition: .25s;
-}
-h1:hover {
-  color: #f99;
+  &:hover {
+    color: #f99;
+  }
 }
 #voltar {
   background-image: url(../assets/voltar.png);
@@ -67,9 +67,9 @@ h1:hover {
   width: 82px;
   height: 30px;
   transition: .25s;
-}
-#voltar:hover {
-  background-image: url(../assets/voltar_on.png);
+  &:hover {
+    background-image: url(../assets/voltar_on.png);
+  }
 }
 
 /* incorporando a fonte Gala */

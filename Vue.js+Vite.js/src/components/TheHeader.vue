@@ -23,6 +23,9 @@
 header {
   width: 100%;
   height: 82px;
+  & form {
+    display: flex;
+  }
 }
 #simbolo {
   width: 82px;
@@ -30,9 +33,9 @@ header {
   margin-right: 7px;
   background-image: url(../assets/simbolo.png);
   transition: .25s;
-}
-#simbolo:hover {
-  background-image: url(../assets/simbolo_on.png);
+  &:hover {
+    background-image: url(../assets/simbolo_on.png);
+  }
 }
 #logotipo {
   width: 173px;
@@ -40,12 +43,9 @@ header {
   margin-right: 7px;
   background-image: url(../assets/logotipo.png);
   transition: .25s;
-}
-#logotipo:hover {
-  background-image: url(../assets/logotipo_on.png);
-}
-header form {
-  display: flex;
+  &:hover {
+    background-image: url(../assets/logotipo_on.png);
+  }
 }
 #digitar {
   height: 82px;
@@ -55,22 +55,21 @@ header form {
   border-radius: 7px;
   background-color: #f63;
   transition: .25s;
-}
-#digitar:hover,
-#digitar:focus {
-  background-color: #f99;
-}
-#digitar input {
-  border: none;
-  height: 40px;
-  margin-top: 20px;
-  padding-left: 10px;
-  font: normal 18px 'Trebuchet MS';
-  background-color: #fff;
-}
-#digitar input:focus,
-#digitar input:hover {
-  background-color: #fff;
+  &:hover {
+    background-color: #f99;
+  }
+  & input {
+    border: none;
+    height: 40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    font: normal 18px 'Trebuchet MS';
+    background-color: #fff;
+    &:focus,
+    &:hover {
+      background-color: #fff;
+    }
+  }
 }
 #pesquisa {
   background-image: url(../assets/pesquisa.png);
@@ -79,9 +78,9 @@ header form {
   border: none;
   margin-right: 7px;
   transition: .25s;
-}
-#pesquisa:hover {
-  background-image: url(../assets/pesquisa_on.png);
+  &:hover {
+    background-image: url(../assets/pesquisa_on.png);
+  }
 }
 #nearby {
   width: 82px; 
@@ -89,9 +88,9 @@ header form {
   background-image: url(../assets/nearby.png); 
   margin-right: 7px;
   transition: .25s;
-}
-#nearby:hover {
-  background-image: url(../assets/nearby_on.png);
+  &:hover {
+    background-image: url(../assets/nearby_on.png);
+  }
 }
 #formulario {
   width: 82px;
@@ -99,9 +98,9 @@ header form {
   background-image: url(../assets/form.png);
   margin-right: 7px;
   transition: .25s;
-}
-#formulario:hover {
-  background-image: url(../assets/form_on.png);
+  &:hover {
+    background-image: url(../assets/form_on.png);
+  }
 }
 
 /* design responsivo */
@@ -115,9 +114,9 @@ header form {
   }
   #digitar {
     width: 311px;
-  }
-  #digitar input {
-    width: 261px;
+    & input {
+      width: 261px;
+    }
   }
 }
 @media only screen and (min-width: 863px) {
@@ -130,9 +129,9 @@ header form {
   }
   #digitar {
     width: 279px;
-  }
-  #digitar input {
-    width: 229px;
+    & input {
+      width: 229px;
+    }
   }
 }
 @media only screen and (min-width: 1270px) {
@@ -141,9 +140,9 @@ header form {
   }
   #digitar {
     width: 694px;
-  }
-  #digitar input {
-    width: 644px;
+    & input {
+      width: 644px;
+    }
   }
 }
 </style>

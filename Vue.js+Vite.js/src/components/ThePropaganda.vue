@@ -25,16 +25,16 @@
   border-radius: 7px; 
   display: flex; 
   overflow: hidden;
-}
-.propaganda img {
-  width: 408px; 
-  height: 193px; 
-  object-fit: cover; 
-  object-position: top left; 
-  transition: transform .5s ease;
-}
-.propaganda img:hover {
-  transform: scale(1.2);
+  & img {
+    width: 408px; 
+    height: 193px; 
+    object-fit: cover; 
+    object-position: top left; 
+    transition: transform .5s ease;
+    &:hover {
+      transform: scale(1.2);
+    }
+  }
 }
 
 /* design responsivo */

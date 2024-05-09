@@ -45,10 +45,10 @@ export default {
 #contato {
   display: flex;
   width: 100%;
-}
-#contato label {
-  display: inline-block;
-  width: 80px;
+  & label {
+    display: inline-block;
+    width: 80px;
+  }
 }
 #area-texto {
   display: flex;
@@ -62,17 +62,17 @@ export default {
   border: none;
   margin-left: 30px;
   transition: .25s;
-}
-#enviar:hover {
-  background-image: url(../assets/enviar_on.png);
+  &:hover {
+    background-image: url(../assets/enviar_on.png);
+  }
 }
 /* design responsivo */
 @media only screen and (min-width: 414px) {
   #contato {
     flex-direction: column;
-  }
-  #contato div {
+    & div {
     width: auto;
+    }
   }
   .tamanho {
     width: 248px;
@@ -93,9 +93,9 @@ export default {
 @media only screen and (min-width: 1270px) {
   #contato {
     flex-direction: row;
-  }
-  #contato div {
-    width: 500px;
+    & div {
+      width: 500px;
+    }
   }
   .tamanho {
     width: 270px;

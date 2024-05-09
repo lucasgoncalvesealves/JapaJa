@@ -48,12 +48,13 @@ p {
 }
 #logos {
   display: flex;
+  & img {
+    width: 125px;
+    height: 125px;
+    object-fit: contain;
+  } 
 }
-#logos img {
-  width: 125px;
-  height: 125px;
-  object-fit: contain;
-}
+
 /* design responsivo */
 @media only screen and (min-width: 414px) {
   #instrucoes {
@@ -62,9 +63,9 @@ p {
   #logos {
     margin: 20px auto 10px auto; 
     flex-direction: row;
-  }
-  #logos img {
-    margin: 0 20px;
+    & img {
+      margin: 0 20px;
+    }
   }
 }
 @media only screen and (min-width: 863px) {
@@ -77,24 +78,24 @@ p {
   #logos {
     margin: auto 0 auto auto; 
     flex-direction: column;
-  }
-  #logos img {
-    margin: 10px 0;
+    & img {
+      margin: 10px 0;
+    }
   }
 }
 @media only screen and (min-width: 1270px) {
   #instrucoes {
     flex-direction: row;
-  }
-  #instrucoes div {
-    width: auto;
+    & div {
+      width: auto;
+    }
   }
   #logos {
     text-align: right; 
     flex-direction: row;
-  }
-  #logos img {
-    margin: 0 10px;
+    & img {
+      margin: 0 10px;
+    }
   }
 }
 </style>

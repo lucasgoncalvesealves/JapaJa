@@ -15,17 +15,11 @@ select {
   font-family: 'Trebuchet MS';
   transition: .25s;
 }
-input:focus,
-input:hover,
-select:hover {
-  background-color: #f99;
-}
 textarea {
   background-color: #ccc;
   margin-left: 5px;
   transition: .25s;
 }
-textarea:focus,
-textarea:hover {
-  background-color: #f99;
+input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
+  background-color:#F99;
 }

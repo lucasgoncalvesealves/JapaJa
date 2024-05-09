@@ -22,12 +22,11 @@ export default function NotFound()
                 font: bold 18px 'Trebuchet MS';
                 color: #f63;
                 transition: .25s;
-            }
-            span:hover {
-                color: #f99;
+                &:hover {
+                    color: #f99;
+                }
             }
             p {
-                margin-top: 14px;
                 font: 'Trebuchet MS' 14px;
             }
             ul {
@@ -35,13 +34,13 @@ export default function NotFound()
             }
             li {
                 margin-bottom: 7px;
-            }
-            li::marker {
-                color: #f63;
-                transition: .25s;
-            }
-            li::marker:hover {
-                color: #f99;
+                &::marker {
+                    color: #f63;
+                    transition: .25s;
+                    &:hover {
+                        color: #f99;
+                    }
+                }
             }
         `}</style>
     </>

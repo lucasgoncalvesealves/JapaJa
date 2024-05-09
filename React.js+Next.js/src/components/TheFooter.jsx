@@ -25,7 +25,7 @@ export default function TheFooter()
                 height: 22px;
                 padding: 6px;
                 float: left;
-                font: 12px 'Trebuchet MS';
+                font-size: 12px;
                 background-color: #f63;
                 border-radius: 7px;
                 margin: 7px 0;
@@ -34,16 +34,16 @@ export default function TheFooter()
                 flex-direction: column;
                 justify-content: center;
                 transition: .25s;
-            }
-            #largo:hover {
-                background-color: #f99;
+                &:hover {
+                  background-color: #f99;
+                }
             }
             footer {
                 color: #fff;
                 transition: .25s;
-            }
-            footer:hover {
-                color: #000;
+                &:hover {
+                  color: #000;
+                }
             }
             #menu-mobile {
                 height: 82px;
@@ -53,7 +53,7 @@ export default function TheFooter()
                 float: left;
                 justify-content: space-between;
             }
-            
+              
             /* botões */
             #simbolo {
                 width: 82px;
@@ -61,9 +61,9 @@ export default function TheFooter()
                 margin-right: 7px;
                 background-image: url(/simbolo.png);
                 transition: .25s;
-            }
-            #simbolo:hover {
-                background-image: url(/simbolo_on.png);
+                &:hover {
+                  background-image: url(/simbolo_on.png);
+                }
             }
             #nearby {
                 width: 82px; 
@@ -71,9 +71,9 @@ export default function TheFooter()
                 background-image: url(/nearby.png); 
                 margin-right: 7px;
                 transition: .25s;
-            }
-            #nearby:hover {
-                background-image: url(/nearby_on.png);
+                &:hover {
+                  background-image: url(/nearby_on.png);
+                }
             }
             #formulario {
                 width: 82px;
@@ -81,41 +81,41 @@ export default function TheFooter()
                 background-image: url(/form.png);
                 margin-right: 7px;
                 transition: .25s;
-            }
-            #formulario:hover {
-                background-image: url(/form_on.png);
+                &:hover {
+                  background-image: url(/form_on.png);
+                }
             }
             #sobre {
                 width: 82px;
                 height: 82px;
                 background-image: url(/sobre.png);
                 transition: .25s;
+                &:hover {
+                  background-image: url(/sobre_on.png);
+                }
             }
-            #sobre:hover {
-                background-image: url(/sobre_on.png);
-            }
-            
+              
             /* design responsivo */
             @media only screen and (min-width: 414px) {
                 #menu-mobile {
-                    display: flex;
+                  display: flex;
                 }
                 #largo {
-                    display: none;
+                  display: none;
                 }
             }
             @media only screen and (min-width: 863px) {
                 #menu-mobile {
-                    display: none;
+                  display: none;
                 }
                 #largo {
-                    display: flex;
-                    width: 811px;
+                  display: flex;
+                  width: 811px;
                 }
             }
             @media only screen and (min-width: 1270px) {
                 #largo {
-                    width: 1226px;
+                  width: 1226px;
                 }
             }
         `}</style>

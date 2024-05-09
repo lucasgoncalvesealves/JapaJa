@@ -24,8 +24,8 @@ textarea {
   background-color: #ccc;
   margin-left: 5px;
   transition: .25s;
-}
-textarea:focus,
-textarea:hover {
-  background-color: #f99;
+  &:focus,
+  &:hover {
+    background-color: #f99;
+  }
 }

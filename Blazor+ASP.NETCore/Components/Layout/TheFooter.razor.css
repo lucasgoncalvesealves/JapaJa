@@ -1,89 +1,97 @@
 #largo {
-    height: 34px; 
-    padding: 6px; 
-    float: left; 
-    font-size: 12px; 
-    background-color: #F63; 
-    border-radius: 7px; 
-    margin: 7px 0; 
-    text-align: center; 
-    text-decoration: none; 
-    flex-direction:column; 
+    height: 34px;
+    padding: 6px;
+    float: left;
+    font-size: 12px;
+    background-color: #f63;
+    border-radius: 7px;
+    margin: 7px 0;
+    text-align: center;
+    text-decoration: none;
+    flex-direction: column;
     justify-content: center;
     transition: .25s;
-}
-#largo:hover {
-    background-color: #F99;
+    &:hover {
+      background-color: #f99;
+    }
 }
 footer {
-    color: #FFF; 
+    color: #fff;
     transition: .25s;
-}
-footer:hover {
-    color: #000;
+    &:hover {
+      color: #000;
+    }
 }
 #menu-mobile {
-    height: 82px; 
-    margin: 7px 0; 
-    flex-direction: row; 
-    width: 408px; 
-    float: left; 
+    height: 82px;
+    margin: 7px 0;
+    flex-direction: row;
+    width: 408px;
+    float: left;
     justify-content: space-between;
 }
-
+  
 /* botões */
 #simbolo {
-    width: 82px; 
-    height: 82px; 
-    margin-right: 7px; 
-    background-image: url(images/simbolo.png); 
+    width: 82px;
+    height: 82px;
+    margin-right: 7px;
+    background-image: url(images/simbolo.png);
     transition: .25s;
-}
-#simbolo:hover {
-    background-image:url(images/simbolo_on.png);
+    &:hover {
+      background-image: url(images/simbolo_on.png);
+    }
 }
 #nearby {
     width: 82px; 
     height: 82px; 
     background-image: url(images/nearby.png); 
-    margin-right: 7px; 
+    margin-right: 7px;
     transition: .25s;
-}
-#nearby:hover {
-    background-image: url(images/nearby_on.png);
+    &:hover {
+      background-image: url(images/nearby_on.png);
+    }
 }
 #formulario {
-    width: 82px; 
-    height: 82px; 
-    background-image: url(images/form.png); 
-    margin-right: 7px; 
+    width: 82px;
+    height: 82px;
+    background-image: url(images/form.png);
+    margin-right: 7px;
     transition: .25s;
-}
-#formulario:hover {
-    background-image: url(images/form_on.png);
+    &:hover {
+      background-image: url(images/form_on.png);
+    }
 }
 #sobre {
-    width: 82px; 
-    height: 82px; 
-    background-image: url(images/sobre.png); 
+    width: 82px;
+    height: 82px;
+    background-image: url(images/sobre.png);
     transition: .25s;
+    &:hover {
+      background-image: url(images/sobre_on.png);
+    }
 }
-#sobre:hover {
-    background-image: url(images/sobre_on.png);
-}
-
+  
 /* design responsivo */
-@media only screen and (min-width: 414px)
-{
-    #menu-mobile {display: flex;}
-    #largo {display: none;}
+@media only screen and (min-width: 414px) {
+    #menu-mobile {
+      display: flex;
+    }
+    #largo {
+      display: none;
+    }
 }
-@media only screen and (min-width: 863px)
-{
-    #menu-mobile {display: none;}
-    #largo {display: flex; width: 823px;}
+@media only screen and (min-width: 863px) {
+    #menu-mobile {
+      display: none;
+    }
+    #largo {
+      display: flex;
+      width: 823px;
+    }
 }
-@media only screen and (min-width: 1270px)
-{
-    #largo {width: 1238px;}
+@media only screen and (min-width: 1270px) {
+    #largo {
+      width: 1238px;
+    }
 }

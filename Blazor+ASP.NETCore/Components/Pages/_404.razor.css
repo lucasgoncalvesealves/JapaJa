@@ -1,22 +1,26 @@
 span {
-    font: bold 18px 'Trebuchet MS';
-    color: #f63;
-    transition: .25s;
-}
-span:hover {
-  color: #f99;
+  font: bold 18px 'Trebuchet MS';
+  color: #f63;
+  transition: .25s;
+  &:hover {
+    color: #f99;
+  }
 }
 p {
-  margin-top: 14px;
+  margin: 14px 0 14px 0;
   font: 'Trebuchet MS' 14px;
+}
+ul {
+  padding-inline-start: 32px;
+  margin-bottom: 14px;
 }
 li {
   margin-bottom: 7px;
-}
-li::marker {
-  color: #f63;
-  transition: .25s;
-}
-li::marker:hover {
-  color: #f99;
+  &::marker {
+    color: #f63;
+    transition: .25s;
+    &:hover {
+      color: #f99;
+    }
+  }
 }

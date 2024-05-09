@@ -1,5 +1,5 @@
 #wrapper {
-    display:contents;
+    display: contents;
 }
 .propaganda {
     float: left; 
@@ -7,31 +7,31 @@
     border-radius: 7px; 
     display: flex; 
     overflow: hidden;
-}
-.propaganda img {
-    width: 408px; 
-    height: 193px; 
-    object-fit: cover; 
-    object-position: top left; 
-    transition: transform .5s ease;
-}
-.propaganda img:hover {
-    transform: scale(1.2);
+    & img {
+        width: 408px; 
+        height: 193px; 
+        object-fit: cover; 
+        object-position: top left; 
+        transition: transform .5s ease;
+        &:hover {
+        transform: scale(1.2);
+        }
+    }
 }
 
 /* design responsivo */
-@media only screen and (min-width: 414px) { 
+@media only screen and (min-width: 414px) {
     #wrapper {
         width: 364px;
-    } 
+    }
 }
-@media only screen and (min-width: 863px) { 
+@media only screen and (min-width: 863px) {
     #wrapper {
         width: 779px;
-    } 
+    }
 }
-@media only screen and (min-width: 1270px) { 
+@media only screen and (min-width: 1270px) {
     #wrapper {
         width: 1194px;
-    } 
+    }
 }

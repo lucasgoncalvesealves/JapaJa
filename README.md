@@ -12,7 +12,7 @@ Converter o site em uma aplicação de página única, de quatro formas diferent
 * Vue.js + Vite.js; **[CONCLUÍDO]**
 * Blazor + ASP.NET Core; **[CONCLUÍDO]**
 * React.js + Next.js; **[CONCLUÍDO]**
-* Angular + Framework a definir.
+* Angular.
 
 ### Parte 3: 
 Implementar o mecanismo de busca, de três formas diferentes: Node.js, ASP.NET Core e Laravel.

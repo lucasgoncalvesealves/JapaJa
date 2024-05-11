@@ -38,6 +38,27 @@ export default function TheContactForm()
             form {
               margin-top: 40px;
             }
+            label {
+              margin-bottom: 15px;
+              font: 14px 'Trebuchet MS';
+            }
+            input,
+            select {
+              background-color: #ccc;
+              margin: 0 15px 5px 5px;
+              padding-left: 5px;
+              height: 25px;
+              font-family: 'Trebuchet MS';
+              transition: .25s;
+            }
+            textarea {
+              background-color: #ccc;
+              margin-left: 5px;
+              transition: .25s;
+            }
+            input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
+              background-color:#F99;
+            }
             #contato {
               display: flex;
               width: 100%;

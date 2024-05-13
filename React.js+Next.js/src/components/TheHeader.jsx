@@ -55,7 +55,7 @@ export default function TheHeader()
         #digitar {
             height: 82px;
             text-align: center;
-            margin-right: 3px;
+            margin-right: 7px;
             padding-left: 7px;
             border-radius: 7px;
             background-color: #f63;
@@ -66,7 +66,7 @@ export default function TheHeader()
             & input {
                 border: none;
                 height: 40px;
-                margin-top: 20px;
+                margin: 20px 20px auto 10px;
                 padding-left: 10px;
                 font: normal 18px 'Trebuchet MS';
                 background-color: #fff;

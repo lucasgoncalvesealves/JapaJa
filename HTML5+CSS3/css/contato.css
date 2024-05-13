@@ -1,0 +1,168 @@
+/* tags gerais */
+body {
+    font: 14px 'Trebuchet MS'; 
+    background-color: #FFF;
+}
+h1 {
+    font: normal 40px 'GalaBold'; 
+    float: left; 
+    width: auto; 
+    color: #F63; 
+    padding-right: 20px; 
+    margin: 0; 
+    transition: .25s;
+    &:hover {
+        color: #F99;
+    }
+}
+
+/* box de conteúdo */
+#conteudo {
+    height: auto; 
+    padding: 20px; 
+    text-align: left; 
+    margin-top: 7px; 
+    background-color: #FFF; 
+    border: 3px solid #F63; 
+    border-radius: 7px; 
+    transition: .25s;
+    &:hover {
+        border: 3px solid #F99;
+    }
+    & p {
+        font: 14px 'Trebuchet MS';
+    }
+    & form {
+        margin-top: 40px;
+    }
+}
+#subheader {
+    width: 100%; 
+    height: 73px; 
+    margin-bottom: 15px; 
+    display: flex; 
+    justify-content: space-between;
+}
+#voltar {
+    width: 82px; 
+    height: 30px; 
+    background-image: url(../img/voltar.png); 
+    background-size: cover; 
+    transition: .25s;
+    &:hover {
+        background-image: url(../img/voltar_on.png);
+    }
+}
+
+/* formulário de contato */
+label {
+    margin-bottom: 15px;
+    font: 14px 'Trebuchet MS';
+}
+input, select {
+    background-color: #ccc;
+    margin: 0 15px 5px 5px;
+    padding-left: 5px;
+    height: 25px;
+    font-family: 'Trebuchet MS';
+    transition: .25s;
+}
+textarea {
+    background-color: #ccc;
+    margin-left: 5px;
+    transition: .25s;
+}
+input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
+    background-color:#F99;
+}
+#contato {
+    display: flex;
+    width: 100%;
+    & label {
+      display: inline-block;
+      width: 80px;
+    }
+}
+#nome, #email, #cliente {
+    margin-left: 1px;
+}
+#area-texto {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#enviar {
+    width: 82px;
+    height: 82px;
+    background-image: url(../img/enviar.png);
+    border: none;
+    margin-left: 30px;
+    transition: .25s;
+    &:hover {
+      background-image: url(../img/enviar_on.png);
+    }
+}
+
+/* incorporando a fonte Gala Bold */
+@font-face 
+{
+    font-family: 'GalaBold';
+    src: url('../font/gala_bold-webfont.eot');
+    src: url('../font/gala_bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../font/gala_bold-webfont.woff') format('woff'),
+         url('../font/gala_bold-webfont.ttf') format('truetype'),
+         url('../font/gala_bold-webfont.svg#GalaRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* design responsivo */
+@media only screen and (min-width: 414px)
+{
+    #conteudo {
+        width: 362px;
+    }
+    #contato {
+        flex-direction: column;
+        & div {
+        width: auto;
+        }
+    }
+    .tamanho {
+        width: 248px;
+    }
+    #botao-submit {
+        margin-top: 10px;
+        text-align: right;
+    }
+}
+@media only screen and (min-width: 863px)
+{
+    #conteudo {
+        width: 778px;
+    }
+    #contato {
+        flex-direction: row;
+    }
+    .tamanho {
+        width: 222px;
+    }
+}
+@media only screen and (min-width: 1270px)
+{
+    #conteudo {
+        width: 1193px;
+    }
+    #contato {
+        flex-direction: row;
+        & div {
+          width: 500px;
+        }
+    }
+    .tamanho {
+        width: 270px;
+    }
+    #botao-submit {
+        text-align: left;
+    }
+}

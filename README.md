@@ -12,7 +12,9 @@ Converter o site em uma aplicação de página única, de quatro formas diferent
 * Vue.js + Vite.js; **[CONCLUÍDO]**
 * Blazor + ASP.NET Core; **[CONCLUÍDO]**
 * React.js + Next.js; **[CONCLUÍDO]**
-* Angular.
+* Angular. **[CONCLUÍDO]**
 
 ### Parte 3: 
-Implementar o mecanismo de busca, de três formas diferentes: Node.js, ASP.NET Core e Laravel.
+Implementar o mecanismo de busca, o que consiste em:
+* Criar um banco de dados em nuvem com uma base de dados significativa;
+* Criar uma API que faça a ponte entre o banco de dados e a interface gráfica.

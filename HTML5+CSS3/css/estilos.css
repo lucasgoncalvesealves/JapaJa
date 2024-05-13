@@ -303,7 +303,7 @@ a footer {
         width: 248px;
     }
     #botao-submit {
-        margin-top: 10px; 
+        margin: 10px 15px 5px auto;
         text-align: right;
     }
     #instrucoes {

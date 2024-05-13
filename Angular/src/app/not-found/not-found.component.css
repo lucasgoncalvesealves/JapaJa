@@ -1,0 +1,24 @@
+span {
+    font: bold 18px 'Trebuchet MS';
+    color: #f63;
+    transition: .25s;
+    &:hover {
+      color: #f99;
+    }
+}
+p, ul {
+    font: normal 14px 'Trebuchet MS';
+}
+ul {
+    padding-inline-start: 32px;
+}
+li {
+    margin-bottom: 7px;
+    &::marker {
+        color: #f63;
+        transition: .25s;
+        &:hover {
+        color: #f99;
+        }
+    }
+}

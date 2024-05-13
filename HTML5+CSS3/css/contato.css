@@ -59,9 +59,9 @@ label {
     margin-bottom: 15px;
     font: 14px 'Trebuchet MS';
 }
-input, select {
+#nome, #email, #cliente {
     background-color: #ccc;
-    margin: 0 15px 5px 5px;
+    margin: 0 15px 5px 1px;
     padding-left: 5px;
     height: 25px;
     font-family: 'Trebuchet MS';
@@ -82,9 +82,6 @@ input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
       display: inline-block;
       width: 80px;
     }
-}
-#nome, #email, #cliente {
-    margin-left: 1px;
 }
 #area-texto {
     display: flex;

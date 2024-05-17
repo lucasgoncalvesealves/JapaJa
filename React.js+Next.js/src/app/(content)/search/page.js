@@ -2,7 +2,7 @@ import TheSearch from "@/components/TheSearch";
 import SearchEffects from "./effects";
 
 export const metadata = {
-  title: 'Sobre',
+  title: 'Resultados',
 };
 
 export default function About() {

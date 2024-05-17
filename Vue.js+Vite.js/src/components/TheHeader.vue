@@ -4,17 +4,17 @@
   <header id="completo">
     <RouterLink to="/"><div id="simbolo"></div></RouterLink>
     <RouterLink to="/"><div id="logotipo"></div></RouterLink>
-    <form id="buscaAmplo">
-      <div id="digitar"><input type="text" value="buscar já!" /></div>
-      <input type="submit" id="pesquisa" value="" href="#" />
+    <form id="buscaAmplo" action="/search" method="get" role="search">
+      <div id="digitar"><input type="text" placeholder="buscar já!" name="japa"  /></div>
+      <input type="submit" id="pesquisa" value="" />
     </form>
     <div id="nearby" href="#" alt="Por Perto"></div>
-    <RouterLink to="/contact"><div id="formulario" href="../views/contato"></div></RouterLink>
+    <RouterLink to="/contact"><div id="formulario"></div></RouterLink>
   </header>
   <header id="reduzido">
-    <form id="buscaReduz">
-      <div id="digitar"><input type="text" value="buscar já!" /></div>
-      <input type="submit" id="pesquisa" value="" href="#" />
+    <form id="buscaReduz" action="/search" method="get" role="search">
+      <div id="digitar"><input type="text" placeholder="buscar já!" name="japa"  /></div>
+      <input type="submit" id="pesquisa" value="" />
     </form>
   </header>
 </template>

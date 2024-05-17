@@ -1,16 +1,16 @@
 <header id="completo">
     <a routerLink="/" id="simbolo"></a>
     <a routerLink="/" id="logotipo"></a>
-    <form id="buscaAmplo">
-        <div id="digitar"><input type="text" value="buscar já!" /></div>
-        <input type="submit" id="pesquisa" value="" href="#" />
+    <form id="buscaAmplo" action="/search" method="get" role="search">
+        <div id="digitar"><input type="text" placeholder="buscar já!" name="japa" /></div>
+        <input type="submit" id="pesquisa" value="" />
     </form>
     <a id="nearby" href="#" alt="Por Perto"></a>
     <a routerLink="/contact" id="formulario"></a>
 </header>
 <header id="reduzido">
-    <form id="buscaReduz">
-        <div id="digitar"><input type="text" value="buscar já!" /></div>
-        <input type="submit" id="pesquisa" value="" href="#" />
+    <form id="buscaReduz" action="/search" method="get" role="search">
+        <div id="digitar"><input type="text" placeholder="buscar já!" name="japa" /></div>
+        <input type="submit" id="pesquisa" value="" />
     </form>
 </header>

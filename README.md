@@ -15,4 +15,4 @@ Converter o site em uma aplicação de página única, de quatro formas diferent
 * Angular. **[CONCLUÍDO]**
 
 ### Parte 3: 
-Implementar o mecanismo de pesquisa programável do Google à aplicação, adaptando suas configurações a seu escopo, e sua aparência, a seu projeto gráfico.
+Implementar o mecanismo de pesquisa programável do Google à aplicação.

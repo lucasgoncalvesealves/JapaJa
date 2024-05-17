@@ -2,7 +2,7 @@ import TheNearby from "@/components/TheSearch";
 import NearbyEffects from "./effects";
 
 export const metadata = {
-  title: 'Sobre',
+  title: 'Por Perto',
 };
 
 export default function About() {

@@ -4,6 +4,7 @@ import { TheContainerComponent } from './the-container/the-container.component';
 import { TheInstructionsComponent } from './the-instructions/the-instructions.component';
 import { TheContactFormComponent } from './the-contact-form/the-contact-form.component';
 import { NotFoundComponent } from './not-found/not-found.component';
+import { TheSearchComponent } from './the-search/the-search.component';
 
 export const routes: Routes = [
     { path: '', 
@@ -22,6 +23,11 @@ export const routes: Routes = [
           {
             path: 'contact',
             component: TheContactFormComponent,
+            title: 'JAPA JÁ | Contato'
+          },
+          {
+            path: 'search',
+            component: TheSearchComponent,
             title: 'JAPA JÁ | Contato'
           },
           {

@@ -8,7 +8,7 @@
       <div id="digitar"><input type="text" placeholder="buscar já!" name="japa" /></div>
       <input type="submit" id="pesquisa" value="" />
     </form>
-    <div id="nearby" href="#" alt="Por Perto"></div>
+    <RouterLink to="/nearby"><div id="nearby" alt="Por Perto"></div></RouterLink>
     <RouterLink to="/contact"><div id="formulario"></div></RouterLink>
   </header>
   <header id="reduzido">

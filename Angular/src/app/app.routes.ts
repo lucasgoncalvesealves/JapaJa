@@ -5,6 +5,7 @@ import { TheInstructionsComponent } from './the-instructions/the-instructions.co
 import { TheContactFormComponent } from './the-contact-form/the-contact-form.component';
 import { NotFoundComponent } from './not-found/not-found.component';
 import { TheSearchComponent } from './the-search/the-search.component';
+import { TheNearbyComponent } from './the-nearby/the-nearby.component';
 
 export const routes: Routes = [
     { path: '', 
@@ -28,7 +29,12 @@ export const routes: Routes = [
           {
             path: 'search',
             component: TheSearchComponent,
-            title: 'JAPA JÁ | Contato'
+            title: 'JAPA JÁ | Resultados'
+          },
+          {
+            path: 'nearby',
+            component: TheNearbyComponent,
+            title: 'JAPA JÁ | Por Perto'
           },
           {
             path: '**',

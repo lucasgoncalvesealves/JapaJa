@@ -1,0 +1,18 @@
+@inherits LayoutComponentBase
+@layout TheContainer
+@page "/nearby"
+@page "/porperto"
+
+<PageTitle>JAPA JÁ | Por Perto</PageTitle>
+
+<div class="gcse-searchresults-only"></div>
+
+@code
+{
+  [CascadingParameter]
+  public TheContainer Container { get; set; }
+  protected override void OnInitialized()
+  {
+    Container.Title = "Por Perto";
+  }
+}

@@ -1,0 +1,18 @@
+@inherits LayoutComponentBase
+@layout TheContainer
+@page "/search"
+@page "/results"
+
+<PageTitle>JAPA JÁ | Resultados</PageTitle>
+
+<div class="gcse-searchresults-only"></div>
+
+@code
+{
+  [CascadingParameter]
+  public TheContainer Container { get; set; }
+  protected override void OnInitialized()
+  {
+    Container.Title = "Resultados";
+  }
+}

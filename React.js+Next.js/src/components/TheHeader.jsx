@@ -14,7 +14,7 @@ export default function TheHeader()
           <div id="digitar"><input type="text" placeholder="buscar já!" name="japa" /></div>
           <input type="submit" id="pesquisa" value="" />
           </form>
-          <div id="nearby" alt="Por Perto"></div>
+          <Link href="/nearby"><div id="nearby" alt="Por Perto"></div></Link>
           <Link href="/contact"><div id="formulario"></div></Link>
       </header>
       <header id="reduzido">

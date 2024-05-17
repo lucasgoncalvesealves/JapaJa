@@ -9,7 +9,7 @@ export default function TheFooter()
     <>
         <footer id="menu-mobile">
             <Link href="/"><div id="simbolo" alt="Página Inicial"></div></Link>
-            <div id="nearby" href="#" alt="Por Perto"></div>
+            <Link href="/nearby"><div id="nearby" href="#" alt="Por Perto"></div></Link>
             <Link href="/contact"><div id="formulario"  alt="Contato"></div></Link>
             <Link href="/about"><div id="sobre" alt="Sobre"></div></Link>
         </footer>

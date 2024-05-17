@@ -4,6 +4,7 @@ import TheContainer from '@/components/TheContainer.vue'
 import TheInstructions from '@/components/TheInstructions.vue'
 import TheContactForm from '@/components/TheContactForm.vue'
 import NotFound from '@/components/NotFound.vue'
+import TheSearch from '@/components/TheSearch.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -30,6 +31,12 @@ const router = createRouter({
           alias: 'contato',
           meta: { title: 'JAPA JÁ | Contato' },
           component: TheContactForm
+        },
+        {
+          path: 'search',
+          alias: 'results',
+          meta: { title: 'JAPA JÁ | Resultados' },
+          component: TheSearch
         },
         {
           path: '/:pathMatch(.*)*',

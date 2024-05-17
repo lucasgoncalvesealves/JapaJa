@@ -2,11 +2,11 @@
 
 import React from "react";
 
-export default function TheInstructions()
+export default function TheSearch()
 {
   return (
     <>
-        <div class="gcse-searchresults-only"></div>
+      <div class="gcse-searchresults-only"></div>
     </>
   )
 }

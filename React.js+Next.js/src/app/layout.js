@@ -15,8 +15,8 @@ export default function RootLayout({ children }) {
       <body>
         <TheHeader />
         {children}
-        <TheFooter />
         <script async src="https://cse.google.com/cse.js?cx=d38731f1cf69b44da"></script>
+        <TheFooter />
       </body>
     </html>
   );

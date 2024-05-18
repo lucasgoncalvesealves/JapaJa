@@ -11,7 +11,7 @@ export default function TheHeader()
           <Link href="/"><div id="simbolo"></div></Link>
           <Link href="/"><div id="logotipo"></div></Link>
           <form id="buscaAmplo" action="/search" method="get" role="search">
-          <div id="digitar"><input type="text" placeholder="buscar já!" name="japa" /></div>
+          <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
           <input type="submit" id="pesquisa" value="" />
           </form>
           <Link href="/nearby"><div id="nearby" alt="Por Perto"></div></Link>
@@ -19,7 +19,7 @@ export default function TheHeader()
       </header>
       <header id="reduzido">
           <form id="buscaReduz" action="/search" method="get" role="search">
-          <div id="digitar"><input type="text" placeholder="buscar já!" name="japa" /></div>
+          <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
           <input type="submit" id="pesquisa" value="" />
           </form>
       </header>

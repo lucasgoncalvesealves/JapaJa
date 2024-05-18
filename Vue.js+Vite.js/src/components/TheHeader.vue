@@ -5,7 +5,7 @@
     <RouterLink to="/"><div id="simbolo"></div></RouterLink>
     <RouterLink to="/"><div id="logotipo"></div></RouterLink>
     <form id="buscaAmplo" action="/search" method="get" role="search">
-      <div id="digitar"><input type="text" placeholder="buscar já!" name="japa" /></div>
+      <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
       <input type="submit" id="pesquisa" value="" />
     </form>
     <RouterLink to="/nearby"><div id="nearby" alt="Por Perto"></div></RouterLink>
@@ -13,7 +13,7 @@
   </header>
   <header id="reduzido">
     <form id="buscaReduz" action="/search" method="get" role="search">
-      <div id="digitar"><input type="text" placeholder="buscar já!" name="japa" /></div>
+      <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
       <input type="submit" id="pesquisa" value="" />
     </form>
   </header>

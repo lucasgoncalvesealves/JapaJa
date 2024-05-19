@@ -1,11 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
 import TheContainer from '@/components/TheContainer.vue'
 import TheInstructions from '@/components/TheInstructions.vue'
 import TheContactForm from '@/components/TheContactForm.vue'
 import NotFound from '@/components/NotFound.vue'
 import TheSearch from '@/components/TheSearch.vue'
 import TheNearby from '@/components/TheNearby.vue'
+import ThePropaganda from '@/components/ThePropaganda.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -14,7 +14,7 @@ const router = createRouter({
       path: '/',
       name: 'home',
       meta: { title: 'JAPA JÁ | Home' },
-      component: HomeView
+      component: ThePropaganda
     },
     {
       path: '/',
@@ -25,7 +25,7 @@ const router = createRouter({
           path: 'about',
           alias: 'sobre',
           meta: { title: 'JAPA JÁ | Sobre' },
-          component: TheInstructions,
+          component: TheInstructions
         },
         {
           path: 'contact',

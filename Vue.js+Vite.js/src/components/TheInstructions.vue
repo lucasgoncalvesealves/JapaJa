@@ -30,6 +30,7 @@ export default {
         Caso você seja consumidor, use este mesmo formulário para dúvidas, elogios, críticas e
         sugestões.
       </p>
+      <p>E você pode voltar à página inicial a qualquer momento através do símbolo ou do logotipo.</p>
       <p>Boa procura... e bom apetite!</p>
     </div>
     <div id="logos">
@@ -40,62 +41,62 @@ export default {
 </template>
 
 <style scoped>
-p {
-  font: 14px 'Trebuchet MS';
-}
 #instrucoes {
-  display: flex;
+    display: flex;
 }
 #logos {
-  display: flex;
-  & img {
-    width: 125px;
-    height: 125px;
-    object-fit: contain;
-  } 
+    display: flex;
+    & img {
+        width: 125px; 
+        height: 125px; 
+        object-fit: contain;
+    }
 }
 
 /* design responsivo */
-@media only screen and (min-width: 414px) {
-  #instrucoes {
-    flex-direction: column;
-  }
-  #logos {
-    margin: 20px auto 10px auto; 
-    flex-direction: row;
-    & img {
-      margin: 0 20px;
+@media only screen and (min-width: 414px)
+{
+    #instrucoes {
+        flex-direction: column;
     }
-  }
+    #logos {
+        margin: 25px auto 10px auto; 
+        flex-direction: row;
+        & img {
+            margin: 0 20px;
+        }
+    }
 }
-@media only screen and (min-width: 863px) {
-  #instrucoes {
-    flex-direction: row;
-  }
-  #paragrafos {
-    width: 500px;
-  }
-  #logos {
-    margin: auto 0 auto auto; 
-    flex-direction: column;
-    & img {
-      margin: 10px 0;
+@media only screen and (min-width: 863px)
+{
+    #instrucoes {
+        flex-direction: row;
     }
-  }
+    #paragrafos {
+        width: 500px;
+    }
+    #logos {
+        margin: auto 0 auto auto; 
+        flex-direction: column;
+        & img {
+            margin: 10px 0;
+        }
+    }
 }
-@media only screen and (min-width: 1270px) {
-  #instrucoes {
-    flex-direction: row;
-    & div {
-      width: auto;
+@media only screen and (min-width: 1270px)
+{
+    #instrucoes {
+        flex-direction: row;
+        & div {
+            width: auto;
+        }
     }
-  }
-  #logos {
-    text-align: right; 
-    flex-direction: row;
-    & img {
-      margin: 0 10px;
+    #logos {
+        text-align: right; 
+        flex-direction: row;
+        & img {
+            margin: 0 5px;
+        }
     }
-  }
 }
 </style>

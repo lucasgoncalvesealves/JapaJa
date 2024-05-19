@@ -1,6 +1,5 @@
 body {
-    font: 14px 'Trebuchet MS'; 
-    background-color: #FFF;
+    overflow: hidden;
 }
 h1 {
     font: normal 40px 'GalaBold'; 
@@ -14,7 +13,7 @@ h1 {
         color: #F99;
     }
 }
-#conteudo {
+#container {
     height: auto; 
     text-align: left; 
     background-color: #FFF; 
@@ -57,28 +56,35 @@ h1 {
 /* design responsivo */
 @media only screen and (min-width: 414px)
 {
-    #conteudo {
-        width: 397px;
-        margin-top: 96px;
-        padding: 10px;
+    #wrapper {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
     }
-}
-@media only screen and (min-width: 863px)
-{
-    #conteudo {
-        width: 778px;
-        margin-top: 7px;
+    #container {
+        width: 362px;
         border: 3px solid #F63; 
         border-radius: 7px;
+        overflow: auto;
+        height: 100%;
+        margin: 89px 0 8px 0;
         padding: 20px;
         &:hover {
             border: 3px solid #F99;
         }
     }
 }
+@media only screen and (min-width: 863px)
+{
+    #container {
+        width: 778px;
+        height: auto;
+        margin: 7px 0 0 0;
+    }
+}
 @media only screen and (min-width: 1270px)
 {
-    #conteudo {
+    #container {
         width: 1193px;
     }
 }

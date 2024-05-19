@@ -1,0 +1,11 @@
+body {
+    font: 14px 'Trebuchet MS'; 
+    background-color: #FFF;
+    margin: 0;
+    padding: 7px;
+}
+#wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}

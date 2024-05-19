@@ -74,6 +74,7 @@
   }
   a footer {
       color: #FFF;
+      transition: .25s;
       &:hover {
           color: #000;
       }

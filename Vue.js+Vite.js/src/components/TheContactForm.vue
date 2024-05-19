@@ -121,7 +121,7 @@ input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
         }
     }
     .tamanho {
-        width: 270px;
+        width: 260px;
     }
     #botao-submit {
         text-align: left;

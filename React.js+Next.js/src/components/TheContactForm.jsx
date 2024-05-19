@@ -35,92 +35,93 @@ export default function TheContactForm()
         </form>
 
         <style jsx>{`
-            form {
-              margin-top: 40px;
+          label {
+            margin-bottom: 15px;
+            font: 14px 'Trebuchet MS';
+          }
+          #nome, #email, #cliente {
+            background-color: #ccc;
+            margin: 0 15px 5px 1px;
+            padding-left: 5px;
+            height: 25px;
+            font-family: 'Trebuchet MS';
+            transition: .25s;
+          }
+          textarea {
+            background-color: #ccc;
+            margin-left: 5px;
+            transition: .25s;
+          }
+          input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
+            background-color:#F99;
+          }
+          #contato {
+            display: flex;
+            width: 100%;
+            margin-top: 25px;
+            & label {
+              display: inline-block;
+              width: 80px;
             }
-            label {
-              margin-bottom: 15px;
-              font: 14px 'Trebuchet MS';
+          }
+          #area-texto {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+          }
+          #enviar {
+            width: 82px;
+            height: 82px;
+            background-image: url(/enviar.png);
+            border: none;
+            margin-left: 30px;
+            transition: .25s;
+            &:hover {
+              background-image: url(/enviar_on.png);
             }
-            input,
-            select {
-              background-color: #ccc;
-              margin: 0 15px 5px 5px;
-              padding-left: 5px;
-              height: 25px;
-              font-family: 'Trebuchet MS';
-              transition: .25s;
-            }
-            textarea {
-              background-color: #ccc;
-              margin-left: 5px;
-              transition: .25s;
-            }
-            input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
-              background-color:#F99;
-            }
+          }
+        
+          /* design responsivo */
+          @media only screen and (min-width: 414px)
+          {
             #contato {
-              display: flex;
-              width: 100%;
-              & label {
-                display: inline-block;
-                width: 80px;
+              flex-direction: column;
+              & div {
+              width: auto;
               }
             }
-            #area-texto {
-              display: flex;
+            .tamanho {
+              width: 248px;
+            }
+            #botao-submit {
+              margin-top: 20px;
+              text-align: right;
+            }
+          }
+          @media only screen and (min-width: 863px)
+          {
+            #contato {
               flex-direction: row;
-              align-items: center;
             }
-            #enviar {
-              width: 82px;
-              height: 82px;
-              background-image: url(/enviar.png);
-              border: none;
-              margin-left: 30px;
-              transition: .25s;
-              &:hover {
-                background-image: url(/enviar_on.png);
-              }
+            .tamanho {
+              width: 222px;
             }
-            /* design responsivo */
-            @media only screen and (min-width: 414px) {
-              #contato {
-                flex-direction: column;
-                & div {
-                width: auto;
-                }
-              }
-              .tamanho {
-                width: 248px;
-              }
-              #botao-submit {
-                margin-top: 10px;
-                text-align: right;
+          }
+          @media only screen and (min-width: 1270px)
+          {
+            #contato {
+              flex-direction: row;
+              & div {
+                width: 500px;
               }
             }
-            @media only screen and (min-width: 863px) {
-              #contato {
-                flex-direction: row;
-              }
-              .tamanho {
-                width: 222px;
-              }
+            .tamanho {
+              width: 270px;
             }
-            @media only screen and (min-width: 1270px) {
-              #contato {
-                flex-direction: row;
-                & div {
-                  width: 500px;
-                }
-              }
-              .tamanho {
-                width: 270px;
-              }
-              #botao-submit {
-                text-align: left;
-              }
+            #botao-submit {
+              text-align: left;
             }
+          }
         `}</style>
     </>
   )

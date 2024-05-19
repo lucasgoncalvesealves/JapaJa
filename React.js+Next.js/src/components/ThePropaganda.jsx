@@ -6,7 +6,7 @@ export default function ThePropaganda()
 {
   return (
     <>
-        <div id="wrapper">
+        <div id="promocoes">
             <div className="propaganda"><img src="/geisha.png" /></div>
             <div className="propaganda"><img src="/ie.png" /></div>
             <div className="propaganda"><img src="/konistore.png" /></div>
@@ -22,9 +22,6 @@ export default function ThePropaganda()
         </div>
 
         <style jsx>{`
-            #wrapper {
-                display: contents;
-            }
             .propaganda {
                 float: left; 
                 margin: 7px 7px 0 0; 
@@ -42,20 +39,23 @@ export default function ThePropaganda()
                     }
                 }
             }
-            
+        
             /* design responsivo */
             @media only screen and (min-width: 414px) {
-                #wrapper {
+                #promocoes {
                     width: 364px;
+                    margin: 88px 0 80px 0;
                 }
             }
             @media only screen and (min-width: 863px) {
-                #wrapper {
+                #promocoes {
                     width: 779px;
+                    margin: 0;
+                    display: contents;
                 }
             }
             @media only screen and (min-width: 1270px) {
-                #wrapper {
+                #promocoes {
                     width: 1194px;
                 }
             }

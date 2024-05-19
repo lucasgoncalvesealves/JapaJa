@@ -1,17 +1,15 @@
 <script>
-export default {
-  methods: {
-    defineTitle() {
-      this.$emit('define-title', 'Erro 404')
+  import TheSubheader from "./TheSubheader.vue";
+  export default {
+    name: "NotFound",
+    components: {
+      TheSubheader
     }
-  },
-  beforeMount() {
-    this.defineTitle()
   }
-}
 </script>
 
 <template>
+  <TheSubheader title="Erro 404" />
   <span>A página que você procura não existe.</span>
   <p>Ela pode ter sido movida ou removida do sistema.</p>
   <ul>
@@ -36,7 +34,8 @@ span {
   }
 }
 p {
-  font: 'Trebuchet MS' 14px;
+  font: 14px 'Trebuchet MS';
+  padding-top: 12px;
 }
 ul {
   padding-inline-start: 32px;

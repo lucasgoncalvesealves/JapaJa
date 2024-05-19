@@ -1,16 +1,14 @@
 <script>
-export default {
-  methods: {
-    defineTitle() {
-      this.$emit('define-title', 'Resultados')
+  import TheSubheader from "./TheSubheader.vue";
+  export default {
+    name: "TheSearch",
+    components: {
+      TheSubheader
     }
-  },
-  beforeMount() {
-    this.defineTitle()
   }
-}
 </script>
 
 <template>
+  <TheSubheader title="Resultados" />
     <div class="gcse-searchresults-only"></div>
 </template>

@@ -21,7 +21,7 @@
 
 <style scoped>
 header {
-    width: 100%; 
+    width: 100%;
     & form {
         display: flex;
     }
@@ -101,11 +101,11 @@ header {
     }
 }
 #reduzido {
+    top: 0;
+    padding: 7px;
+    background-color: #FFF;
     position: fixed;
     z-index: 1;
-    top: 0;
-    padding: 7px 0;
-    background-color: #FFF;
 }
 #completo {
     height: 82px;

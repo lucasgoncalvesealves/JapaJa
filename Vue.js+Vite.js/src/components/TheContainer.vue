@@ -1,42 +1,11 @@
-<script>
-export default {
-  data() {
-    return {
-      title: ''
-    }
-  },
-  methods: {
-    receiveTitle(title) {
-      this.title = title
-    }
-  }
-}
-</script>
-
 <template>
-  <div id="conteudo">
-    <header id="subheader">
-      <h1>{{ title }}</h1>
-      <a id="voltar" href="javascript:history.go(-1)"></a>
-    </header>
-    <RouterView @define-title="receiveTitle" />
+  <div id="container">
+    <RouterView />
   </div>
 </template>
 
 <style>
-h1 {
-    font: normal 40px 'GalaBold'; 
-    float: left; 
-    width: auto; 
-    color: #F63; 
-    padding-right: 20px; 
-    margin: 0; 
-    transition: .25s;
-    &:hover {
-        color: #F99;
-    }
-}
-#conteudo {
+#container {
     height: auto; 
     text-align: left; 
     background-color: #FFF; 
@@ -79,28 +48,44 @@ h1 {
 /* design responsivo */
 @media only screen and (min-width: 414px)
 {
-    #conteudo {
-        width: 397px;
-        margin-top: 96px;
-        padding: 10px;
-    }
-}
-@media only screen and (min-width: 863px)
-{
-    #conteudo {
-        width: 778px;
-        margin-top: 7px;
+    #container {
+        width: 362px;
         border: 3px solid #F63; 
         border-radius: 7px;
+        overflow: auto;
+        height: 100%;
+        margin: 96px 0 0 7px;
         padding: 20px;
         &:hover {
             border: 3px solid #F99;
         }
+        &::-webkit-scrollbar {
+            width: 10px;
+        }
+        &::-webkit-scrollbar-track {
+            border-radius: 10px;
+            background: #FFF;
+        } 
+        &::-webkit-scrollbar-thumb {
+            border-radius: 10px;
+            background: #CCC;
+        }
+        &::-webkit-scrollbar-thumb:hover {
+            background: #AAA; 
+        }
+    }
+}
+@media only screen and (min-width: 863px)
+{
+    #container {
+        width: 777px;
+        height: auto;
+        margin: 7px 0 0 0;
     }
 }
 @media only screen and (min-width: 1270px)
 {
-    #conteudo {
+    #container {
         width: 1193px;
     }
 }

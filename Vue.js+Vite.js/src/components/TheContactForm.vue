@@ -1,17 +1,15 @@
 <script>
-export default {
-  methods: {
-    defineTitle() {
-      this.$emit('defineTitle', 'Contato')
+  import TheSubheader from "./TheSubheader.vue";
+  export default {
+    name: "TheContactForm",
+    components: {
+      TheSubheader
     }
-  },
-  beforeMount() {
-    this.defineTitle()
   }
-}
 </script>
 
 <template>
+  <TheSubheader title="Contato" />
   <p>
     Se você é dono de um estabelecimento, você pode anunciá-lo neste site! Se você é consumidor,
     você pode enviar dúvidas, elogios, críticas e sugestões.
@@ -48,7 +46,7 @@ label {
 }
 #nome, #email, #cliente {
     background-color: #ccc;
-    margin: 0 15px 5px 1px;
+    margin: 0 15px 5px 4px;
     padding-left: 5px;
     height: 25px;
     font-family: 'Trebuchet MS';
@@ -79,12 +77,12 @@ input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
 #enviar {
     width: 82px;
     height: 82px;
-    background-image: url(../assets/enviar.png);
+    background-image: url(../img/enviar.png);
     border: none;
     margin-left: 30px;
     transition: .25s;
     &:hover {
-      background-image: url(../assets/enviar_on.png);
+      background-image: url(../img/enviar_on.png);
     }
 }
 
@@ -98,7 +96,7 @@ input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
         }
     }
     .tamanho {
-        width: 248px;
+        width: 235px;
     }
     #botao-submit {
         margin-top: 20px;

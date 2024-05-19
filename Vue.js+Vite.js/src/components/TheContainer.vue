@@ -24,10 +24,6 @@ export default {
 </template>
 
 <style>
-body {
-    font: 14px 'Trebuchet MS'; 
-    background-color: #FFF;
-}
 h1 {
     font: normal 40px 'GalaBold'; 
     float: left; 

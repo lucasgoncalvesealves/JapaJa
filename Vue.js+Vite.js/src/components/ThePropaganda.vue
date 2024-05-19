@@ -47,6 +47,7 @@
 {
     #promocoes {
         margin-top: 0;
+        padding-left: 0;
     }
 }
 </style>

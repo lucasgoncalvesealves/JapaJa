@@ -1,18 +1,18 @@
 label {
-  margin-bottom: 15px; 
+  margin-bottom: 15px;
   font: 14px 'Trebuchet MS';
 }
-input, select {
-  background-color:#CCC; 
-  margin: 0 15px 5px 5px; 
+#nome, #email, #cliente {
+  background-color: #ccc;
+  margin: 0 15px 5px 1px;
   padding-left: 5px;
-  height: 28px; 
-  font-family: 'Trebuchet MS'; 
+  height: 28px;
+  font-family: 'Trebuchet MS';
   transition: .25s;
 }
 textarea {
-  background-color:#CCC; 
-  margin-left: 5px; 
+  background-color: #ccc;
+  margin-left: 5px;
   transition: .25s;
 }
 input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
@@ -21,7 +21,7 @@ input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
 #contato {
   display: flex;
   width: 100%;
-  padding-top: 25px;
+  margin-top: 25px;
   & label {
     display: inline-block;
     width: 80px;
@@ -43,41 +43,45 @@ input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
     background-image: url(images/enviar_on.png);
   }
 }
+
 /* design responsivo */
-@media only screen and (min-width: 414px) {
+@media only screen and (min-width: 414px)
+{
   #contato {
-    flex-direction: column;
-    & div {
-    width: auto;
-    }
+      flex-direction: column;
+      & div {
+      width: auto;
+      }
   }
   .tamanho {
-    width: 248px;
+      width: 248px;
   }
   #botao-submit {
-    margin-top: 10px;
-    text-align: right;
+      margin-top: 20px;
+      text-align: right;
   }
 }
-@media only screen and (min-width: 863px) {
+@media only screen and (min-width: 863px)
+{
   #contato {
-    flex-direction: row;
+      flex-direction: row;
   }
   .tamanho {
-    width: 222px;
+      width: 222px;
   }
 }
-@media only screen and (min-width: 1270px) {
+@media only screen and (min-width: 1270px)
+{
   #contato {
-    flex-direction: row;
-    & div {
-      width: 500px;
-    }
+      flex-direction: row;
+      & div {
+        width: 500px;
+      }
   }
   .tamanho {
-    width: 270px;
+      width: 270px;
   }
   #botao-submit {
-    text-align: left;
+      text-align: left;
   }
 }

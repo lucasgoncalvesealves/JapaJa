@@ -18,89 +18,92 @@ export default function Container({ children }) {
     return (
     <>
         <div id="conteudo">
-            <div id="subheader">
+            <header id="subheader">
             <h1>{title}</h1>
             <a id="voltar" href="javascript:history.go(-1)"></a>
-            </div>
+            </header>
             <titleContext.Provider value={{title, updateTitle}}>
             {children}
             </titleContext.Provider>
         </div>
 
         <style jsx>{`
-            #conteudo {
-                height: auto;
-                padding: 20px;
-                text-align: left;
-                margin-top: 7px;
-                background-color: #fff;
-                border: 3px solid #f63;
-                border-radius: 7px;
+            h1 {
+                font: normal 40px 'GalaBold'; 
+                float: left; 
+                width: auto; 
+                color: #F63; 
+                padding-right: 20px; 
+                margin: 0; 
                 transition: .25s;
                 &:hover {
-                    border: 3px solid #f99;
+                    color: #F99;
                 }
+            }
+            #conteudo {
+                height: auto; 
+                text-align: left; 
+                background-color: #FFF; 
+                transition: .25s;
                 & p {
                     font: 14px 'Trebuchet MS';
-                }
-                & form {
-                    margin-top: 40px;
+                    margin: 0 auto 1em auto;
                 }
             }
             #subheader {
                 width: 100%;
-                height: 73px;
-                margin-bottom: 15px;
-                display: flex;
+                margin-bottom: 40px;
+                display: flex; 
                 justify-content: space-between;
             }
-            h1 {
-                font: normal 40px 'GalaBold';
-                width: auto;
-                color: #f63;
-                padding-right: 20px;
-                margin: 0;
-                transition: .25s;
-                &:hover {
-                    color: #f99;
-                }
-            }
             #voltar {
-                background-image: url(/voltar.png);
-                background-size: cover;
-                width: 82px;
-                height: 30px;
+                width: 82px; 
+                height: 30px; 
+                background-image: url(/voltar.png); 
+                background-size: cover; 
                 transition: .25s;
                 &:hover {
                     background-image: url(/voltar_on.png);
                 }
             }
             
-            /* incorporando a fonte Gala */
-            @font-face {
-            font-family: 'GalaBold';
-            src: url('/font/gala_bold-webfont.eot');
-            src:
-                url('/font/gala_bold-webfont.eot?#iefix') format('embedded-opentype'),
-                url('/font/gala_bold-webfont.woff') format('woff'),
-                url('/font/gala_bold-webfont.ttf') format('truetype'),
-                url('/font/gala_bold-webfont.svg#GalaRegular') format('svg');
-            font-weight: normal;
-            font-style: normal;
+            /* incorporando a fonte Gala Bold */
+            @font-face 
+            {
+                font-family: 'GalaBold';
+                src: url('/font/gala_bold-webfont.eot');
+                src: url('/font/gala_bold-webfont.eot?#iefix') format('embedded-opentype'),
+                     url('/font/gala_bold-webfont.woff') format('woff'),
+                     url('/font/gala_bold-webfont.ttf') format('truetype'),
+                     url('/font/gala_bold-webfont.svg#GalaRegular') format('svg');
+                font-weight: normal;
+                font-style: normal;
             }
             
             /* design responsivo */
-            @media only screen and (min-width: 414px) {
+            @media only screen and (min-width: 414px)
+            {
                 #conteudo {
-                    width: 362px;
+                    width: 397px;
+                    margin-top: 96px;
+                    padding: 10px;
                 }
             }
-            @media only screen and (min-width: 863px) {
+            @media only screen and (min-width: 863px)
+            {
                 #conteudo {
                     width: 778px;
+                    margin-top: 7px;
+                    border: 3px solid #F63; 
+                    border-radius: 7px;
+                    padding: 20px;
+                    &:hover {
+                        border: 3px solid #F99;
+                    }
                 }
             }
-            @media only screen and (min-width: 1270px) {
+            @media only screen and (min-width: 1270px)
+            {
                 #conteudo {
                     width: 1193px;
                 }

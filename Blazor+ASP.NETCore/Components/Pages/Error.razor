@@ -1,10 +1,11 @@
-@inherits LayoutComponentBase
+﻿@inherits LayoutComponentBase
 @layout TheContainer
 @page "/Error"
 @using System.Diagnostics
 
 <PageTitle>JAPA JÁ | Erro Fatal</PageTitle>
 
+<TheSubheader Title="Erro Fatal" />
 <h2 class="text-danger">
     Ocorreu um erro ao processar sua requisição.
 </h2>
@@ -31,9 +32,6 @@
 
 @code{
     [CascadingParameter]
-    public TheContainer Container { get; set; }
-
-    [CascadingParameter]
     private HttpContext? HttpContext { get; set; }
 
     private string? RequestId { get; set; }
@@ -42,6 +40,5 @@
     protected override void OnInitialized() 
     {
         RequestId = Activity.Current?.Id ?? HttpContext?.TraceIdentifier;
-        Container.Title = "Erro Fatal";
     }
 }

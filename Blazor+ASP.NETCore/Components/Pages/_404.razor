@@ -4,6 +4,7 @@
 
 <PageTitle>JAPA JÁ | Erro 404</PageTitle>
 
+<TheSubheader Title="Erro 404" />
 <span>A página que você procura não existe.</span>
 <p>Ela pode ter sido movida ou removida do sistema.</p>
 <ul>
@@ -16,13 +17,3 @@
     Recomendamos enfaticamente que você dê preferência para a ferramenta de busca no topo da tela.
   </li>
 </ul>
-
-@code
-{
-  [CascadingParameter]
-  public TheContainer Container { get; set; }
-  protected override void OnInitialized()
-  {
-    Container.Title = "Erro 404";
-  }
-}

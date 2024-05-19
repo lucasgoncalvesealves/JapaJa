@@ -5,6 +5,7 @@
 
 <PageTitle>JAPA JÁ | Sobre</PageTitle>
 
+<TheSubheader Title="Sobre" />
 <div id="instrucoes">
   <div id="paragrafos">
     <p>Encontre seu restaurante japonês no Rio de Janeiro com o Japa Já!</p>
@@ -24,20 +25,10 @@
       sugestões.
     </p>
     <p>E você pode voltar à página inicial a qualquer momento através do símbolo ou do logotipo.</p>
-    <p>Boa procura... e bom apetite!</p>
+    <p style="margin-bottom: 0;">Boa procura... e bom apetite!</p>
   </div>
   <div id="logos">
     <img alt="Blazor logo" src="images/blazor-logo.svg" />
     <img alt="ASP.NET Core logo" src="images/asp-net-core-logo.svg" />
   </div>
 </div>
-
-@code
-{
-  [CascadingParameter]
-  public TheContainer Container { get; set; }
-  protected override void OnInitialized()
-  {
-    Container.Title = "Sobre";
-  }
-}

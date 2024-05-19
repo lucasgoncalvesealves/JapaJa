@@ -5,14 +5,5 @@
 
 <PageTitle>JAPA JÁ | Resultados</PageTitle>
 
+<TheSubheader Title="Resultados" />
 <div class="gcse-searchresults-only"></div>
-
-@code
-{
-  [CascadingParameter]
-  public TheContainer Container { get; set; }
-  protected override void OnInitialized()
-  {
-    Container.Title = "Resultados";
-  }
-}

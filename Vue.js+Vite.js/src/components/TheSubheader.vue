@@ -43,7 +43,6 @@
             background-image: url(../assets/voltar_on.png);
         }
     }
-
     /* incorporando a fonte Gala Bold */
     @font-face 
     {

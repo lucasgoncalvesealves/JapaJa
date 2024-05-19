@@ -103,7 +103,8 @@
   @media only screen and (min-width: 863px)
   {
       #largo {
-          width: 811px;
+        display: flex;  
+        width: 811px;
       }
       #menu-mobile {
           display: none;

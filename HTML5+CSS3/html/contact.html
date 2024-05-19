@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAPA JÁ | Contato</title>
+    <link rel="stylesheet" href="../css/global.css" type="text/css" />
     <link rel="stylesheet" href="../css/contact.css" type="text/css" />
     <link rel="stylesheet" href="../css/header.css" type="text/css" />
     <link rel="stylesheet" href="../css/footer.css" type="text/css" />
@@ -11,66 +12,68 @@
     <link rel="icon" type="image/x-icon" href="../img/favicon.ico">
   </head>
   <body>
-    <header id="completo">
-      <a id="simbolo" href="home.html" alt="Página Inicial"></a>
-      <a id="logotipo" href="home.html" alt="Página Inicial"></a>
-      <form action="search.html" method="get" role="search">
+    <div id="wrapper">
+      <header id="completo">
+        <a id="simbolo" href="home.html" alt="Página Inicial"></a>
+        <a id="logotipo" href="home.html" alt="Página Inicial"></a>
+        <form action="search.html" method="get" role="search">
+            <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
+            <input type="submit" id="pesquisa" value="" />
+        </form>
+        <a id="nearby" href="nearby.html" alt="Por Perto"></a>
+        <a id="formulario" href="contact.html" alt="Contato"></a>
+      </header>
+      <header id="reduzido">
+        <form action="search.html" method="get" role="search">
           <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
           <input type="submit" id="pesquisa" value="" />
-      </form>
-      <a id="nearby" href="nearby.html" alt="Por Perto"></a>
-      <a id="formulario" href="contact.html" alt="Contato"></a>
-    </header>
-    <header id="reduzido">
-      <form action="search.html" method="get" role="search">
-        <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
-        <input type="submit" id="pesquisa" value="" />
-      </form>
-    </header>
-    <div id="conteudo">
-      <header id="subheader">
-        <h1>Contato</h1>
-        <a id="voltar" href="javascript:history.go(-1)"></a>
+        </form>
       </header>
-      <p>Se você é dono de um estabelecimento, você pode anunciá-lo neste site! 
-      Se você é consumidor, você pode enviar dúvidas, elogios, críticas e sugestões.</p>
-      <form>
-        <div id="contato">
-          <div id="input-select">
-            <label for="nome">Seu nome:</label>
-            <input type="text" id="nome" class="tamanho" />
-            <label for="email">Seu e-mail:</label>
-            <input type="text" id="email" class="tamanho" />
-            <label for="cliente">Você é:</label>
-            <select name="cliente" id="cliente" class="tamanho">
-              <option value="">(Escolha)</option>
-              <option value="anunciante">Anunciante</option>
-              <option value="consumidor">Consumidor</option>
-            </select>
+      <div id="container">
+        <header id="subheader">
+          <h1>Contato</h1>
+          <a id="voltar" href="javascript:history.go(-1)"></a>
+        </header>
+        <p>Se você é dono de um estabelecimento, você pode anunciá-lo neste site! 
+        Se você é consumidor, você pode enviar dúvidas, elogios, críticas e sugestões.</p>
+        <form>
+          <div id="contato">
+            <div id="input-select">
+              <label for="nome">Seu nome:</label>
+              <input type="text" id="nome" class="tamanho" />
+              <label for="email">Seu e-mail:</label>
+              <input type="text" id="email" class="tamanho" />
+              <label for="cliente">Você é:</label>
+              <select name="cliente" id="cliente" class="tamanho">
+                <option value="">(Escolha)</option>
+                <option value="anunciante">Anunciante</option>
+                <option value="consumidor">Consumidor</option>
+              </select>
+            </div>
+            <div id="area-texto">
+              <label for="mensagem">Mensagem:</label>
+              <textarea class="tamanho" rows="7" id="mensagem"></textarea>
+            </div>
+            <div id="botao-submit">
+              <input type="submit" id="enviar" value="">
+            </div>
           </div>
-          <div id="area-texto">
-            <label for="mensagem">Mensagem:</label>
-            <textarea class="tamanho" rows="7" id="mensagem"></textarea>
-          </div>
-          <div id="botao-submit">
-            <input type="submit" id="enviar" value="">
-          </div>
-        </div>
-      </form>
-    </div>
-    <a href="about.html">
-      <footer id="largo">
-        © 2012/2024 Japa Já. 
-        Todos os direitos reservados. 
-        Design by Gonçalves Alves. 
-        Conheça aqui a ferramenta.
+        </form>
+      </div>
+      <a href="about.html">
+        <footer id="largo">
+          © 2012/2024 Japa Já. 
+          Todos os direitos reservados. 
+          Design by Gonçalves Alves. 
+          Conheça aqui a ferramenta.
+        </footer>
+      </a>
+      <footer id="menu-mobile">
+        <a id="simbolo" href="home.html" alt="Página Inicial"></a>
+        <a id="nearby" href="nearby.html" alt="Por Perto"></a>
+        <a id="formulario" href="contact.html" alt="Contato"></a>
+        <a id="sobre" href="about.html"  alt="Sobre"></a>
       </footer>
-    </a>
-    <footer id="menu-mobile">
-      <a id="simbolo" href="home.html" alt="Página Inicial"></a>
-      <a id="nearby" href="nearby.html" alt="Por Perto"></a>
-      <a id="formulario" href="contact.html" alt="Contato"></a>
-      <a id="sobre" href="about.html"  alt="Sobre"></a>
-    </footer>
+    </div>
   </body>
 </html>

@@ -75,6 +75,9 @@ a footer {
 /* design responsivo */
 @media only screen and (min-width: 414px)
 {
+    #largo {
+        display: none;
+    }
     #menu-mobile {
         display: flex;
     }
@@ -90,10 +93,10 @@ a footer {
 }
 @media only screen and (min-width: 1270px)
 {
-    #menu-mobile {
-        display: none;
-    }
     #largo {
         width: 1226px;
+    }
+    #menu-mobile {
+        display: none;
     }
 }

@@ -35,7 +35,6 @@ export default function TheInstructions()
 
         <style jsx>{`
           p {
-            font: 14px 'Trebuchet MS';
             margin: 0 auto 1em auto;
           }
           #instrucoes {

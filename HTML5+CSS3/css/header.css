@@ -1,6 +1,5 @@
 header {
     width: 100%; 
-    height: 82px;
     & form {
         display: flex;
     }
@@ -78,6 +77,16 @@ header {
     &:hover {
         background-image: url(../img/form_on.png);
     }
+}
+#reduzido {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    padding: 7px 0;
+    background-color: #FFF;
+}
+#completo {
+    height: 82px;
 }
 
 /* design responsivo */

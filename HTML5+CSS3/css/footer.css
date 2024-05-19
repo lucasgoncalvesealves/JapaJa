@@ -62,11 +62,14 @@ a footer {
 }
 #menu-mobile {
     height: 82px; 
-    margin: 7px 0; 
+    padding: 7px 0; 
     flex-direction: row; 
     width: 408px; 
     float: left; 
     justify-content: space-between;
+    position: sticky;
+    bottom: 0;
+    background-color: #FFF;
 }
 
 /* design responsivo */

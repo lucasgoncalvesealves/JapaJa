@@ -33,7 +33,6 @@
         }
     }
 }
-
 /* design responsivo */
 @media only screen and (min-width: 414px)
 {

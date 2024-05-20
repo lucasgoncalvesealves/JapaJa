@@ -16,7 +16,6 @@ export default function RootLayout({ children }) {
         <div id="wrapper">
           <TheHeader />
           {children}
-          <script async src="https://cse.google.com/cse.js?cx=d38731f1cf69b44da"></script>
           <TheFooter />
         </div>
       </body>

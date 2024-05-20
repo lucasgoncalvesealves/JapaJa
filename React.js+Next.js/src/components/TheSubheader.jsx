@@ -26,7 +26,7 @@ export default function Subheader(props) {
             }
             #subheader {
                 width: 100%;
-                margin-bottom: 40px;
+                margin-bottom: 30px;
                 display: flex; 
                 justify-content: space-between;
             }

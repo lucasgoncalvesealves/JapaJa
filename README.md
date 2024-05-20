@@ -15,5 +15,6 @@ Converter o site em uma aplicação de página única, de quatro formas diferent
 * Angular. **[CONCLUÍDO]**
 
 ### Parte 3: 
-* Implementar o mecanismo de pesquisa programável do Google à aplicação. **[CONCLUÍDO]**
-* Implementar a função Por Perto, para restaurantes nas redondezas. **[CONCLUÍDO]**
+Transformar esta aplicação em uma ferramenta utilizável, com as seguintes implementações:
+* O mecanismo de pesquisa programável do Google. **[CONCLUÍDO]**
+* A função Por Perto, para restaurantes nas redondezas. **[CONCLUÍDO]**

@@ -1,5 +1,5 @@
 import TheInstructions from "@/components/TheInstructions";
-import AboutEffects from "./effects";
+import TheSubheader from "@/components/TheSubheader";
 
 export const metadata = {
   title: 'Sobre',
@@ -8,7 +8,7 @@ export const metadata = {
 export default function About() {
   return (
     <>
-      <AboutEffects />
+      <TheSubheader title="Sobre"/>
       <TheInstructions />
     </>
   );

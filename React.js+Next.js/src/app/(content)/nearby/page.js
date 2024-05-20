@@ -1,5 +1,5 @@
 import TheNearby from "@/components/TheSearch";
-import NearbyEffects from "./effects";
+import TheSubheader from "@/components/TheSubheader";
 
 export const metadata = {
   title: 'Por Perto',
@@ -8,7 +8,7 @@ export const metadata = {
 export default function About() {
   return (
     <>
-      <NearbyEffects />
+      <TheSubheader title="Por Perto" />
       <TheNearby />
     </>
   );

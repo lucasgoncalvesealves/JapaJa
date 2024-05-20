@@ -1,5 +1,5 @@
 import TheContactForm from "@/components/TheContactForm";
-import ContactEffects from "./effects";
+import TheSubheader from "@/components/TheSubheader";
 
 export const metadata = {
   title: 'Contato',
@@ -8,7 +8,7 @@ export const metadata = {
 export default function Contact({defineTitle}) {
   return (
     <>
-      <ContactEffects />
+      <TheSubheader title="Contato" />
       <TheContactForm />
     </>
   );

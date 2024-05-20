@@ -1,5 +1,5 @@
 import TheSearch from "@/components/TheSearch";
-import SearchEffects from "./effects";
+import TheSubheader from "@/components/TheSubheader";
 
 export const metadata = {
   title: 'Resultados',
@@ -8,7 +8,7 @@ export const metadata = {
 export default function About() {
   return (
     <>
-      <SearchEffects />
+      <TheSubheader title="Resultados" />
       <TheSearch />
     </>
   );

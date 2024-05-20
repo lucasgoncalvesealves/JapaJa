@@ -85,7 +85,6 @@ input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
       background-image: url(../img/enviar_on.png);
     }
 }
-
 /* design responsivo */
 @media only screen and (min-width: 414px)
 {

@@ -1,19 +1,13 @@
 import { Component } from '@angular/core';
-import { Output, EventEmitter } from '@angular/core';
+import { TheSubheaderComponent } from '../the-subheader/the-subheader.component';
 
 @Component({
   selector: 'app-the-instructions',
   standalone: true,
-  imports: [],
+  imports: [TheSubheaderComponent],
   templateUrl: './the-instructions.component.html',
   styleUrl: './the-instructions.component.css'
 })
 export class TheInstructionsComponent {
-  @Output() titleEvent = new EventEmitter<string>();
-
-  ngOnInit() {
-    setTimeout(() => {
-      this.titleEvent.emit('Sobre');
-    });
-  }
+  title:string = 'Sobre';
 }

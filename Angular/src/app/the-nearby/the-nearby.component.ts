@@ -1,19 +1,13 @@
 import { Component } from '@angular/core';
-import { Output, EventEmitter } from '@angular/core';
+import { TheSubheaderComponent } from '../the-subheader/the-subheader.component';
 
 @Component({
   selector: 'app-the-nearby',
   standalone: true,
-  imports: [],
+  imports: [TheSubheaderComponent],
   templateUrl: './the-nearby.component.html',
   styleUrl: './the-nearby.component.css'
 })
 export class TheNearbyComponent {
-  @Output() titleEvent = new EventEmitter<string>();
-
-  ngOnInit() {
-    setTimeout(() => {
-      this.titleEvent.emit('Por Perto');
-    });
-  }
+  title:string = 'Por Perto';
 }

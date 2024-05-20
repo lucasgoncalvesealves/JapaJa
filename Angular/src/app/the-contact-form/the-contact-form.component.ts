@@ -1,19 +1,13 @@
 import { Component } from '@angular/core';
-import { Output, EventEmitter } from '@angular/core';
+import { TheSubheaderComponent } from '../the-subheader/the-subheader.component';
 
 @Component({
   selector: 'app-the-contact-form',
   standalone: true,
-  imports: [],
+  imports: [TheSubheaderComponent],
   templateUrl: './the-contact-form.component.html',
   styleUrl: './the-contact-form.component.css'
 })
 export class TheContactFormComponent {
-  @Output() titleEvent = new EventEmitter<string>();
-
-  ngOnInit() {
-    setTimeout(() => {
-      this.titleEvent.emit('Contato');
-    });
-  }
+  title:string = 'Contato';
 }

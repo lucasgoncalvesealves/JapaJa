@@ -9,9 +9,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './the-container.component.css'
 })
 export class TheContainerComponent {
-  title: string = '';
-
-  receiveTitle(newTitle: any) {
-    newTitle.titleEvent.subscribe((res: string) => this.title = res);
-  }
+  
 }

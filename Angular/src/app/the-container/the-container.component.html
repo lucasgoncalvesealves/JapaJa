@@ -1,7 +1,3 @@
-<div id="conteudo">
-    <div id="subheader">
-      <h1>{{title}}</h1>
-      <a id="voltar" href="javascript:history.go(-1)"></a>
-    </div>
-    <router-outlet (activate)="receiveTitle($event)"/>
-  </div>
+<div id="container">
+  <router-outlet />
+</div>

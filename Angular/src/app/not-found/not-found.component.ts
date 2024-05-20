@@ -1,19 +1,13 @@
 import { Component } from '@angular/core';
-import { Output, EventEmitter } from '@angular/core';
+import { TheSubheaderComponent } from '../the-subheader/the-subheader.component';
 
 @Component({
   selector: 'app-not-found',
   standalone: true,
-  imports: [],
+  imports: [TheSubheaderComponent],
   templateUrl: './not-found.component.html',
   styleUrl: './not-found.component.css'
 })
 export class NotFoundComponent {
-  @Output() titleEvent = new EventEmitter<string>();
-
-  ngOnInit() {
-    setTimeout(() => {
-      this.titleEvent.emit('Erro 404');
-    });
-  }
+  title:string = 'Erro 404';
 }

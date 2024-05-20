@@ -22,43 +22,40 @@ export default function ThePropaganda()
         </div>
 
         <style jsx>{`
-            .propaganda {
-                float: left; 
-                margin: 7px 7px 0 0; 
-                border-radius: 7px; 
-                display: flex; 
-                overflow: hidden;
-                & img {
-                    width: 408px; 
-                    height: 193px; 
-                    object-fit: cover; 
-                    object-position: top left; 
-                    transition: transform .5s ease;
-                    &:hover {
-                    transform: scale(1.2);
-                    }
-                }
-            }
-        
-            /* design responsivo */
-            @media only screen and (min-width: 414px) {
-                #promocoes {
-                    width: 364px;
-                    margin: 88px 0 80px 0;
-                }
-            }
-            @media only screen and (min-width: 863px) {
-                #promocoes {
-                    width: 779px;
-                    margin: 0;
-                    display: contents;
-                }
-            }
-            @media only screen and (min-width: 1270px) {
-                #promocoes {
-                    width: 1194px;
-                }
-            }
+              .propaganda {
+                  float: left; 
+                  margin: 7px 7px 0 0; 
+                  border-radius: 7px; 
+                  display: flex; 
+                  overflow: hidden;
+                  & img {
+                      width: 408px; 
+                      height: 193px; 
+                      object-fit: cover; 
+                      object-position: top left; 
+                      transition: transform .5s ease;
+                      &:hover {
+                          transform: scale(1.2);
+                      }
+                  }
+              }
+          
+              /* design responsivo */
+              @media only screen and (min-width: 414px)
+              {
+                  #promocoes {
+                      flex-direction: column;
+                      margin-top: 89px;
+                      padding-left: 7px;
+                  }
+              }
+              @media only screen and (min-width: 863px)
+              {
+                  #promocoes {
+                      margin-top: 0;
+                      padding-left: 0;
+                  }
+              }
         `}</style>
     </>
   )

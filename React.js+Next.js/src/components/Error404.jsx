@@ -28,6 +28,7 @@ export default function NotFound()
             }
             p {
                 font: 'Trebuchet MS' 14px;
+                margin-top: 12px;
             }
             ul {
                 padding-inline-start: 32px;

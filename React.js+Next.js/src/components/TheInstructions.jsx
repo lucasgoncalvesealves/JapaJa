@@ -25,7 +25,7 @@ export default function TheInstructions()
                 sugestões.
             </p>
             <p>E você pode voltar à página inicial a qualquer momento através do símbolo ou do logotipo.</p>
-            <p>Boa procura... e bom apetite!</p>
+            <p style={{marginBottom: 0}}>Boa procura... e bom apetite!</p>
             </div>
             <div id="logos">
                 <img alt="React logo" src="/reactjs-logo.svg" />

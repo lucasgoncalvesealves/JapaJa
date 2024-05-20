@@ -35,93 +35,93 @@ export default function TheContactForm()
         </form>
 
         <style jsx>{`
-          label {
-            margin-bottom: 15px;
-            font: 14px 'Trebuchet MS';
-          }
-          #nome, #email, #cliente {
-            background-color: #ccc;
-            margin: 0 15px 5px 1px;
-            padding-left: 5px;
-            height: 25px;
-            font-family: 'Trebuchet MS';
-            transition: .25s;
-          }
-          textarea {
-            background-color: #ccc;
-            margin-left: 5px;
-            transition: .25s;
-          }
-          input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
-            background-color:#F99;
-          }
-          #contato {
-            display: flex;
-            width: 100%;
-            margin-top: 25px;
-            & label {
-              display: inline-block;
-              width: 80px;
+            label {
+                margin-bottom: 15px;
+                font: 14px 'Trebuchet MS';
             }
-          }
-          #area-texto {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-          }
-          #enviar {
-            width: 82px;
-            height: 82px;
-            background-image: url(/enviar.png);
-            border: none;
-            margin-left: 30px;
-            transition: .25s;
-            &:hover {
-              background-image: url(/enviar_on.png);
+            #nome, #email, #cliente {
+                background-color: #ccc;
+                margin: 0 15px 5px 4px;
+                padding-left: 5px;
+                height: 25px;
+                font-family: 'Trebuchet MS';
+                transition: .25s;
             }
-          }
-        
-          /* design responsivo */
-          @media only screen and (min-width: 414px)
-          {
+            textarea {
+                background-color: #ccc;
+                margin-left: 5px;
+                transition: .25s;
+            }
+            input:focus, input:hover, select:hover, textarea:focus, textarea:hover {
+                background-color:#F99;
+            }
             #contato {
-              flex-direction: column;
-              & div {
-              width: auto;
-              }
+                display: flex;
+                width: 100%;
+                margin-top: 25px;
+                & label {
+                  display: inline-block;
+                  width: 80px;
+                }
             }
-            .tamanho {
-              width: 248px;
+            #area-texto {
+                display: flex;
+                flex-direction: row;
+                align-items: center;
             }
-            #botao-submit {
-              margin-top: 20px;
-              text-align: right;
+            #enviar {
+                width: 82px;
+                height: 82px;
+                background-image: url(/enviar.png);
+                border: none;
+                margin-left: 30px;
+                transition: .25s;
+                &:hover {
+                  background-image: url(/enviar_on.png);
+                }
             }
-          }
-          @media only screen and (min-width: 863px)
-          {
-            #contato {
-              flex-direction: row;
+          
+            /* design responsivo */
+            @media only screen and (min-width: 414px)
+            {
+                #contato {
+                    flex-direction: column;
+                    & div {
+                    width: auto;
+                    }
+                }
+                .tamanho {
+                    width: 235px;
+                }
+                #botao-submit {
+                    margin-top: 20px;
+                    text-align: right;
+                }
             }
-            .tamanho {
-              width: 222px;
+            @media only screen and (min-width: 863px)
+            {
+                #contato {
+                    flex-direction: row;
+                }
+                .tamanho {
+                    width: 222px;
+                }
             }
-          }
-          @media only screen and (min-width: 1270px)
-          {
-            #contato {
-              flex-direction: row;
-              & div {
-                width: 500px;
-              }
+            @media only screen and (min-width: 1270px)
+            {
+                #contato {
+                    flex-direction: row;
+                    & div {
+                      width: 500px;
+                    }
+                }
+                .tamanho {
+                    width: 260px;
+                }
+                #botao-submit {
+                    text-align: left;
+                }
             }
-            .tamanho {
-              width: 270px;
-            }
-            #botao-submit {
-              text-align: left;
-            }
-          }
         `}</style>
     </>
   )

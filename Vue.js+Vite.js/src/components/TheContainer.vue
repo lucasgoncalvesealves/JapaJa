@@ -6,7 +6,6 @@
 
 <style>
     #container {
-        height: auto; 
         text-align: left; 
         background-color: #FFF; 
         transition: .25s;

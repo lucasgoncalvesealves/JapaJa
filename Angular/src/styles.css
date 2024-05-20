@@ -1,4 +1,30 @@
 body {
-    font: 14px 'Trebuchet MS';
-    background-color: #fff;
+    font: 14px 'Trebuchet MS'; 
+    background-color: #FFF;
+}
+#wrapper {
+    display: flex;
+    flex-direction: column;
+}
+
+/* design responsivo */
+@media only screen and (min-width: 414px)
+{
+    body {
+        margin: 0;
+        padding: 0;
+    }
+    #wrapper {
+        height: 100vh;
+    }
+}
+@media only screen and (min-width: 863px)
+{
+    body {
+        min-height: 400px;
+        padding: 7px;
+    }
+    #wrapper {
+        height: 97vh;
+    }
 }

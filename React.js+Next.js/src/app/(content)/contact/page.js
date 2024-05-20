@@ -5,7 +5,7 @@ export const metadata = {
   title: 'Contato',
 };
 
-export default function Contact({defineTitle}) {
+export default function Contact() {
   return (
     <>
       <TheSubheader title="Contato" />

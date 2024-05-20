@@ -44,7 +44,7 @@
         width: 777px;
         margin: 7px 0 0 0;
         height: auto;
-        max-height: 391px;
+        max-height: 400px;
         position: relative;
     }
 }
@@ -52,6 +52,5 @@
 {
     #container {
         width: 1193px;
-        max-height: 400px;
     }
 }

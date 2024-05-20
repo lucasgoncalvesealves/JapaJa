@@ -62,7 +62,7 @@
         font-size: 12px; 
         background-color: #F63; 
         border-radius: 7px; 
-        margin: 7px 0; 
+        margin-top: 7px; 
         text-align: center; 
         text-decoration: none; 
         flex-direction:column; 

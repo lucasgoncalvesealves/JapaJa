@@ -1,6 +1,6 @@
 #container {
     text-align: left; 
-    background-color: #FFF; 
+    background-color: #FFF;
     transition: .25s;
     & p {
         font: 14px 'Trebuchet MS';
@@ -14,9 +14,9 @@
         width: 362px;
         border: 3px solid #F63; 
         border-radius: 7px;
+        height: calc(100% - 238px);
         overflow: auto;
         position: absolute;
-        height: calc(100% - 238px);
         margin: 96px 0 0 7px;
         padding: 20px;
         &:hover {
@@ -42,8 +42,9 @@
 {
     #container {
         width: 777px;
-        height: auto;
         margin: 7px 0 0 0;
+        height: auto;
+        max-height: 400px;
         position: relative;
     }
 }

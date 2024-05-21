@@ -30,6 +30,7 @@
       </p>
       <p>E você pode voltar à página inicial a qualquer momento através do símbolo ou do logotipo.</p>
       <p style="margin-bottom: 0;">Boa procura... e bom apetite!</p>
+      <span>Design & Development by Gonçalves Alves.</span>
     </div>
     <div id="logos">
       <img alt="Vue logo" src="@/assets/vuejs-logo.svg" />
@@ -50,6 +51,15 @@
           object-fit: contain;
       }
   }
+  span {
+      margin: 14px 0 0 0;
+      font-style: italic;
+      font-weight: bold;
+      color: #F63;
+      &:hover {
+          color: #F99;
+      }
+  }
 
   /* design responsivo */
   @media only screen and (min-width: 414px)
@@ -63,6 +73,9 @@
           & img {
               margin: 0 20px;
           }
+      }
+      span {
+          display: block;
       }
   }
   @media only screen and (min-width: 863px)
@@ -79,6 +92,9 @@
           & img {
               margin: 10px 0;
           }
+      }
+      span {
+          display: none;
       }
   }
   @media only screen and (min-width: 1270px)

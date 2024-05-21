@@ -1,6 +1,5 @@
 p {
-  font: 14px 'Trebuchet MS';
-  margin-bottom: 14px;
+  margin: 0 auto 1em auto;
 }
 #instrucoes {
   display: flex;
@@ -11,6 +10,15 @@ p {
       width: 125px; 
       height: 125px; 
       object-fit: contain;
+  }
+}
+span {
+  margin: 14px 0 0 0;
+  font-style: italic;
+  font-weight: bold;
+  color: #F63;
+  &:hover {
+      color: #F99;
   }
 }
 
@@ -27,6 +35,9 @@ p {
           margin: 0 20px;
       }
   }
+  span {
+      display: block;
+  }
 }
 @media only screen and (min-width: 863px)
 {
@@ -42,6 +53,9 @@ p {
       & img {
           margin: 10px 0;
       }
+  }
+  span {
+      display: none;
   }
 }
 @media only screen and (min-width: 1270px)

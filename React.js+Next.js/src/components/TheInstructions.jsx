@@ -26,6 +26,7 @@ export default function TheInstructions()
             </p>
             <p>E você pode voltar à página inicial a qualquer momento através do símbolo ou do logotipo.</p>
             <p style={{marginBottom: 0}}>Boa procura... e bom apetite!</p>
+            <span>Design & Development by Gonçalves Alves.</span>
             </div>
             <div id="logos">
                 <img alt="React logo" src="/reactjs-logo.svg" />
@@ -34,67 +35,82 @@ export default function TheInstructions()
         </div>
 
         <style jsx>{`
-          p {
-            margin: 0 auto 1em auto;
-          }
-          #instrucoes {
-            display: flex;
-          }
-          #logos {
-              display: flex;
-              & img {
-                  width: 125px; 
-                  height: 125px; 
-                  object-fit: contain;
-              }
-          }
-          
-          /* design responsivo */
-          @media only screen and (min-width: 414px)
-          {
-              #instrucoes {
-                  flex-direction: column;
-              }
-              #logos {
-                  margin: 25px auto 10px auto; 
-                  flex-direction: row;
-                  & img {
-                      margin: 0 20px;
-                  }
-              }
-          }
-          @media only screen and (min-width: 863px)
-          {
-              #instrucoes {
-                  flex-direction: row;
-              }
-              #paragrafos {
-                  width: 500px;
-              }
-              #logos {
-                  margin: auto 0 auto auto; 
-                  flex-direction: column;
-                  & img {
-                      margin: 10px 0;
-                  }
-              }
-          }
-          @media only screen and (min-width: 1270px)
-          {
-              #instrucoes {
-                  flex-direction: row;
-                  & div {
-                      width: auto;
-                  }
-              }
-              #logos {
-                  text-align: right; 
-                  flex-direction: row;
-                  & img {
-                      margin: 0 5px;
-                  }
-              }
-          }
+            p {
+                margin: 0 auto 1em auto;
+            }
+            #instrucoes {
+                display: flex;
+            }
+            #logos {
+                display: flex;
+                & img {
+                    width: 125px; 
+                    height: 125px; 
+                    object-fit: contain;
+                }
+            }
+            span {
+                margin: 14px 0 0 0;
+                font-style: italic;
+                font-weight: bold;
+                color: #F63;
+                &:hover {
+                    color: #F99;
+                }
+            }
+            
+            /* design responsivo */
+            @media only screen and (min-width: 414px)
+            {
+                #instrucoes {
+                    flex-direction: column;
+                }
+                #logos {
+                    margin: 25px auto 10px auto; 
+                    flex-direction: row;
+                    & img {
+                        margin: 0 20px;
+                    }
+                }
+                span {
+                    display: block;
+                }
+            }
+            @media only screen and (min-width: 863px)
+            {
+                #instrucoes {
+                    flex-direction: row;
+                }
+                #paragrafos {
+                    width: 500px;
+                }
+                #logos {
+                    margin: auto 0 auto auto; 
+                    flex-direction: column;
+                    & img {
+                        margin: 10px 0;
+                    }
+                }
+                span {
+                    display: none;
+                }
+            }
+            @media only screen and (min-width: 1270px)
+            {
+                #instrucoes {
+                    flex-direction: row;
+                    & div {
+                        width: auto;
+                    }
+                }
+                #logos {
+                    text-align: right; 
+                    flex-direction: row;
+                    & img {
+                        margin: 0 5px;
+                    }
+                }
+            }
         `}</style>
     </>
   )

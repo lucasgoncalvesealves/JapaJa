@@ -15,8 +15,10 @@ export default function TheFooter()
         </footer>
         <Link href="/about">
             <footer id="largo">
-                © 2012/2024 Japa Já. Todos os direitos reservados. 
-                Design by Gonçalves Alves. Conheça aqui a ferramenta.
+                © 2012/2024 Japa Já. 
+                Todos os direitos reservados. 
+                Design & Development by Gonçalves Alves. 
+                Conheça aqui a ferramenta.
             </footer>
         </Link>
 
@@ -67,7 +69,7 @@ export default function TheFooter()
                 font-size: 12px; 
                 background-color: #F63; 
                 border-radius: 7px; 
-                margin-top: 7px; 
+                margin: 7px 0; 
                 text-align: center; 
                 text-decoration: none; 
                 flex-direction:column; 

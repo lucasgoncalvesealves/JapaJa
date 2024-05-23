@@ -63,18 +63,15 @@ a footer {
 }
 #menu-mobile {
     height: 82px; 
-    padding: 7px 0; 
-    flex-direction: row; 
-    width: 408px; 
+    padding: 7px 0;
+    width: 348px; 
     float: left; 
-    justify-content: space-between;
     background-color: #FFF;
     position: sticky;
     bottom: 0;
 }
-
 /* design responsivo */
-@media only screen and (min-width: 414px)
+@media only screen and (min-width: 348px)
 {
     #largo {
         display: none;

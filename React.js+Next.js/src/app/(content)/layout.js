@@ -22,14 +22,14 @@ export default function Container({ children }) {
                 }
             }
             /* design responsivo */
-            @media only screen and (min-width: 414px)
+            @media only screen and (min-width: 348px)
             {
                 #container {
-                    width: 362px;
+                    width: 302px;
                     border: 3px solid #F63; 
                     border-radius: 7px;
+                    height: calc(100% - 238px);
                     overflow: auto;
-                    height: 100%;
                     margin: 96px 0 0 7px;
                     padding: 20px;
                     &:hover {

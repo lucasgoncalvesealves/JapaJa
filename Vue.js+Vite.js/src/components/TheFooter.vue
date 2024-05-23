@@ -1,116 +1,123 @@
-<script>
-  import TheSubheader from "./TheSubheader.vue";
-  export default {
-    name: "TheInstructions",
-    components: {
-      TheSubheader
-    }
-  }
-</script>
+<script></script>
 
 <template>
-  <TheSubheader title="Sobre" />
-  <div id="instrucoes">
-    <div id="paragrafos">
-      <p>Encontre seu restaurante japonês no Rio de Janeiro com o Japa Já!</p>
-      <p>
-        Use nossa ferramenta de busca no topo da página para fazer sua pesquisa, de forma rápida e
-        prática.
-      </p>
-      <p>
-        Caso você esteja procurando um restaurante nas suas redondezas, simplesmente acione o botão com o apontador.
-      </p>
-      <p>
-        Caso você possua um estabelecimento, acesse o formulário através do botão com a carta
-        e anuncie seu negócio aqui.
-      </p>
-      <p>
-        Caso você seja consumidor, use este mesmo formulário para dúvidas, elogios, críticas e
-        sugestões.
-      </p>
-      <p>E você pode voltar à página inicial a qualquer momento através do símbolo ou do logotipo.</p>
-      <p style="margin-bottom: 0;">Boa procura... e bom apetite!</p>
-      <span>Design & Development by Gonçalves Alves.</span>
-    </div>
-    <div id="logos">
-      <img alt="Vue logo" src="@/assets/vuejs-logo.svg" />
-      <img alt="Vite logo" src="@/assets/vitejs-logo.svg" />
-    </div>
-  </div>
+  <footer id="menu-mobile">
+    <RouterLink to="/"><div id="simbolo" alt="Página Inicial"></div></RouterLink>
+    <RouterLink to="/nearby"><div id="nearby" alt="Por Perto"></div></RouterLink>
+    <RouterLink to="/contact"><div id="formulario"  alt="Contato"></div></RouterLink>
+    <RouterLink to="/about"><div id="sobre" alt="Sobre"></div></RouterLink>
+  </footer>
+  <RouterLink to="/about">
+    <footer id="largo">
+      © 2012/2024 Japa Já. 
+      Todos os direitos reservados. 
+      Design & Development by Gonçalves Alves. 
+      Conheça aqui a ferramenta.
+    </footer>
+  </RouterLink>
 </template>
 
 <style scoped>
-  #instrucoes {
-      display: flex;
-  }
-  #logos {
-      display: flex;
-      & img {
-          width: 125px; 
-          height: 125px; 
-          object-fit: contain;
-      }
-  }
-  span {
-      margin: 14px 0 0 0;
-      font-style: italic;
-      font-weight: bold;
-      color: #F63;
-      &:hover {
-          color: #F99;
-      }
-  }
-
-  /* design responsivo */
-  @media only screen and (min-width: 414px)
-  {
-      #instrucoes {
-          flex-direction: column;
-      }
-      #logos {
-          margin: 25px auto 10px auto; 
-          flex-direction: row;
-          & img {
-              margin: 0 20px;
-          }
-      }
-      span {
-          display: block;
-      }
-  }
-  @media only screen and (min-width: 863px)
-  {
-      #instrucoes {
-          flex-direction: row;
-      }
-      #paragrafos {
-          width: 500px;
-      }
-      #logos {
-          margin: auto 0 auto auto; 
-          flex-direction: column;
-          & img {
-              margin: 10px 0;
-          }
-      }
-      span {
-          display: none;
-      }
-  }
-  @media only screen and (min-width: 1270px)
-  {
-      #instrucoes {
-          flex-direction: row;
-          & div {
-              width: auto;
-          }
-      }
-      #logos {
-          text-align: right; 
-          flex-direction: row;
-          & img {
-              margin: 0 5px;
-          }
-      }
-  }
+    #simbolo {
+        width: 82px; 
+        height: 82px; 
+        margin-right: 7px; 
+        background-image: url(../assets/simbolo.png); 
+        transition: .25s;
+        &:hover {
+            background-image:url(../assets/simbolo_on.png);
+        }
+    }
+    #nearby {
+        width: 82px; 
+        height: 82px; 
+        background-image: url(../assets/nearby.png); 
+        margin-right: 7px; 
+        transition: .25s;
+        &:hover {
+            background-image: url(../assets/nearby_on.png);
+        }
+    }
+    #formulario {
+        width: 82px; 
+        height: 82px; 
+        background-image: url(../assets/form.png); 
+        margin-right: 7px; 
+        transition: .25s;
+        &:hover {
+            background-image: url(../assets/form_on.png);
+        }
+    }
+    #sobre {
+        width: 82px; 
+        height: 82px; 
+        background-image: url(../assets/sobre.png); 
+        transition: .25s;
+        &:hover {
+            background-image: url(../assets/sobre_on.png);
+        }
+    }
+    #largo {
+        height: 22px; 
+        padding: 6px; 
+        float: left; 
+        font-size: 12px; 
+        background-color: #F63; 
+        border-radius: 7px; 
+        margin: 7px 0; 
+        position: sticky;
+        text-align: center; 
+        text-decoration: none; 
+        flex-direction:column; 
+        justify-content: center; 
+        transition: .25s;
+        &:hover {
+            background-color: #F99;
+        }
+    }
+    footer {
+        color: #FFF;
+        transition: .25s;
+        &:hover {
+            color: #000;
+        }
+    }
+    #menu-mobile {
+        height: 82px; 
+        padding: 7px;
+        width: 348px; 
+        float: left; 
+        background-color: #FFF;
+        position: fixed;
+        bottom: 0;
+    }
+    /* design responsivo */
+    @media only screen and (min-width: 348px)
+    {
+        #largo {
+            display: none;
+        }
+        #menu-mobile {
+            display: flex;
+        }
+    }
+    @media only screen and (min-width: 863px)
+    {
+        #largo {
+            display: flex;
+            width: 811px;
+        }
+        #menu-mobile {
+            display: none;
+        }
+    }
+    @media only screen and (min-width: 1270px)
+    {
+        #menu-mobile {
+            display: none;
+        }
+        #largo {
+            width: 1226px;
+        }
+    }
 </style>

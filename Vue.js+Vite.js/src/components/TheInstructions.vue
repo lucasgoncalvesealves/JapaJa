@@ -46,8 +46,6 @@
   #logos {
       display: flex;
       & img {
-          width: 125px; 
-          height: 125px; 
           object-fit: contain;
       }
   }
@@ -60,9 +58,8 @@
           color: #F99;
       }
   }
-
   /* design responsivo */
-  @media only screen and (min-width: 414px)
+  @media only screen and (min-width: 348px)
   {
       #instrucoes {
           flex-direction: column;
@@ -71,6 +68,8 @@
           margin: 25px auto 10px auto; 
           flex-direction: row;
           & img {
+              width: 100px; 
+              height: 100px; 
               margin: 0 20px;
           }
       }
@@ -90,6 +89,8 @@
           margin: auto 0 auto auto; 
           flex-direction: column;
           & img {
+              width: 125px; 
+              height: 125px; 
               margin: 10px 0;
           }
       }

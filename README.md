@@ -19,6 +19,6 @@ Transformar esta aplicação em uma ferramenta utilizável, com as seguintes imp
 * O mecanismo de pesquisa programável do Google. **[CONCLUÍDO]**
 * A função Por Perto, para restaurantes nas redondezas. **[CONCLUÍDO]**
 
-### Parte 4 (Bônus): 
+### Bônus: 
 Converter a ferramenta em um aplicativo para smartphones, com as plataformas Angular e Capacitor. 
 **[CONCLUÍDO]**

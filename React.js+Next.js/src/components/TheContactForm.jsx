@@ -82,7 +82,7 @@ export default function TheContactForm()
             }
           
             /* design responsivo */
-            @media only screen and (min-width: 414px)
+            @media only screen and (min-width: 348px)
             {
                 #contato {
                     flex-direction: column;
@@ -91,7 +91,7 @@ export default function TheContactForm()
                     }
                 }
                 .tamanho {
-                    width: 235px;
+                    width: 181px;
                 }
                 #botao-submit {
                     margin-top: 20px;

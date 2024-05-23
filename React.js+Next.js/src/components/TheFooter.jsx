@@ -89,17 +89,14 @@ export default function TheFooter()
             #menu-mobile {
                 height: 82px; 
                 padding: 7px;
-                flex-direction: row; 
-                width: 408px; 
+                width: 348px; 
                 float: left; 
-                justify-content: space-between;
                 background-color: #FFF;
-                position: sticky;
+                position: fixed;
                 bottom: 0;
             }
-        
             /* design responsivo */
-            @media only screen and (min-width: 414px)
+            @media only screen and (min-width: 348px)
             {
                 #largo {
                     display: none;

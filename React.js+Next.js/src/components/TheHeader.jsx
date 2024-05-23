@@ -11,8 +11,8 @@ export default function TheHeader()
           <Link href="/"><div id="simbolo"></div></Link>
           <Link href="/"><div id="logotipo"></div></Link>
           <form id="buscaAmplo" action="/search" method="get" role="search">
-          <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
-          <input type="submit" id="pesquisa" value="" />
+            <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
+            <input type="submit" id="pesquisa" value="" />
           </form>
           <Link href="/nearby"><div id="nearby" alt="Por Perto"></div></Link>
           <Link href="/contact"><div id="formulario"></div></Link>
@@ -117,7 +117,7 @@ export default function TheHeader()
             }
             
             /* design responsivo */
-            @media only screen and (min-width: 414px)
+            @media only screen and (min-width: 348px)
             {
                 #completo, #largo {
                     display: none;
@@ -126,9 +126,9 @@ export default function TheHeader()
                     display: flex;
                 }
                 #digitar {
-                    width: 311px;
+                    width: 252px;
                     & input {
-                        width: 261px;
+                        width: 205px;
                     }
                 }
             }

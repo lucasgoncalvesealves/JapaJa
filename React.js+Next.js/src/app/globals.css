@@ -8,7 +8,7 @@ body {
 }
 
 /* design responsivo */
-@media only screen and (min-width: 414px)
+@media only screen and (min-width: 348px)
 {
   body {
     margin: 0;

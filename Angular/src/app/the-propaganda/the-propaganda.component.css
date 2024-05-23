@@ -5,8 +5,7 @@
     display: flex; 
     overflow: hidden;
     & img {
-        width: 408px; 
-        height: 193px; 
+        width: 100%;
         object-fit: cover; 
         object-position: top left; 
         transition: transform .5s ease;
@@ -15,9 +14,8 @@
         }
     }
 }
-
 /* design responsivo */
-@media only screen and (min-width: 414px)
+@media only screen and (min-width: 348px)
 {
     #promocoes {
         flex-direction: column;
@@ -25,11 +23,19 @@
         height: 100.3%;
         padding-left: 7px;
     }
+    .propaganda {
+        width: 348px; 
+        height: 164px;
+    }
 }
 @media only screen and (min-width: 863px)
 {
     #promocoes {
         margin-top: 0;
         padding-left: 0;
+    }
+    .propaganda {
+        width: 408px; 
+        height: 193px; 
     }
 }

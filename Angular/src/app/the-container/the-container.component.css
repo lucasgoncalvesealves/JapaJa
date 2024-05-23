@@ -8,10 +8,10 @@
     }
 }
 /* design responsivo */
-@media only screen and (min-width: 414px)
+@media only screen and (min-width: 348px)
 {
     #container {
-        width: 362px;
+        width: 302px;
         border: 3px solid #F63; 
         border-radius: 7px;
         height: calc(100% - 238px);

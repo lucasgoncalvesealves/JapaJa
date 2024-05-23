@@ -90,7 +90,7 @@ header {
 }
 
 /* design responsivo */
-@media only screen and (min-width: 414px)
+@media only screen and (min-width: 348px)
 {
     #completo, #largo {
         display: none;
@@ -99,9 +99,9 @@ header {
         display: flex;
     }
     #digitar {
-        width: 318px;
+        width: 259px;
         & input {
-            width: 273px;
+            width: 216px;
         }
     }
 }

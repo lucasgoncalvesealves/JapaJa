@@ -19,4 +19,4 @@ Transformar esta aplicação em uma ferramenta utilizável, com as seguintes imp
 * A função Por Perto, para restaurantes nas redondezas.
 
 ### Bônus: 
-Converter a ferramenta em um aplicativo para smartphones, com as plataformas Angular, Capacitor e Android Studio. 
+Converter a ferramenta em um aplicativo para smartphones Android, com as plataformas Angular, Capacitor e Android Studio. 

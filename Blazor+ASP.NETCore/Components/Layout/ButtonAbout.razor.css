@@ -1,0 +1,9 @@
+div {
+    width: 82px; 
+    height: 82px; 
+    background-image: url(images/sobre.png); 
+    transition: .25s;
+    &:hover {
+        background-image: url(images/sobre_on.png);
+    }
+}

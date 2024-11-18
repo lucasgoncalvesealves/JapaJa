@@ -4,80 +4,6 @@ header {
         display: flex;
     }
 }
-#simbolo {
-    width: 82px; 
-    height: 82px; 
-    margin-right: 7px; 
-    background-image: url(images/simbolo.png); 
-    transition: .25s;
-    &:hover {
-        background-image:url(images/simbolo_on.png);
-    }
-}
-#logotipo {
-    width: 173px; 
-    height: 82px; 
-    margin-right: 7px; 
-    background-image:url(images/logotipo.png); 
-    transition: .25s;
-    &:hover {
-        background-image:url(images/logotipo_on.png);
-    }
-}
-#digitar {
-    height: 82px; 
-    text-align: center; 
-    margin-right: 7px; 
-    padding-left: 7px; 
-    border-radius: 7px; 
-    background-color: #F63; 
-    transition: .25s;
-    &:hover {
-        background-color: #F99;
-    }
-    & input {
-        border: none; 
-        height: 42px; 
-        margin: 20px 20px auto 10px; 
-        padding-left: 10px; 
-        font: normal 18px 'Trebuchet MS'; 
-        background-color: #FFF;
-        &:hover, &:focus {
-            background-color: #FFF;
-        }
-    }
-}
-#pesquisa {
-    background-image: url(images/pesquisa.png); 
-    width: 82px;
-    height: 82px; 
-    border: none; 
-    margin-right: 7px; 
-    transition: .25s;
-    &:hover {
-        background-image: url(images/pesquisa_on.png);
-    }
-}
-#nearby {
-    width: 82px; 
-    height: 82px; 
-    background-image: url(images/nearby.png); 
-    margin-right: 7px; 
-    transition: .25s;
-    &:hover {
-        background-image: url(images/nearby_on.png);
-    }
-}
-#formulario {
-    width: 82px; 
-    height: 82px; 
-    background-image: url(images/form.png); 
-    margin-right: 7px; 
-    transition: .25s;
-    &:hover {
-        background-image: url(images/form_on.png);
-    }
-}
 #reduzido {
     top: 0;
     padding: 7px;
@@ -92,7 +18,7 @@ header {
 /* design responsivo */
 @media only screen and (min-width: 348px)
 {
-    #completo, #largo {
+    #completo {
         display: none;
     }
     #reduzido {
@@ -107,7 +33,7 @@ header {
 }
 @media only screen and (min-width: 863px)
 {
-    #completo, #largo {
+    #completo {
         display: flex;
     }
     #reduzido {

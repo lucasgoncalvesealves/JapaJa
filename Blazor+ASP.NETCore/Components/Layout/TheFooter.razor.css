@@ -1,40 +1,8 @@
-#simbolo {
-  width: 82px; 
-  height: 82px; 
-  margin-right: 7px; 
-  background-image: url(images/simbolo.png); 
+footer {
+  color: #FFF;
   transition: .25s;
   &:hover {
-      background-image:url(images/simbolo_on.png);
-  }
-}
-#nearby {
-  width: 82px; 
-  height: 82px; 
-  background-image: url(images/nearby.png); 
-  margin-right: 7px; 
-  transition: .25s;
-  &:hover {
-      background-image: url(images/nearby_on.png);
-  }
-}
-#formulario {
-  width: 82px; 
-  height: 82px; 
-  background-image: url(images/form.png); 
-  margin-right: 7px; 
-  transition: .25s;
-  &:hover {
-      background-image: url(images/form_on.png);
-  }
-}
-#sobre {
-  width: 82px; 
-  height: 82px; 
-  background-image: url(images/sobre.png); 
-  transition: .25s;
-  &:hover {
-      background-image: url(images/sobre_on.png);
+      color: #000;
   }
 }
 #largo {
@@ -48,18 +16,11 @@
   margin-bottom: 7px;
   text-align: center; 
   text-decoration: none; 
-  flex-direction:column; 
+  flex-direction: column; 
   justify-content: center; 
   transition: .25s;
   &:hover {
       background-color: #F99;
-  }
-}
-footer {
-  color: #FFF;
-  transition: .25s;
-  &:hover {
-      color: #000;
   }
 }
 #menu-mobile {
@@ -98,6 +59,6 @@ footer {
       display: none;
   }
   #largo {
-      width: 1238px;
+    width: 1238px;
   }
 }

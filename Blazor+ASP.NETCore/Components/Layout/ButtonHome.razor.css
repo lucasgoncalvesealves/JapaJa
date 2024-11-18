@@ -1,0 +1,10 @@
+div {
+    width: 82px; 
+    height: 82px; 
+    margin-right: 7px; 
+    background-image: url(images/simbolo.png); 
+    transition: .25s;
+    &:hover {
+        background-image:url(images/simbolo_on.png);
+    }
+}

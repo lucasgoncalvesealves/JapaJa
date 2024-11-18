@@ -2,16 +2,16 @@
 
 import "@/app/globals.css";
 
-export default function Container({ children }) {
+export default function Main({ children }) {
     
     return (
     <>
-        <div id="container">
+        <main>
             {children}
-        </div>
+        </main>
 
         <style jsx>{`
-            #container {
+            main {
                 height: auto; 
                 text-align: left; 
                 background-color: #FFF; 
@@ -24,7 +24,7 @@ export default function Container({ children }) {
             /* design responsivo */
             @media only screen and (min-width: 348px)
             {
-                #container {
+                main {
                     width: 302px;
                     border: 3px solid #F63; 
                     border-radius: 7px;
@@ -53,7 +53,7 @@ export default function Container({ children }) {
             }
             @media only screen and (min-width: 863px)
             {
-                #container {
+                main {
                     width: 777px;
                     height: auto;
                     margin: 7px 0 0 0;
@@ -61,7 +61,7 @@ export default function Container({ children }) {
             }
             @media only screen and (min-width: 1270px)
             {
-                #container {
+                main {
                     width: 1193px;
                 }
             }

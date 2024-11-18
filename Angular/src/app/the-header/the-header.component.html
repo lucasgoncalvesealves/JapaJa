@@ -1,16 +1,10 @@
 <header id="completo">
-    <a routerLink="/" id="simbolo"></a>
-    <a routerLink="/" id="logotipo"></a>
-    <form id="buscaAmplo" action="/search" method="get" role="search">
-        <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
-        <input type="submit" id="pesquisa" value="" />
-    </form>
-    <a routerLink="/nearby" id="nearby" alt="Por Perto"></a>
-    <a routerLink="/contact" id="formulario"></a>
+    <app-button-home />
+    <app-button-logo />
+    <app-search-bar />
+    <app-button-nearby />
+    <app-button-form />
 </header>
 <header id="reduzido">
-    <form id="buscaReduz" action="/search" method="get" role="search">
-        <div id="digitar"><input type="text" placeholder="buscar já!" name="q" /></div>
-        <input type="submit" id="pesquisa" value="" />
-    </form>
+    <app-search-bar />
 </header>

@@ -6,7 +6,7 @@ export default function ThePropaganda()
 {
   return (
     <>
-        <div id="promocoes">
+        <main>
             <div className="propaganda"><img src="/geisha.png" /></div>
             <div className="propaganda"><img src="/ie.png" /></div>
             <div className="propaganda"><img src="/konistore.png" /></div>
@@ -19,7 +19,7 @@ export default function ThePropaganda()
             <div className="propaganda"><img src="/gohan.png" /></div>
             <div className="propaganda"><img src="/t-maki.png" /></div>
             <div className="propaganda"><img src="/japax.png" /></div>
-        </div>
+        </main>
 
         <style jsx>{`
             .propaganda {
@@ -42,7 +42,7 @@ export default function ThePropaganda()
             /* design responsivo */
             @media only screen and (min-width: 348px)
             {
-                #promocoes {
+                main {
                     flex-direction: column;
                     margin: 89px 0 0 7px;
                     padding-bottom: 96px;
@@ -54,7 +54,7 @@ export default function ThePropaganda()
             }
             @media only screen and (min-width: 863px)
             {
-                #promocoes {
+                main {
                     margin: 0;
                     padding: 0;
                 }

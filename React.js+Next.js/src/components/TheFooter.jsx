@@ -3,15 +3,20 @@
 import React from "react";
 import Link from 'next/link';
 
+import ButtonHome from "@/components/ButtonHome";
+import ButtonNearby from "@/components/ButtonNearby";
+import ButtonForm from "@/components/ButtonForm";
+import ButtonAbout from "@/components/ButtonAbout";
+
 export default function TheFooter()
 {
   return (
     <>
         <footer id="menu-mobile">
-            <Link href="/"><div id="simbolo" alt="Página Inicial"></div></Link>
-            <Link href="/nearby"><div id="nearby" href="#" alt="Por Perto"></div></Link>
-            <Link href="/contact"><div id="formulario"  alt="Contato"></div></Link>
-            <Link href="/about"><div id="sobre" alt="Sobre"></div></Link>
+            <ButtonHome />
+            <ButtonNearby />
+            <ButtonForm />
+            <ButtonAbout />
         </footer>
         <Link href="/about">
             <footer id="largo">
@@ -23,43 +28,11 @@ export default function TheFooter()
         </Link>
 
         <style jsx>{`
-            #simbolo {
-                width: 82px; 
-                height: 82px; 
-                margin-right: 7px; 
-                background-image: url(/simbolo.png); 
+            footer {
+                color: #FFF;
                 transition: .25s;
                 &:hover {
-                    background-image:url(/simbolo_on.png);
-                }
-            }
-            #nearby {
-                width: 82px; 
-                height: 82px; 
-                background-image: url(/nearby.png); 
-                margin-right: 7px; 
-                transition: .25s;
-                &:hover {
-                    background-image: url(/nearby_on.png);
-                }
-            }
-            #formulario {
-                width: 82px; 
-                height: 82px; 
-                background-image: url(/form.png); 
-                margin-right: 7px; 
-                transition: .25s;
-                &:hover {
-                    background-image: url(/form_on.png);
-                }
-            }
-            #sobre {
-                width: 82px; 
-                height: 82px; 
-                background-image: url(/sobre.png); 
-                transition: .25s;
-                &:hover {
-                    background-image: url(/sobre_on.png);
+                    color: #000;
                 }
             }
             #largo {
@@ -72,18 +45,11 @@ export default function TheFooter()
                 margin: 7px 0; 
                 text-align: center; 
                 text-decoration: none; 
-                flex-direction:column; 
+                flex-direction: column; 
                 justify-content: center; 
                 transition: .25s;
                 &:hover {
                     background-color: #F99;
-                }
-            }
-            footer {
-                color: #FFF;
-                transition: .25s;
-                &:hover {
-                    color: #000;
                 }
             }
             #menu-mobile {

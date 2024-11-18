@@ -6,13 +6,13 @@ import Error404 from "@/components/Error404";
 export default function NotFound() {
   return (
     <>
-        <div id="container">
+        <main>
             <TheSubheader title="Erro 404"/>
             <Error404 />
-        </div>
+        </main>
 
         <style jsx>{`
-            #container {
+            main {
                 height: auto; 
                 text-align: left; 
                 background-color: #FFF; 
@@ -65,7 +65,7 @@ export default function NotFound() {
             /* design responsivo */
             @media only screen and (min-width: 348px)
             {
-                #container {
+                main {
                     width: 302px;
                     border: 3px solid #F63; 
                     border-radius: 7px;
@@ -94,7 +94,7 @@ export default function NotFound() {
             }
             @media only screen and (min-width: 863px)
             {
-                #container {
+                main {
                     width: 777px;
                     height: auto;
                     margin: 7px 0 0 0;
@@ -102,7 +102,7 @@ export default function NotFound() {
             }
             @media only screen and (min-width: 1270px)
             {
-                #container {
+                main {
                     width: 1193px;
                 }
             }

@@ -1,11 +1,25 @@
-<script></script>
+<script>
+  import ButtonHome from "./ButtonHome.vue";
+  import ButtonNearby from "./ButtonNearby.vue";
+  import ButtonForm from "./ButtonForm.vue";
+  import ButtonAbout from "./ButtonAbout.vue";
+  export default {
+    name: "TheFooter",
+    components: {
+      ButtonAbout,
+      ButtonHome,
+      ButtonNearby,
+      ButtonForm
+    }
+  }
+</script>
 
 <template>
   <footer id="menu-mobile">
-    <RouterLink to="/"><div id="simbolo" alt="Página Inicial"></div></RouterLink>
-    <RouterLink to="/nearby"><div id="nearby" alt="Por Perto"></div></RouterLink>
-    <RouterLink to="/contact"><div id="formulario"  alt="Contato"></div></RouterLink>
-    <RouterLink to="/about"><div id="sobre" alt="Sobre"></div></RouterLink>
+    <ButtonHome />
+    <ButtonNearby />
+    <ButtonForm />
+    <ButtonAbout />
   </footer>
   <RouterLink to="/about">
     <footer id="largo">
@@ -18,43 +32,11 @@
 </template>
 
 <style scoped>
-    #simbolo {
-        width: 82px; 
-        height: 82px; 
-        margin-right: 7px; 
-        background-image: url(../assets/simbolo.png); 
+    footer {
+        color: #FFF;
         transition: .25s;
         &:hover {
-            background-image:url(../assets/simbolo_on.png);
-        }
-    }
-    #nearby {
-        width: 82px; 
-        height: 82px; 
-        background-image: url(../assets/nearby.png); 
-        margin-right: 7px; 
-        transition: .25s;
-        &:hover {
-            background-image: url(../assets/nearby_on.png);
-        }
-    }
-    #formulario {
-        width: 82px; 
-        height: 82px; 
-        background-image: url(../assets/form.png); 
-        margin-right: 7px; 
-        transition: .25s;
-        &:hover {
-            background-image: url(../assets/form_on.png);
-        }
-    }
-    #sobre {
-        width: 82px; 
-        height: 82px; 
-        background-image: url(../assets/sobre.png); 
-        transition: .25s;
-        &:hover {
-            background-image: url(../assets/sobre_on.png);
+            color: #000;
         }
     }
     #largo {
@@ -73,13 +55,6 @@
         transition: .25s;
         &:hover {
             background-color: #F99;
-        }
-    }
-    footer {
-        color: #FFF;
-        transition: .25s;
-        &:hover {
-            color: #000;
         }
     }
     #menu-mobile {

@@ -1,5 +1,5 @@
 <template>
-  <div id="promocoes">
+  <main>
     <div class="propaganda"><img src="@/assets/geisha.png" /></div>
     <div class="propaganda"><img src="@/assets/ie.png" /></div>
     <div class="propaganda"><img src="@/assets/konistore.png" /></div>
@@ -12,7 +12,7 @@
     <div class="propaganda"><img src="@/assets/gohan.png" /></div>
     <div class="propaganda"><img src="@/assets/t-maki.png" /></div>
     <div class="propaganda"><img src="@/assets/japax.png" /></div>
-  </div>
+  </main>
 </template>
 
 <style scoped>
@@ -36,7 +36,7 @@
     /* design responsivo */
     @media only screen and (min-width: 348px)
     {
-        #promocoes {
+        main {
             flex-direction: column;
             margin: 89px 0 0 7px;
             padding-bottom: 96px;
@@ -48,7 +48,7 @@
     }
     @media only screen and (min-width: 863px)
     {
-        #promocoes {
+        main {
             margin: 0;
             padding: 0;
         }

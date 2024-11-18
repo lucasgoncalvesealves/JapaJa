@@ -1,0 +1,11 @@
+a {
+    display: block;
+    width: 82px; 
+    height: 82px; 
+    margin-right: 7px; 
+    background-image: url(/assets/simbolo.png); 
+    transition: .25s;
+    &:hover {
+        background-image:url(/assets/simbolo_on.png);
+    }
+}

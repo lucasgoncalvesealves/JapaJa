@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { ThePropagandaComponent } from './the-propaganda/the-propaganda.component';
-import { TheContainerComponent } from './the-container/the-container.component';
+import { TheMainComponent } from './the-main/the-main.component';
 import { TheInstructionsComponent } from './the-instructions/the-instructions.component';
 import { TheContactFormComponent } from './the-contact-form/the-contact-form.component';
 import { NotFoundComponent } from './not-found/not-found.component';
@@ -14,7 +14,7 @@ export const routes: Routes = [
     },
     {
         path: '',
-        component: TheContainerComponent,
+        component: TheMainComponent,
         children: [
           {
             path: 'about',
